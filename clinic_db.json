@@ -50,6 +50,7 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {},
     "equipment_evidence": [],
     "transparency_evidence": [],
     "activity_evidence": [],
@@ -61,6 +62,8 @@
     },
     "workplace_quality": "",
     "fit_for": [],
+    "patient_fit": {},
+    "specialty_tags": [],
     "not_fit_for": [],
     "best_patient_profile": "",
     "not_recommended_profile": "",
@@ -101,44 +104,44 @@
     "genre": "一般歯科",
     "total_score": 65,
     "reputation_score": 15,
-    "doctor_score": 15,
-    "equipment_score": 15,
+    "doctor_score": 20,
+    "equipment_score": 10,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 0,
-    "clinic_score": 25,
+    "clinic_score": 20,
     "current": 65,
-    "potential": 66,
+    "potential": 68,
     "reputation_tags": [
-      "地域密着型",
-      "安心の治療",
-      "クリーンな環境"
+      "親切な対応",
+      "清潔な環境",
+      "充実した説明"
     ],
-    "reputation_summary": "地域に密着した安心できる治療を提供する歯科医院です。",
+    "reputation_summary": "親切で清潔感のある医院で、十分な説明が受けられると評判です。",
     "phrases": [
       "金曜の日中に歯茎に痛みがあり、電話"
     ],
     "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 70,
-      "説明力": 80,
+      "説明力": 85,
       "清潔感": 90,
-      "優しさ": 85,
+      "優しさ": 80,
       "子ども対応": 75,
-      "痛みへの配慮": 80,
-      "待ち時間": 60
+      "痛みへの配慮": 70,
+      "待ち時間": 50
     },
-    "doctor_name": "金村院長",
-    "doctor_career": "経験豊富な歯科医師",
+    "doctor_name": "かねむら医師",
+    "doctor_career": "経歴不明",
     "doctor_evidence": [
-      "インフォームドコンセントを重視",
-      "地域医療に貢献"
+      "患者に寄り添った治療を提供",
+      "インフォームドコンセントを重視"
     ],
     "doctor_stars": {
       "専門性": 4,
-      "研究実績": 3,
+      "研究実績": 2,
       "患者目線": 4,
-      "経験": 5
+      "経験": 3
     },
     "case_analysis": {
       "has_cases": false,
@@ -146,47 +149,69 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
     "equipment_evidence": [
-      "空気清浄機を導入している",
-      "最新の診療機器を使用"
+      "強力な空気清浄機を設置"
     ],
     "transparency_evidence": [
-      "患者に治療内容を丁寧に説明"
+      "インフォームドコンセントを重視している"
     ],
     "activity_evidence": [
-      "地域の健康をサポートする活動を強調"
+      "地域密着のホームドクターを目指している",
+      "全身の健康を考える医院を目標とする"
     ],
     "workplace_stars": {
-      "教育制度": 4,
+      "教育制度": 3,
       "働きやすさ": 4,
       "衛生士定着率": 3,
       "スタッフ教育": 4
     },
-    "workplace_quality": "チームワーク重視の職場環境",
+    "workplace_quality": "地域密着で患者と向き合う職場環境です。",
     "fit_for": [
       "子ども",
-      "女性",
-      "高齢者"
+      "高齢者",
+      "歯科恐怖症"
+    ],
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 3,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "一般歯科",
+      "小児歯科",
+      "予防歯科",
+      "審美歯科",
+      "ホワイトニング"
     ],
     "not_fit_for": [
-      "夜しか通えない人",
-      "急患希望"
+      "急患希望",
+      "夜しか通えない人"
     ],
-    "best_patient_profile": "家族で通院できる安心したい方",
-    "not_recommended_profile": "急いで治療を受けたい方",
+    "best_patient_profile": "親切な医療を求める患者に最適です。",
+    "not_recommended_profile": "急いで治療を受けたい方には不向きです。",
     "referral_to": [
-      "子どもがいる方",
-      "高齢者の方",
-      "歯科恐怖症の方"
+      "子どもがいる人",
+      "歯科が怖い人",
+      "安心した治療を求める人"
     ],
     "not_referral_to": [
-      "夜間しか通えない人",
-      "急患対応希望の方"
+      "急患希望の人",
+      "夜しか通えない人"
     ],
-    "ai_summary": "この医院は家族で通院したい方や、安心できる治療を求める方に向いています。一方、急いで治療を受けたい方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は親切で丁寧な説明を重視する方に向いています。一方、急な治療を希望する方には他院を検討することをお勧めします。",
     "notable": false,
     "notable_reason": "",
-    "catchphrase": "地域のホームドクター",
+    "catchphrase": "安心の家庭医療を提供",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -199,6 +224,8 @@
     "place_id": "ChIJPdlR3djzAGARc1ucvKgIJDU",
     "name": "デンタルクリニックツジ",
     "address": "芦屋市陽光町３−２９",
+    "lat": 34.712537,
+    "lng": 135.3128113,
     "phone": "0797-35-4618",
     "url": "http://dc-tsuji.com/",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%83%84%E3%82%B8&query_place_id=ChIJPdlR3djzAGARc1ucvKgIJDU",
@@ -214,22 +241,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 78,
+    "total_score": 73,
     "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 15,
-    "transparency_score": 10,
+    "transparency_score": 5,
     "activity_score": 5,
     "google_bonus": 8,
-    "clinic_score": 25,
-    "current": 70,
+    "clinic_score": 20,
+    "current": 65,
     "potential": 78,
     "reputation_tags": [
-      "優しいスタッフ",
-      "丁寧な説明",
-      "安心・安全"
+      "優しさ",
+      "説明が丁寧",
+      "安心感"
     ],
-    "reputation_summary": "スタッフが優しく、丁寧な説明で安心して治療が受けられます。",
+    "reputation_summary": "優しく丁寧な対応で安心して受診できる歯科医院です。",
     "phrases": [
       "歯科衛生士さんも歯科医師さんもとても優しくて、緊張していても安心させて頂けました",
       "率直な感想としてきいていただけたら幸いです",
@@ -241,17 +268,17 @@
     "patient_scores": {
       "技術力": 80,
       "説明力": 90,
-      "清潔感": 85,
-      "優しさ": 95,
+      "清潔感": 80,
+      "優しさ": 90,
       "子ども対応": 0,
-      "痛みへの配慮": 90,
+      "痛みへの配慮": 85,
       "待ち時間": 0
     },
     "doctor_name": "辻博之",
     "doctor_career": "",
     "doctor_evidence": [
-      "若い歯科衛生士が丁寧に説明",
-      "痛みへの配慮が高い"
+      "最新の技術と設備を使用",
+      "患者への丁寧な説明が評価される"
     ],
     "doctor_stars": {
       "専門性": 4,
@@ -265,15 +292,23 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 5,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
     "equipment_evidence": [
-      "最新の技術と設備を提供",
-      "安心・安全な治療を重視"
+      "最新の技術と設備による治療を提供"
     ],
     "transparency_evidence": [
-      "細かい説明を意識している"
+      "透明性の高い説明が患者から評価されている"
     ],
     "activity_evidence": [
-      "求人情報が存在し、院内の体制を整備"
+      "定期的な院内イベントや情報発信を行っている",
+      "求人情報公開で活動的な姿勢を見せる"
     ],
     "workplace_stars": {
       "教育制度": 0,
@@ -285,56 +320,56 @@
     "fit_for": [
       "歯科恐怖症",
       "女性",
-      "高齢者"
+      "高齢者",
+      "インプラント"
+    ],
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "インプラント",
+      "定期健診",
+      "虫歯",
+      "義歯",
+      "矯正"
     ],
     "not_fit_for": [
       "急患希望",
-      "夜しか通えない人"
+      "土曜日に通えない人"
     ],
-    "best_patient_profile": "歯医者が苦手な方にぴったり",
-    "not_recommended_profile": "夜しか通えない方には不向き",
+    "best_patient_profile": "安心して治療を受けたい方におすすめです。",
+    "not_recommended_profile": "急ぎの治療が必要な方には不向きです。",
     "referral_to": [
       "歯医者が怖い人",
-      "女性",
-      "高齢者"
+      "高齢者",
+      "インプラント希望者"
     ],
     "not_referral_to": [
-      "急患希望",
-      "夜9時以降しか通えない人"
+      "夜しか通えない人",
+      "急患希望の方"
     ],
-    "ai_summary": "この医院は、特に歯医者が苦手な方や高齢者に向いています。一方、急患や夜間にしか通えない方には他院をお勧めします。",
-    "notable": false,
-    "notable_reason": "",
-    "catchphrase": "安心して通える歯科医院",
+    "ai_summary": "デンタルクリニックツジは、優しい対応で歯科恐怖症の方にもおすすめです。一方、急を要する治療を希望する方には他院をお勧めします。",
+    "notable": true,
+    "notable_reason": "患者への配慮が高く、安心して通えるクリニックです。",
+    "catchphrase": "安心・安全な歯科治療",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "latitude": 34.712537,
-    "longitude": 135.3128113,
-    "location_source": "geocoding",
-    "nearest_station": {
-      "name": "芦屋（阪神）",
-      "operator": "阪神",
-      "line": "本線",
-      "latitude": 34.728,
-      "longitude": 135.306,
-      "straight_distance_m": 1829,
-      "estimated_walk_minutes_min": 18,
-      "estimated_walk_minutes_max": 28,
-      "calculation_type": "straight_distance_estimate",
-      "official_walk_minutes": null,
-      "official_walk_source": null,
-      "confidence": "medium"
-    }
+    "q_excluded": false
   },
   "ChIJBatoCjXzAGARlJWSzfOeiLM": {
     "place_id": "ChIJBatoCjXzAGARlJWSzfOeiLM",
     "name": "まつお歯科",
     "address": "芦屋市海洋町６ 棟-1-3 OTTO南芦屋浜クリニックモール 1F",
+    "lat": 34.7115171,
+    "lng": 135.3163018,
     "phone": "0797-69-8286",
     "url": "https://matsuo-dent-cl.com/",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%81%A4%E3%81%8A%E6%AD%AF%E7%A7%91&query_place_id=ChIJBatoCjXzAGARlJWSzfOeiLM",
@@ -350,71 +385,77 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 77,
+    "total_score": 75,
     "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
-    "activity_score": 12,
+    "activity_score": 10,
     "google_bonus": 0,
     "clinic_score": 25,
-    "current": 77,
+    "current": 75,
     "potential": 78,
     "reputation_tags": [
       "勉強熱心",
       "誠実",
-      "地域密着"
+      "地域貢献"
     ],
-    "reputation_summary": "松尾院長の勉強熱心さと誠実さが評価されています。",
+    "reputation_summary": "勉強熱心で誠実な松尾院長がいる歯科医院です。",
     "phrases": [
       "松尾院長はとても勉強熱心で誠実なお人柄の先生です"
     ],
     "sources_analyzed": 3,
     "patient_scores": {
       "技術力": 80,
-      "説明力": 85,
-      "清潔感": 90,
-      "優しさ": 85,
-      "子ども対応": 80,
-      "痛みへの配慮": 80,
+      "説明力": 75,
+      "清潔感": 85,
+      "優しさ": 80,
+      "子ども対応": 70,
+      "痛みへの配慮": 75,
       "待ち時間": 70
     },
     "doctor_name": "松尾 顕",
-    "doctor_career": "大学病院での歯周病治療に従事",
+    "doctor_career": "歯周病治療などに従事",
     "doctor_evidence": [
-      "勉強熱心で誠実な人柄",
-      "歯の重要性を理解した経歴"
+      "勉強熱心で誠実な評価あり",
+      "患者ごとの誠実な医療を提供"
     ],
     "doctor_stars": {
-      "専門性": 5,
-      "研究実績": 4,
-      "患者目線": 5,
-      "経験": 5
+      "専門性": 4,
+      "研究実績": 3,
+      "患者目線": 4,
+      "経験": 4
     },
     "case_analysis": {
       "has_cases": true,
       "difficult_cases": [
-        "歯周病治療",
-        "インプラント治療"
+        "インプラント"
       ],
       "parts": [
-        "前歯",
         "奥歯"
       ],
       "techniques": [
-        "精密根管治療",
         "歯周組織再生療法"
       ]
     },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 3,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 5
+    },
     "equipment_evidence": [
-      "最新の歯科治療機器を導入予定",
-      "クリニックモール内の立地環境"
+      "最新の設備を使用していると考えられる",
+      "研究活動から高い技術力を感じる"
     ],
     "transparency_evidence": [
-      "治療内容に関する情報提供が充実している"
+      "詳細な診療内容がウェブに記載されています"
     ],
     "activity_evidence": [
-      "地域への貢献を目的とした開院予定"
+      "地域に信頼されるクリニックを目指している",
+      "求人情報に地域貢献の姿勢が表れている"
     ],
     "workplace_stars": {
       "教育制度": 4,
@@ -422,30 +463,46 @@
       "衛生士定着率": 3,
       "スタッフ教育": 4
     },
-    "workplace_quality": "安心して働ける環境づくりに努めています。",
+    "workplace_quality": "働きやすい職場環境を提供",
     "fit_for": [
       "子ども",
+      "高齢者",
+      "インプラント"
+    ],
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "小児歯科",
       "インプラント",
-      "高齢者"
+      "予防歯科",
+      "審美歯科",
+      "個室",
+      "駐車場"
     ],
     "not_fit_for": [
+      "時間に厳しい人",
       "急患希望",
-      "夜しか通えない人"
+      "夜に通いたい人"
     ],
-    "best_patient_profile": "長期間通院し予防歯科に通いたい人。",
-    "not_recommended_profile": "夜遅くしか診療希望の方。",
+    "best_patient_profile": "地域密着型の安心治療を求める人",
+    "not_recommended_profile": "夜しか通えない方や急を要する方",
     "referral_to": [
-      "歯医者が怖い人",
-      "小さな子どもがいる人",
-      "予防歯科を重視する人"
+      "お子様がいる家族",
+      "地域密着型医院を求める人",
+      "治療に悩む高齢者"
     ],
     "not_referral_to": [
-      "急患希望の人",
-      "夜9時以降しか通えない人"
+      "夜9時以降しか通えない人",
+      "急いで治療を希望する人"
     ],
-    "ai_summary": "この医院は勉強熱心な先生のもとで安心した治療を受けたい方に向いています。一方、急患での対応を希望する方には他院も検討することをお勧めします。",
+    "ai_summary": "まつお歯科は、地域に根ざした誠実な治療を提供している医院です。歯科治療に不安がある方に特に向いています。一方、急を要する治療が必要な方には他の医院も検討をお勧めします。",
     "notable": true,
-    "notable_reason": "高い技術と誠実な医療提供が期待できます。",
+    "notable_reason": "松尾院長の誠実な治療理念が高く評価されています。",
     "catchphrase": "未来を守る歯科医療",
     "label": "一般枠",
     "linked_articles": [],
@@ -453,24 +510,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "latitude": 34.7115171,
-    "longitude": 135.3163018,
-    "location_source": "geocoding",
-    "nearest_station": {
-      "name": "打出",
-      "operator": "阪神",
-      "line": "本線",
-      "latitude": 34.73,
-      "longitude": 135.316,
-      "straight_distance_m": 2055,
-      "estimated_walk_minutes_min": 21,
-      "estimated_walk_minutes_max": 32,
-      "calculation_type": "straight_distance_estimate",
-      "official_walk_minutes": null,
-      "official_walk_source": null,
-      "confidence": "medium"
-    }
+    "q_excluded": false
   },
   "ChIJPx5gDX_zAGARYao_EwWRBqk": {
     "place_id": "ChIJPx5gDX_zAGARYao_EwWRBqk",
@@ -479,7 +519,7 @@
     "lat": 34.7116454,
     "lng": 135.3279907,
     "phone": "0798-37-0362",
-    "url": "http://www.oda-dentalclinic.jp/",
+    "url": "https://oda-dentalclinic.jp/",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%A0%E6%AD%AF%E7%A7%91%E5%8C%BB%E9%99%A2&query_place_id=ChIJPx5gDX_zAGARYao_EwWRBqk",
     "rating": 4.3,
     "total_reviews": 35,
@@ -493,22 +533,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 80,
-    "reputation_score": 18,
+    "total_score": 82,
+    "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
     "activity_score": 12,
     "google_bonus": 5,
     "clinic_score": 25,
-    "current": 75,
+    "current": 77,
     "potential": 78,
     "reputation_tags": [
-      "信頼できる",
-      "細やかな対応",
-      "待ち時間長め"
+      "待ち時間",
+      "医師の対応",
+      "訪問歯科"
     ],
-    "reputation_summary": "全体的に丁寧で信頼できる医院。ただし待ち時間にやや偏りあり。",
+    "reputation_summary": "親切な説明があり、包括的な治療が評価されていますが、待ち時間に不満の声も目立ちます。",
     "phrases": [
       "内科のかかりつけ医に紹介されて自宅近くなので行きました",
       "女の医者に対応されたがあれが医者なのかと疑うレベルでした",
@@ -518,19 +558,19 @@
     ],
     "sources_analyzed": 2,
     "patient_scores": {
-      "技術力": 80,
-      "説明力": 85,
-      "清潔感": 90,
+      "技術力": 70,
+      "説明力": 80,
+      "清潔感": 80,
       "優しさ": 80,
-      "子ども対応": 75,
-      "痛みへの配慮": 70,
-      "待ち時間": 60
+      "子ども対応": 70,
+      "痛みへの配慮": 75,
+      "待ち時間": 50
     },
     "doctor_name": "小田 洋司",
-    "doctor_career": "1999年 大阪歯科大学卒業",
+    "doctor_career": "大阪歯科大学卒業後、豊中市や神戸市で勤務",
     "doctor_evidence": [
-      "患者に信頼される丁寧な説明",
-      "包括的医療を目指す姿勢"
+      "患者からの信頼を得ている",
+      "丁寧な説明を心掛けている"
     ],
     "doctor_stars": {
       "専門性": 4,
@@ -539,53 +579,81 @@
       "経験": 4
     },
     "case_analysis": {
-      "has_cases": false,
-      "difficult_cases": [],
-      "parts": [],
-      "techniques": []
+      "has_cases": true,
+      "difficult_cases": [
+        "インプラント"
+      ],
+      "parts": [
+        "前歯",
+        "奥歯"
+      ],
+      "techniques": [
+        "即日インプラント"
+      ]
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 3,
+      "個室": 3,
+      "駐車場": 5,
+      "バリアフリー": 4
     },
     "equipment_evidence": [
-      "セレック治療による即日修復が可能",
-      "さまざまな設備が整っている意向を示唆"
+      "最新の治療機器が整っている"
     ],
     "transparency_evidence": [
-      "丁寧な説明に基づく透明性の高い治療方針"
+      "治療方針が明確に示されている"
     ],
     "activity_evidence": [
-      "常に研鑽を行い、最新の治療法を提供"
+      "予防歯科に力を入れている",
+      "患者教育を重視している"
     ],
     "workplace_stars": {
       "教育制度": 4,
       "働きやすさ": 4,
-      "衛生士定着率": 4,
+      "衛生士定着率": 3,
       "スタッフ教育": 4
     },
-    "workplace_quality": "職場環境が良好で教育制度が充実",
+    "workplace_quality": "笑顔あふれる働きやすい環境",
     "fit_for": [
-      "子ども",
       "女性",
       "高齢者",
-      "インプラント"
+      "急患"
+    ],
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 3,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "インプラント",
+      "小児歯科",
+      "予防歯科",
+      "訪問歯科",
+      "マタニティ歯科"
     ],
     "not_fit_for": [
       "急患希望",
-      "短時間で治療を希望する人"
+      "急いで治療したい人"
     ],
-    "best_patient_profile": "一般的な歯科治療を受けたい方",
-    "not_recommended_profile": "すぐに治療を終えたい方",
+    "best_patient_profile": "予防を重視し、安心して治療を受けたい方",
+    "not_recommended_profile": "待ち時間を気にする方",
     "referral_to": [
-      "信頼できる歯医者を探している人",
-      "丁寧な対応を期待する人",
-      "子どもを持つ親"
+      "優しい医師に診てもらいたい人",
+      "小さな子どもがいる人",
+      "訪問歯科希望の人"
     ],
     "not_referral_to": [
-      "急いで治療を希望する人",
-      "駐車場が必要な人"
+      "急いで治療を完了したい人",
+      "駅近を最優先する人"
     ],
-    "ai_summary": "この医院は、患者一人一人に丁寧な対応と包括的な治療を重視します。待ち時間や急患に対しては改善が必要です。他院と比較し、長期的なケアを希望する方に特に向いています。",
+    "ai_summary": "この医院は、包括的な治療を求める方に向いています。一方、待ち時間が気になる方には他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
-    "catchphrase": "予防重視の歯科医院",
+    "catchphrase": "予防歯科で一生の歯を守る",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -607,40 +675,40 @@
     "total_reviews": 2,
     "business_hours": [],
     "genre": "一般歯科",
-    "total_score": 70,
+    "total_score": 55,
     "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 10,
-    "transparency_score": 10,
-    "activity_score": 10,
+    "transparency_score": 0,
+    "activity_score": 5,
     "google_bonus": 0,
-    "clinic_score": 20,
-    "current": 70,
+    "clinic_score": 10,
+    "current": 55,
     "potential": 68,
     "reputation_tags": [
-      "きめ細かい治療",
-      "信頼できるアドバイス",
-      "患者への配慮"
+      "丁寧な治療",
+      "親切な対応",
+      "専門性"
     ],
-    "reputation_summary": "きめの細かな治療とアドバイスがありがたいと評判の医院です。",
+    "reputation_summary": "きめ細やかな治療とアドバイスが評価されています。",
     "phrases": [
       "きめの細かい治療、アドバイス、ほんとうにありがたいです"
     ],
     "sources_analyzed": 2,
     "patient_scores": {
-      "技術力": 85,
-      "説明力": 80,
-      "清潔感": 75,
+      "技術力": 80,
+      "説明力": 85,
+      "清潔感": 80,
       "優しさ": 85,
       "子ども対応": 70,
-      "痛みへの配慮": 80,
+      "痛みへの配慮": 75,
       "待ち時間": 60
     },
     "doctor_name": "三浦 順市",
     "doctor_career": "",
     "doctor_evidence": [
-      "きめの細かい治療を提供",
-      "信頼できるアドバイスが好評"
+      "治療やアドバイスへの感謝の声があるため。",
+      "きめ細やかな治療が評価されている。"
     ],
     "doctor_stars": {
       "専門性": 4,
@@ -654,15 +722,21 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 5
+    },
     "equipment_evidence": [
-      "最新の設備情報は記載なし",
-      "設備に関する評価が不足"
+      "直接的な設備情報はないが、一般的な設備が整っていると思われる。"
     ],
-    "transparency_evidence": [
-      "公式サイトに透明性の高い情報なし"
-    ],
+    "transparency_evidence": [],
     "activity_evidence": [
-      "地域医療に貢献しようという姿勢が見える"
+      "地域歯科医師会による活動に参加している。",
+      "訪問診療の可否など地域に貢献している。"
     ],
     "workplace_stars": {
       "教育制度": 0,
@@ -673,27 +747,39 @@
     "workplace_quality": "",
     "fit_for": [
       "高齢者",
-      "歯科恐怖症"
+      "一般歯科",
+      "痛みを気にする人"
+    ],
+    "patient_fit": {
+      "子ども連れ": 3,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 2,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "訪問歯科診療"
     ],
     "not_fit_for": [
       "夜しか通えない人",
       "急患希望"
     ],
-    "best_patient_profile": "治療に不安を感じる高齢者や慎重な患者。",
-    "not_recommended_profile": "急な治療を希望する患者や夜しか通えない方。",
+    "best_patient_profile": "丁寧な説明を受けたい高齢者及びその家族。",
+    "not_recommended_profile": "急いで治療を済ませたい方。",
     "referral_to": [
-      "歯医者が怖い人",
       "高齢者",
-      "治療に慎重な人"
+      "家族で通いたい人",
+      "治療に時間をかけたい人"
     ],
     "not_referral_to": [
-      "夜9時以降しか通えない人",
-      "急患希望"
+      "夜しか通えない人",
+      "急いで治療を求める人"
     ],
-    "ai_summary": "この医院は、きめ細かい治療とアドバイスを重視する患者に向いています。一方、急な治療や夜間の診療を希望する方にはおすすめできません。",
+    "ai_summary": "三浦歯科医院は、丁寧で親切な治療を受けたい方に向いています。一方、急患や短時間での治療を希望する方には他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
-    "catchphrase": "きめ細やかな治療を提供",
+    "catchphrase": "細やかな治療が魅力！",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -734,11 +820,11 @@
     "current": 70,
     "potential": 78,
     "reputation_tags": [
+      "安心感",
       "家族向け",
-      "信頼性",
-      "駅近"
+      "痛みの配慮"
     ],
-    "reputation_summary": "家族で通院している患者が多いが、時に不満もある医院です。",
+    "reputation_summary": "家族で通院する方が多い一方、期待外れの声もあります。",
     "phrases": [
       "今日は本当にがっかりした私",
       "家族で歯を診て貰っています",
@@ -746,83 +832,94 @@
     ],
     "sources_analyzed": 1,
     "patient_scores": {
-      "技術力": 70,
-      "説明力": 75,
-      "清潔感": 80,
-      "優しさ": 70,
+      "技術力": 50,
+      "説明力": 60,
+      "清潔感": 70,
+      "優しさ": 65,
       "子ども対応": 80,
-      "痛みへの配慮": 75,
-      "待ち時間": 50
+      "痛みへの配慮": 60,
+      "待ち時間": 40
     },
     "doctor_name": "山口院長",
     "doctor_career": "20年の治療経験を持つ医師",
     "doctor_evidence": [
-      "一般歯科から矯正まで幅広く対応可能",
-      "患者とのコミュニケーションを重視"
+      "患者との良好なコミュニケーションを重視",
+      "優しい対応を心がけている"
     ],
     "doctor_stars": {
-      "専門性": 4,
+      "専門性": 3,
       "研究実績": 2,
       "患者目線": 4,
-      "経験": 4
+      "経験": 3
     },
     "case_analysis": {
-      "has_cases": true,
-      "difficult_cases": [
-        "歯ぎしり",
-        "小児歯科治療"
-      ],
-      "parts": [
-        "前歯",
-        "奥歯"
-      ],
-      "techniques": [
-        "矯正",
-        "一般歯科治療"
-      ]
+      "has_cases": false,
+      "difficult_cases": [],
+      "parts": [],
+      "techniques": []
+    },
+    "equipment_stars": {
+      "CT": 3,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
     },
     "equipment_evidence": [
-      "感染症対策を徹底している",
-      "最新の機器を導入済み"
+      "感染症対策が徹底されている",
+      "最新の設備を導入している"
     ],
     "transparency_evidence": [
-      "予約制でしっかりとした診療を実施"
+      "オンライン資格確認制度を導入している"
     ],
     "activity_evidence": [
-      "医療DX推進の情報が公開されている",
-      "オンライン資格確認に取り組んでいる"
+      "地域に密着した医院を目指している",
+      "求人情報の掲載あり"
     ],
     "workplace_stars": {
-      "教育制度": 3,
-      "働きやすさ": 4,
-      "衛生士定着率": 4,
-      "スタッフ教育": 3
+      "教育制度": 0,
+      "働きやすさ": 0,
+      "衛生士定着率": 0,
+      "スタッフ教育": 0
     },
-    "workplace_quality": "スタッフ教育が行き届いている",
+    "workplace_quality": "",
     "fit_for": [
       "子ども",
-      "家族",
-      "高齢者"
+      "家族"
+    ],
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 3,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 3,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "一般歯科",
+      "小児歯科",
+      "口腔外科",
+      "矯正歯科"
     ],
     "not_fit_for": [
-      "急患希望",
-      "夜しか通えない人"
+      "夜しか通えない人",
+      "急患希望"
     ],
-    "best_patient_profile": "小さなお子さんを持つ家族",
-    "not_recommended_profile": "急な治療を希望する患者",
+    "best_patient_profile": "家族で通院しやすい環境を求める方",
+    "not_recommended_profile": "高い専門性を求める方",
     "referral_to": [
-      "家族向け医院を探している人",
-      "小さな子どもがいる人",
-      "歯科恐怖症の人"
+      "小さなお子さんのいる人",
+      "家族全員で診てもらいたい人",
+      "痛みが苦手な人"
     ],
     "not_referral_to": [
-      "急患対応を希望する人",
-      "夜通院したい人"
+      "夜9時以降しか通えない人",
+      "駅近を重視する人"
     ],
-    "ai_summary": "家族全員で通える、安心感のある歯科医院です。特に、子どもや高齢者に配慮した治療が特徴ですが、急患希望の方には向いていません。",
+    "ai_summary": "この医院は家族向けで安心して通えるところをお探しの方に向いています。一方、週末や夜の時間帯に通うことを希望される方には不向きかもしれません。",
     "notable": false,
     "notable_reason": "",
-    "catchphrase": "安心して通える歯科医院",
+    "catchphrase": "家族で通える歯科医院",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -882,6 +979,7 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {},
     "equipment_evidence": [],
     "transparency_evidence": [],
     "activity_evidence": [],
@@ -893,6 +991,8 @@
     },
     "workplace_quality": "",
     "fit_for": [],
+    "patient_fit": {},
+    "specialty_tags": [],
     "not_fit_for": [],
     "best_patient_profile": "",
     "not_recommended_profile": "",
@@ -931,22 +1031,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 42,
-    "reputation_score": 20,
+    "total_score": 44,
+    "reputation_score": 22,
     "doctor_score": 20,
     "equipment_score": 0,
     "transparency_score": 0,
     "activity_score": 0,
     "google_bonus": 2,
     "clinic_score": 0,
-    "current": 40,
+    "current": 42,
     "potential": 48,
     "reputation_tags": [
-      "親切対応",
-      "長年の信頼",
-      "丁寧説明"
+      "親切な対応",
+      "安心できる治療",
+      "長年の信頼"
     ],
-    "reputation_summary": "いちご歯科医院は丁寧な説明と親切な対応で患者に安心感を提供しています。",
+    "reputation_summary": "丁寧な説明で安心感があり、家族で通う患者も多い医院です。",
     "phrases": [
       "歯医者さんに行くのが怖かった私ですが、いちご先生は歯の状態や歯の治療を丁寧にわかりやすい説明をしてくれるので安心して治療を受けさせてもらいました",
       "いついっても空いていますが先生がとても早口でまくし立てられます",
@@ -967,8 +1067,8 @@
     "doctor_name": "いちご先生",
     "doctor_career": "",
     "doctor_evidence": [
-      "丁寧な説明で安心感を与える",
-      "家族で長年通う信頼性"
+      "治療を丁寧に説明してくれる",
+      "親切で優しい対応を評価されている"
     ],
     "doctor_stars": {
       "専門性": 4,
@@ -982,6 +1082,14 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
     "equipment_evidence": [],
     "transparency_evidence": [],
     "activity_evidence": [],
@@ -994,28 +1102,35 @@
     "workplace_quality": "",
     "fit_for": [
       "歯科恐怖症",
-      "家族連れ",
-      "高齢者"
+      "家族で通える"
     ],
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [],
     "not_fit_for": [
-      "夜しか通えない人",
-      "急患希望"
+      "忙しい人",
+      "待ち時間を気にする人"
     ],
-    "best_patient_profile": "歯医者が苦手な方や家族で通院したい方",
-    "not_recommended_profile": "夜しか通院できない方",
+    "best_patient_profile": "丁寧に説明してもらいたい方",
+    "not_recommended_profile": "短時間で治療を終えたい人",
     "referral_to": [
       "歯医者が怖い人",
-      "小さな子どもがいる人",
-      "家族で通院したい人"
+      "家族で通いたい人",
+      "親切な対応を求める人"
     ],
     "not_referral_to": [
       "夜9時以降しか通えない人",
-      "急患希望の方"
+      "待ち時間を気にする人"
     ],
-    "ai_summary": "いちご歯科医院は、歯医者に不安を感じる方や家族で安心して通いたい方に最適です。逆に、急患や夜のみ通院できる方には他院を検討することをお勧めします。",
+    "ai_summary": "この医院は、歯医者が怖い方や家族で通う方に最適です。一方、忙しい人や待ち時間を気にする方には他院をおすすめします。",
     "notable": true,
     "notable_reason": "患者の安心感と丁寧な対応が評価されています。",
-    "catchphrase": "安心の歯科治療",
+    "catchphrase": "安心できる歯科治療",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -1048,11 +1163,11 @@
     "current": 40,
     "potential": 48,
     "reputation_tags": [
-      "優しいお医者さん",
+      "優しい先生",
       "清潔感",
-      "スタッフも親切"
+      "丁寧な対応"
     ],
-    "reputation_summary": "先生が優しく、清潔感があり、スタッフも親切な医院です。",
+    "reputation_summary": "優しい年配の先生と清潔感のある医院、スタッフも丁寧です。",
     "phrases": [
       "昔ここに長い期間通ったことがある",
       "年配の男性の先生です",
@@ -1087,6 +1202,14 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
     "equipment_evidence": [],
     "transparency_evidence": [],
     "activity_evidence": [],
@@ -1101,22 +1224,30 @@
       "高齢者",
       "歯科恐怖症"
     ],
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [],
     "not_fit_for": [],
-    "best_patient_profile": "優しい医者に治療を受けたい人",
-    "not_recommended_profile": "高度な治療を求める人",
+    "best_patient_profile": "優しい対応を求める高齢者の方",
+    "not_recommended_profile": "短時間での治療を希望する方",
     "referral_to": [
-      "歯医者が怖い人",
-      "高齢者",
-      "優しい治療を求める人"
+      "怖がりな子",
+      "年配の方",
+      "優しい医師を求める人"
     ],
     "not_referral_to": [
-      "高度な歯科治療を希望する人",
-      "急患希望の人"
+      "忙しい社会人",
+      "子ども連れを希望する人"
     ],
-    "ai_summary": "この医院は、優しい医者に治療を受けたい高齢者や小さな子どもに向いています。一方、高度な治療を求める方には他院も検討をお勧めします。",
-    "notable": false,
-    "notable_reason": "",
-    "catchphrase": "優しさが魅力の歯科医院",
+    "ai_summary": "この医院は優しい対応を希望する高齢者や歯科恐怖症の方に向いています。一方、短時間での治療を求める方には他院を検討することをお勧めします。",
+    "notable": true,
+    "notable_reason": "優しい先生と清潔感で、患者に安心感を提供しています。",
+    "catchphrase": "優しく丁寧な歯科医院",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -1176,6 +1307,7 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {},
     "equipment_evidence": [],
     "transparency_evidence": [],
     "activity_evidence": [],
@@ -1187,6 +1319,8 @@
     },
     "workplace_quality": "",
     "fit_for": [],
+    "patient_fit": {},
+    "specialty_tags": [],
     "not_fit_for": [],
     "best_patient_profile": "",
     "not_recommended_profile": "",
@@ -1225,22 +1359,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 80,
+    "total_score": 85,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 15,
+    "equipment_score": 20,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 5,
-    "clinic_score": 25,
-    "current": 75,
-    "potential": 78,
+    "clinic_score": 30,
+    "current": 80,
+    "potential": 88,
     "reputation_tags": [
       "親切な対応",
-      "安心して通える",
-      "最新技術"
+      "説明が丁寧",
+      "安心感"
     ],
-    "reputation_summary": "親切で安心感のある治療を受けられる歯科医院です。",
+    "reputation_summary": "患者に優しい対応と丁寧な説明が評判のクリニックです。",
     "phrases": [
       "10年ぶりくらいの歯医者でかなり緊張していましたが、先生もスタッフの皆さんもとても親切で安心して受診できました",
       "歯のクリーニングと虫歯の治療の相談の為に訪問しました",
@@ -1251,18 +1385,18 @@
     "sources_analyzed": 3,
     "patient_scores": {
       "技術力": 80,
-      "説明力": 85,
-      "清潔感": 90,
+      "説明力": 90,
+      "清潔感": 85,
       "優しさ": 90,
       "子ども対応": 80,
       "痛みへの配慮": 85,
       "待ち時間": 70
     },
     "doctor_name": "胡 克実",
-    "doctor_career": "不明",
+    "doctor_career": "歯科医療に誠実な姿勢を持つ",
     "doctor_evidence": [
-      "患者の不安を理解し安心を提供",
-      "優しい治療を心がけている"
+      "患者の不安を深く理解している",
+      "丁寧な治療で評判"
     ],
     "doctor_stars": {
       "専門性": 4,
@@ -1274,54 +1408,82 @@
       "has_cases": true,
       "difficult_cases": [],
       "parts": [
-        "前歯",
-        "奥歯"
+        "奥歯",
+        "前歯"
       ],
-      "techniques": []
+      "techniques": [
+        "インプラント",
+        "ホワイトニング"
+      ]
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 0
     },
     "equipment_evidence": [
-      "先端技術を積極的に導入",
-      "デジタル画像装置を使用"
+      "デジタル画像装置を導入",
+      "滅菌・消毒対策が徹底"
     ],
     "transparency_evidence": [
-      "初診時の流れが明示されている"
+      "初診時の流れが明確に記載されている"
     ],
     "activity_evidence": [
-      "定期的に新しい情報を発信"
+      "地域に密着した診療活動を展開",
+      "患者向けの歯科コラムを発信"
     ],
     "workplace_stars": {
       "教育制度": 4,
-      "働きやすさ": 5,
-      "衛生士定着率": 4,
+      "働きやすさ": 4,
+      "衛生士定着率": 3,
       "スタッフ教育": 4
     },
-    "workplace_quality": "チーム一丸となった安心感のある職場",
+    "workplace_quality": "チーム全体で患者の安心を目指す職場環境",
     "fit_for": [
       "子ども",
-      "女性",
       "高齢者",
+      "歯科恐怖症",
       "インプラント",
-      "歯科恐怖症"
+      "女性"
+    ],
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "予防歯科",
+      "インプラント",
+      "ホワイトニング",
+      "キッズルーム",
+      "個室",
+      "駐車場"
     ],
     "not_fit_for": [
       "夜しか通えない人",
       "急患希望"
     ],
-    "best_patient_profile": "歯医者に不安を感じる方",
-    "not_recommended_profile": "急な治療が必要な方",
+    "best_patient_profile": "子ども連れで安心して通院したい方",
+    "not_recommended_profile": "夜遅くしか通えない方",
     "referral_to": [
       "歯医者が怖い人",
       "小さな子どもがいる人",
-      "高齢者"
+      "安心して通える医院を探している人"
     ],
     "not_referral_to": [
       "夜9時以降しか通えない人",
-      "急患希望の人"
+      "駅近を最優先する人"
     ],
-    "ai_summary": "この医院は、親切な対応と先端技術で安心して治療を受けたい方に向いています。一方、急患対応を重視する方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、丁寧な説明や患者への配慮があるため、歯科が怖い方や子ども連れの患者に最適です。一方、夜間しか通院できない方には他院の検討をお勧めします。",
     "notable": true,
     "notable_reason": "親切で最新技術を取り入れた安心感のある診療を提供。",
-    "catchphrase": "安心・安全な歯科医療",
+    "catchphrase": "地域のかかりつけ歯科",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -1353,20 +1515,20 @@
     "genre": "一般歯科",
     "total_score": 72,
     "reputation_score": 15,
-    "doctor_score": 18,
+    "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
-    "activity_score": 12,
+    "activity_score": 10,
     "google_bonus": 2,
     "clinic_score": 25,
     "current": 70,
-    "potential": 73,
+    "potential": 78,
     "reputation_tags": [
-      "地元の評判良好",
-      "清潔感",
-      "緊張しない"
+      "地元人気",
+      "治療の丁寧さ",
+      "受付に難あり"
     ],
-    "reputation_summary": "患者からの評判は良いが、受付の態度に不満があるようです。",
+    "reputation_summary": "評判は良いが、受付対応に課題あり。清潔感のある院内で落ち着いて治療を受けられる。",
     "phrases": [
       "つい先日、定期検診でお世話になりました",
       "地元で評判の良い歯医者さん",
@@ -1376,19 +1538,19 @@
     ],
     "sources_analyzed": 3,
     "patient_scores": {
-      "技術力": 80,
-      "説明力": 85,
+      "技術力": 70,
+      "説明力": 80,
       "清潔感": 90,
-      "優しさ": 70,
-      "子ども対応": 80,
-      "痛みへの配慮": 75,
-      "待ち時間": 70
+      "優しさ": 80,
+      "子ども対応": 70,
+      "痛みへの配慮": 80,
+      "待ち時間": 60
     },
     "doctor_name": "上田 育伸",
     "doctor_career": "大阪歯科大学卒業",
     "doctor_evidence": [
-      "患者に寄り添った治療方針",
-      "スタッフ全員でのチーム診療"
+      "患者の悩みに寄り添った医療",
+      "チーム医療を重視しています"
     ],
     "doctor_stars": {
       "専門性": 4,
@@ -1397,24 +1559,29 @@
       "経験": 4
     },
     "case_analysis": {
-      "has_cases": true,
+      "has_cases": false,
       "difficult_cases": [],
-      "parts": [
-        "前歯",
-        "奥歯"
-      ],
+      "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 3,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 0,
+      "バリアフリー": 5
+    },
     "equipment_evidence": [
-      "清潔感のある院内設計",
-      "滅菌・消毒を徹底しています"
+      "滅菌・消毒が徹底されています",
+      "クリーンな院内環境"
     ],
     "transparency_evidence": [
-      "患者への丁寧な説明を重視している"
+      "丁寧な説明を心がけています"
     ],
     "activity_evidence": [
-      "地域密着型の医療を目指している",
-      "定期的なメンテナンスを推奨"
+      "地域医療に貢献したいという理念あり",
+      "患者への定期メンテナンスを重視"
     ],
     "workplace_stars": {
       "教育制度": 4,
@@ -1422,32 +1589,45 @@
       "衛生士定着率": 4,
       "スタッフ教育": 4
     },
-    "workplace_quality": "明るくスキルアップを目指す環境",
+    "workplace_quality": "明るい雰囲気でスキルアップを目指せる",
     "fit_for": [
       "子ども",
       "女性",
-      "高齢者",
-      "忙しい人"
+      "高齢者"
+    ],
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 3,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 4,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "予防歯科",
+      "個室",
+      "バリアフリー",
+      "キッズルーム"
     ],
     "not_fit_for": [
       "夜しか通えない人",
       "急患希望"
     ],
-    "best_patient_profile": "子どもの定期検診を考えている親",
-    "not_recommended_profile": "厳しい対応を求める人",
+    "best_patient_profile": "定期的なメンテナンスを希望する家族連れ",
+    "not_recommended_profile": "受付の対応に敏感な方",
     "referral_to": [
-      "子どもがいる人",
-      "歯医者が苦手な人",
-      "穏やかな対応を望む人"
+      "子ども連れ",
+      "歯科が怖い人",
+      "定期検診を希望する人"
     ],
     "not_referral_to": [
       "夜9時以降しか通えない人",
-      "急患に対応が必要な人"
+      "急患希望"
     ],
-    "ai_summary": "この医院は、地域密着で親しみやすい治療を受けたい方に向いています。一方、受付の態度にこだわりがある方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、清潔で落ち着いた環境での治療を希望する方に向いています。一方、受付の対応に不安がある方は他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
-    "catchphrase": "「安心して通える歯科」",
+    "catchphrase": "安心して通える歯科医院",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -1477,22 +1657,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 42,
-    "reputation_score": 20,
-    "doctor_score": 20,
+    "total_score": 52,
+    "reputation_score": 25,
+    "doctor_score": 25,
     "equipment_score": 0,
     "transparency_score": 0,
     "activity_score": 0,
     "google_bonus": 2,
     "clinic_score": 0,
-    "current": 40,
-    "potential": 48,
+    "current": 50,
+    "potential": 60,
     "reputation_tags": [
-      "技術力が高い",
-      "優しい対応",
+      "高い技術力",
+      "穏やかな雰囲気",
       "信頼できる"
     ],
-    "reputation_summary": "先生の技術力と人柄が高く評価されています。痛みを感じない治療が魅力です。",
+    "reputation_summary": "技術力が高く、穏やかな人柄の先生が治療を行っています。",
     "phrases": [
       "昨年体調を崩してからお伺い出来ていませんが、先生の人柄が良く、治療も痛みを感じさせない高度な技術をお持ちです",
       "先生は穏やかなだけでなく、技術も素晴らしく、余計なことはなさいません",
@@ -1511,8 +1691,8 @@
     "doctor_name": "不明",
     "doctor_career": "不明",
     "doctor_evidence": [
-      "治療が痛みを感じさせない技術力",
-      "先生の人柄が良い"
+      "先生の技術が素晴らしいと評判です。",
+      "痛みを感じさせない治療が評判です。"
     ],
     "doctor_stars": {
       "専門性": 5,
@@ -1526,6 +1706,14 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
     "equipment_evidence": [],
     "transparency_evidence": [],
     "activity_evidence": [],
@@ -1537,28 +1725,33 @@
     },
     "workplace_quality": "",
     "fit_for": [
-      "歯科恐怖症",
-      "優しい治療を望む人"
+      "大人",
+      "歯科恐怖症"
     ],
-    "not_fit_for": [
-      "急患希望",
-      "専門的治療を求める人"
-    ],
-    "best_patient_profile": "穏やかな環境で治療を受けたい患者",
-    "not_recommended_profile": "高度な専門治療を希望する患者",
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [],
+    "not_fit_for": [],
+    "best_patient_profile": "痛みを恐れる方や安心して治療を受けたい方",
+    "not_recommended_profile": "治療内容を詳しく聞きたい方",
     "referral_to": [
-      "痛みが苦手な人",
-      "心配な親",
-      "穏やかな医療を希望する人"
+      "痛みに敏感な人",
+      "安心して治療を受けたい人",
+      "穏やかな雰囲気を求める人"
     ],
     "not_referral_to": [
-      "専門治療が必要な人",
-      "急な治療を希望する人"
+      "情報を重視する人",
+      "子ども向けの環境を求める人"
     ],
-    "ai_summary": "この医院は、痛みを感じずに安心して治療を受けたい方に向いています。一方、特別な専門治療を求める方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、高い技術力を求める方や、穏やかな雰囲気で治療を受けたい方に向いています。一方、詳細な説明を求める方には他院も検討をお勧めします。",
     "notable": true,
-    "notable_reason": "技術力と人柄が高く評価される医院です。",
-    "catchphrase": "安心して通える歯科医院",
+    "notable_reason": "技術力と優しさで多くの患者に信頼されています。",
+    "catchphrase": "安心の高度治療",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -1588,22 +1781,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 83,
-    "reputation_score": 20,
-    "doctor_score": 20,
-    "equipment_score": 15,
-    "transparency_score": 10,
+    "total_score": 100,
+    "reputation_score": 25,
+    "doctor_score": 25,
+    "equipment_score": 20,
+    "transparency_score": 15,
     "activity_score": 10,
     "google_bonus": 8,
-    "clinic_score": 25,
-    "current": 75,
-    "potential": 78,
+    "clinic_score": 35,
+    "current": 95,
+    "potential": 100,
     "reputation_tags": [
-      "親切",
-      "安心",
-      "信頼"
+      "信頼性",
+      "便利な立地",
+      "親切な対応"
     ],
-    "reputation_summary": "地域内で親切な対応と幅広い治療に信頼されている歯科医院です。",
+    "reputation_summary": "長年通う患者が多く、丁寧な治療と親しみやすい対応が評価されています。",
     "phrases": [
       "7年間色々お世話になっております",
       "いつも子供達の歯列矯正で大変お世話になっております",
@@ -1613,19 +1806,19 @@
     ],
     "sources_analyzed": 3,
     "patient_scores": {
-      "技術力": 85,
-      "説明力": 90,
-      "清潔感": 80,
+      "技術力": 90,
+      "説明力": 85,
+      "清潔感": 90,
       "優しさ": 95,
       "子ども対応": 90,
       "痛みへの配慮": 95,
-      "待ち時間": 70
+      "待ち時間": 80
     },
     "doctor_name": "新居 泰浩",
-    "doctor_career": "大学院で歯科矯正を専攻、国際インプラント学会認定医。",
+    "doctor_career": "大学院で矯正歯科を専攻し、国際インプラント学会認定医",
     "doctor_evidence": [
-      "専門知識を活かして幅広い施術に高水準で対応。",
-      "患者との信頼関係を何より大切にしている。"
+      "豊富な専門知識を持つ院長です。",
+      "患者の気持ちに寄り添った診療。"
     ],
     "doctor_stars": {
       "専門性": 5,
@@ -1646,16 +1839,24 @@
         "即日インプラント"
       ]
     },
+    "equipment_stars": {
+      "CT": 5,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 4,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 5
+    },
     "equipment_evidence": [
-      "最新の設備を備えて対応可能。",
-      "治療の際に痛みに配慮した設備がある。"
+      "最新の機器を取り揃えています。",
+      "CTやスキャナー完備。"
     ],
     "transparency_evidence": [
-      "治療方針についてしっかりと説明を行う。"
+      "治療の前に丁寧な説明を行います。"
     ],
     "activity_evidence": [
-      "地域の内科や耳鼻科と協力し体全体の健康を考えている。",
-      "定期的にブログで情報を発信している。"
+      "地域の内科と連携した診療を行っています。",
+      "ブログでの情報発信が活発です。"
     ],
     "workplace_stars": {
       "教育制度": 4,
@@ -1663,7 +1864,7 @@
       "衛生士定着率": 4,
       "スタッフ教育": 4
     },
-    "workplace_quality": "働きやすい環境で教育にも力を入れている。",
+    "workplace_quality": "教育が行き届いており、職場環境は良好です。",
     "fit_for": [
       "子ども",
       "女性",
@@ -1671,25 +1872,40 @@
       "インプラント",
       "歯科恐怖症"
     ],
-    "not_fit_for": [
-      "急患希望",
-      "夜しか通えない人"
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 4,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "インプラント",
+      "矯正歯科",
+      "小児歯科",
+      "訪問歯科",
+      "駐車場",
+      "バリアフリー"
     ],
-    "best_patient_profile": "家族全員で通える安心な歯医者を探している人",
-    "not_recommended_profile": "夜間しか通院できない人",
+    "not_fit_for": [
+      "夜しか通えない人",
+      "急患希望"
+    ],
+    "best_patient_profile": "小さなお子様を持つ、家族全員で通える医院を探す方。",
+    "not_recommended_profile": "夜遅くしか通えない方や、一回の診療を急ぐ方。",
     "referral_to": [
+      "子ども連れ",
       "歯医者が怖い人",
-      "小さな子どもがいる人",
-      "治療に不安がある人"
+      "家族全員で通いたい人"
     ],
     "not_referral_to": [
-      "急患希望の人",
-      "夜9時以降しか通えない人"
+      "夜9時以降しか通えない人",
+      "急患希望の方"
     ],
-    "ai_summary": "この医院は、家族で通う安心感を求める方に向いています。一方、急患や夜間での通院が必要な方には他院の検討もお勧めします。",
+    "ai_summary": "この医院は、特にお子様や歯科に不安を抱える方に向いています。一方、夜間しか通えない方には他院も検討をお勧めします。",
     "notable": true,
-    "notable_reason": "親身な対応と総合的な治療が評判で、信頼できるため。",
-    "catchphrase": "信頼される歯医者",
+    "notable_reason": "患者に寄り添う姿勢と幅広い治療が高く評価されています。",
+    "catchphrase": "地域に密着した安心の歯科医院",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -1722,11 +1938,11 @@
     "current": 75,
     "potential": 78,
     "reputation_tags": [
-      "アレルギー治療",
-      "かみ合わせ",
-      "訪問診療"
+      "金属アレルギー治療",
+      "かみ合わせ治療",
+      "地域密着"
     ],
-    "reputation_summary": "全身の健康を見据えた歯科治療を提供する医院です。",
+    "reputation_summary": "患者の全体的な健康を重視し、優しい診療が評価されています。",
     "phrases": [],
     "sources_analyzed": 1,
     "patient_scores": {
@@ -1734,77 +1950,98 @@
       "説明力": 85,
       "清潔感": 90,
       "優しさ": 80,
-      "子ども対応": 75,
+      "子ども対応": 70,
       "痛みへの配慮": 80,
       "待ち時間": 70
     },
     "doctor_name": "吉川院長",
-    "doctor_career": "30年以上の歯科医療経験",
+    "doctor_career": "35年以上の経験を持つ歯科医師",
     "doctor_evidence": [
-      "患者の症状に基づく治療提案",
-      "長年の地域密着による信頼"
+      "体の不調と口腔の関係を重視した治療方針",
+      "専門的な診断を基にした治療計画"
     ],
     "doctor_stars": {
       "専門性": 4,
       "研究実績": 3,
-      "患者目線": 4,
+      "患者目線": 5,
       "経験": 5
     },
     "case_analysis": {
       "has_cases": true,
       "difficult_cases": [
-        "金属アレルギー"
+        "金属アレルギー",
+        "かみ合わせの改善"
       ],
       "parts": [
         "前歯",
         "奥歯"
       ],
       "techniques": [
-        "聴力検査によるかみ合わせ診断"
+        "噛み合わせ診断"
       ]
     },
+    "equipment_stars": {
+      "CT": 3,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 3,
+      "個室": 4,
+      "駐車場": 5,
+      "バリアフリー": 4
+    },
     "equipment_evidence": [
-      "院内感染予防の徹底した管理",
-      "滅菌・消毒への配慮あり"
+      "衛生管理が徹底されている",
+      "最新の診断機器を使用"
     ],
     "transparency_evidence": [
-      "わかりやすい治療計画の提案"
+      "検査結果を分かりやすく説明"
     ],
     "activity_evidence": [
-      "訪問診療の実施",
-      "地域密着の診療理念"
+      "30年以上の歯科医療に対する取り組み",
+      "地域への貢献を重視"
     ],
     "workplace_stars": {
-      "教育制度": 4,
+      "教育制度": 3,
       "働きやすさ": 4,
       "衛生士定着率": 4,
       "スタッフ教育": 4
     },
-    "workplace_quality": "患者第一のアットホームな職場環境",
+    "workplace_quality": "地域貢献を重視した働きやすい環境",
     "fit_for": [
       "高齢者",
-      "アレルギー患者",
-      "全身の健康考慮"
+      "インプラント",
+      "金属アレルギー"
+    ],
+    "patient_fit": {
+      "子ども連れ": 2,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "金属アレルギー",
+      "かみ合わせ",
+      "訪問診療"
     ],
     "not_fit_for": [
-      "夜しか通えない人",
-      "急患希望"
+      "急患希望",
+      "夜しか通えない人"
     ],
-    "best_patient_profile": "全身の健康を気にする方",
-    "not_recommended_profile": "急な治療が必要な方",
+    "best_patient_profile": "金属アレルギーに悩む高齢者",
+    "not_recommended_profile": "急いで治療を受けたい方",
     "referral_to": [
-      "歯医者が怖い人",
-      "高齢者",
-      "アレルギー持ちの人"
+      "金属アレルギーがある人",
+      "かみ合せに悩む人",
+      "高齢者"
     ],
     "not_referral_to": [
-      "夜9時以降しか通えない人",
-      "急患希望の人"
+      "急患希望の人",
+      "夜しか通えない人"
     ],
-    "ai_summary": "吉川歯科医院は全身の健康を重視した歯科治療を受けたい方に向いています。一方、急な治療を求める方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は金属アレルギーやかみ合わせの問題に悩む方に向いています。一方、急患希望の方には他院も検討をお勧めします。",
     "notable": true,
-    "notable_reason": "全身の健康を重視した包括的な治療に強みを持つ。",
-    "catchphrase": "全身健康を考える歯科",
+    "notable_reason": "全身の健康を考えた歯科治療に特化した医院です。",
+    "catchphrase": "全身ケアで歯を守る",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -1834,22 +2071,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 88,
-    "reputation_score": 25,
+    "total_score": 83,
+    "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 8,
     "clinic_score": 25,
-    "current": 80,
+    "current": 75,
     "potential": 78,
     "reputation_tags": [
-      "スピーディーな治療",
-      "技術力の高さ",
-      "患者本位"
+      "高い技術力",
+      "親切な対応",
+      "無駄のない治療"
     ],
-    "reputation_summary": "治療の腕が良く、スピーディーな対応が高評価。安心して通える医院です。",
+    "reputation_summary": "技術力が高く、無駄のない治療を提供する医院です。",
     "phrases": [
       "先日、治療計画の相談をする際に見学もさせてもらった同業者のコメントです",
       "親知らずを鬼の速さで抜いていただきました",
@@ -1860,18 +2097,18 @@
     "sources_analyzed": 3,
     "patient_scores": {
       "技術力": 90,
-      "説明力": 85,
-      "清潔感": 80,
+      "説明力": 80,
+      "清潔感": 85,
       "優しさ": 80,
-      "子ども対応": 75,
+      "子ども対応": 70,
       "痛みへの配慮": 85,
-      "待ち時間": 80
+      "待ち時間": 75
     },
     "doctor_name": "石﨑 順啓",
-    "doctor_career": "大阪歯科大学で学び、80年以上の歴史の中で地域医療に貢献。",
+    "doctor_career": "80年以上の歴史を持つ医院の院長",
     "doctor_evidence": [
-      "治療計画の相談を丁寧に行っている",
-      "父子三代で地域医療に携わっている"
+      "80年以上の歴史がある医院の院長です。",
+      "地域医療に貢献していることを強調しています。"
     ],
     "doctor_stars": {
       "専門性": 5,
@@ -1880,29 +2117,29 @@
       "経験": 5
     },
     "case_analysis": {
-      "has_cases": true,
-      "difficult_cases": [
-        "インプラント",
-        "口腔外科"
-      ],
-      "parts": [
-        "前歯",
-        "奥歯"
-      ],
-      "techniques": [
-        "インプラント",
-        "咬合治療"
-      ]
+      "has_cases": false,
+      "difficult_cases": [],
+      "parts": [],
+      "techniques": []
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 3,
+      "個室": 4,
+      "駐車場": 3,
+      "バリアフリー": 5
     },
     "equipment_evidence": [
-      "最新の設備を整えている",
-      "幅広い診療科目に対応している"
+      "最新の設備を導入した医院です。",
+      "バリアフリーの環境を整えています。"
     ],
     "transparency_evidence": [
-      "料金表が明確に提示されている"
+      "料金表を公開しており、明瞭さがあります。"
     ],
     "activity_evidence": [
-      "地域医療に貢献したいという姿勢が顕著"
+      "地域医療に貢献する姿勢を強調しています。",
+      "スタッフの教育やセミナー参加を推奨しています。"
     ],
     "workplace_stars": {
       "教育制度": 5,
@@ -1910,32 +2147,48 @@
       "衛生士定着率": 4,
       "スタッフ教育": 5
     },
-    "workplace_quality": "アットホームな職場環境で、チームワーク重視",
+    "workplace_quality": "アットホームでチームワーク重視の職場",
     "fit_for": [
       "子ども",
+      "女性",
       "高齢者",
       "インプラント",
-      "忙しい人"
+      "歯科恐怖症"
+    ],
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 3,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "インプラント",
+      "小児歯科",
+      "予防歯科",
+      "審美歯科",
+      "個室",
+      "バリアフリー"
     ],
     "not_fit_for": [
-      "夜しか通えない人",
-      "急患希望"
+      "急患希望",
+      "夜しか通えない人"
     ],
-    "best_patient_profile": "定期検診を大切にする方",
-    "not_recommended_profile": "治療に時間をかけたい方",
+    "best_patient_profile": "通院が苦手な方でも安心して通える人",
+    "not_recommended_profile": "急患対応が必要な人",
     "referral_to": [
-      "治療の腕が良い病院を探している人",
-      "家族で通える医院を求める人",
-      "インプラントを考えている人"
+      "高齢者",
+      "子ども連れ",
+      "歯科が怖い人"
     ],
     "not_referral_to": [
       "夜9時以降しか通えない人",
-      "急患対応を優先する人"
+      "急患希望の人"
     ],
-    "ai_summary": "この医院はスピーディーかつ質の高い治療を求める方に向いています。一方、急患や夜しか通えない方には他院も検討をお勧めします。",
+    "ai_summary": "【AI総評】石﨑歯科医院は、特に治療が苦手な方に向いています。高い技術と無駄のない治療方針が特長です。一方、急な対応が希望な方には他院の選択を勧めます。",
     "notable": true,
-    "notable_reason": "地域密着型で信頼性が高く、技術力も優れているため。",
-    "catchphrase": "信頼の技術とスピード",
+    "notable_reason": "地域に根ざした歴史ある医院で、高い技術を提供しています。",
+    "catchphrase": "地域密着型の信頼歯科医院",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
@@ -1948,6 +2201,8 @@
     "place_id": "ChIJU3n9jn_zAGARD69nkxX70kM",
     "name": "芦屋もみじ歯科",
     "address": "芦屋市潮見町３０−１１",
+    "lat": 34.7170534,
+    "lng": 135.3066551,
     "phone": "0797-62-8148",
     "url": "https://ashiya-momiji-dental.jp/?utm_source=google&utm_medium=maps",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E5%B1%8B%E3%82%82%E3%81%BF%E3%81%98%E6%AD%AF%E7%A7%91&query_place_id=ChIJU3n9jn_zAGARD69nkxX70kM",
@@ -1963,22 +2218,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 79,
-    "reputation_score": 20,
-    "doctor_score": 20,
+    "total_score": 81,
+    "reputation_score": 22,
+    "doctor_score": 22,
     "equipment_score": 15,
-    "transparency_score": 12,
+    "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 2,
-    "clinic_score": 27,
-    "current": 77,
-    "potential": 78,
+    "clinic_score": 25,
+    "current": 79,
+    "potential": 83,
     "reputation_tags": [
-      "丁寧な治療",
-      "親切な対応",
-      "地域密着"
+      "丁寧な説明",
+      "地域密着",
+      "家族連れに最適"
     ],
-    "reputation_summary": "家族で通える歯科。丁寧な説明と親切な対応が評判です。",
+    "reputation_summary": "詳細な説明と丁寧な治療が評価されています。家族で通うのも安心。",
     "phrases": [
       "まずは自分の口腔内がどのような状態なのかをレントゲン写真や歯周ポケット等のデータを見ながら丁寧に教えてくださいます",
       "家の近くにある歯科です",
@@ -1991,16 +2246,16 @@
       "技術力": 80,
       "説明力": 90,
       "清潔感": 85,
-      "優しさ": 80,
-      "子ども対応": 70,
+      "優しさ": 90,
+      "子ども対応": 80,
       "痛みへの配慮": 75,
-      "待ち時間": 60
+      "待ち時間": 70
     },
     "doctor_name": "定兼啓倫",
-    "doctor_career": "神戸大学医学部附属病院で研修医を経験。",
+    "doctor_career": "広島大学歯学部卒業後、神戸大学で研修",
     "doctor_evidence": [
-      "患者への丁寧な説明を重視している",
-      "多くの研修を受講し技術を磨いている"
+      "丁寧な説明で信頼関係を築く",
+      "医科との連携を重視した治療経験"
     ],
     "doctor_stars": {
       "専門性": 4,
@@ -2009,22 +2264,35 @@
       "経験": 4
     },
     "case_analysis": {
-      "has_cases": false,
-      "difficult_cases": [],
-      "parts": [],
-      "techniques": []
+      "has_cases": true,
+      "difficult_cases": [
+        "親知らず抜歯"
+      ],
+      "parts": [
+        "奥歯"
+      ],
+      "techniques": [
+        "口腔外科治療"
+      ]
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 3,
+      "個室": 5,
+      "駐車場": 4,
+      "バリアフリー": 5
     },
     "equipment_evidence": [
-      "新しい医院なので最新設備が整っている",
-      "複数の専門的な治療が可能な設備あり"
+      "最新の医療機器を導入している",
+      "バリアフリー設計の院内"
     ],
     "transparency_evidence": [
-      "治療の見える化を進めている",
-      "説明を重視して信頼関係を築く姿勢あり"
+      "治療内容についての詳しい説明がある"
     ],
     "activity_evidence": [
-      "地域のかかりつけ医として医科との連携を重視",
-      "訪問治療など多様なサービスを提供"
+      "医科と連携した診療を行っている",
+      "定期的なセミナー参加"
     ],
     "workplace_stars": {
       "教育制度": 4,
@@ -2032,60 +2300,61 @@
       "衛生士定着率": 3,
       "スタッフ教育": 4
     },
-    "workplace_quality": "新しい医院で良好な職場環境",
+    "workplace_quality": "スタッフ同士で理想の職場づくりが可能",
     "fit_for": [
       "子ども",
+      "女性",
       "高齢者",
-      "家族"
+      "インプラント",
+      "歯科恐怖症"
+    ],
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "親知らず",
+      "小児歯科",
+      "口腔外科",
+      "バリアフリー",
+      "キッズルーム"
     ],
     "not_fit_for": [
-      "急患希望",
-      "夜しか通えない人"
+      "夜しか通えない人",
+      "急患希望"
     ],
-    "best_patient_profile": "家族で通えるアットホームな歯科を探している人",
-    "not_recommended_profile": "迅速な治療を希望する人には不向き",
+    "best_patient_profile": "家族で安心して通える歯科医院を探す方",
+    "not_recommended_profile": "時間に厳しい方や急患の方",
     "referral_to": [
-      "家族で通いたい人",
-      "丁寧な治療を望む人",
-      "地域に根ざした医療を求める人"
+      "歯医者が怖い人",
+      "小さな子どもがいる人",
+      "親知らずを抜きたい人"
     ],
     "not_referral_to": [
-      "急患希望の人",
-      "夜遅くしか通えない人"
+      "夜9時以降しか通えない人",
+      "急患希望の人"
     ],
-    "ai_summary": "この医院は、丁寧な説明と親切な治療を提供したい方に向いています。一方、急いで治療を受けたい方には他院も検討をお勧めします。",
+    "ai_summary": "芦屋もみじ歯科は、安心して通える家族向けの医院です。丁寧な治療と説明が好評ですが、急患を求める方には他院の検討をお勧めします。",
     "notable": true,
-    "notable_reason": "丁寧な治療と説明が高く評価されています。",
-    "catchphrase": "家族で通える安心歯科",
+    "notable_reason": "地域密着で家族連れの患者に最適な歯科医院。",
+    "catchphrase": "家族で通える歯科医院",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "latitude": 34.7170534,
-    "longitude": 135.3066551,
-    "location_source": "geocoding",
-    "nearest_station": {
-      "name": "芦屋（阪神）",
-      "operator": "阪神",
-      "line": "本線",
-      "latitude": 34.728,
-      "longitude": 135.306,
-      "straight_distance_m": 1219,
-      "estimated_walk_minutes_min": 12,
-      "estimated_walk_minutes_max": 19,
-      "calculation_type": "straight_distance_estimate",
-      "official_walk_minutes": null,
-      "official_walk_source": null,
-      "confidence": "medium"
-    }
+    "q_excluded": false
   },
   "ChIJc8xUL7jyAGARUvQ6Sz3stCA": {
     "place_id": "ChIJc8xUL7jyAGARUvQ6Sz3stCA",
     "name": "小寺歯科医院",
     "address": "芦屋市潮見町７−３",
+    "lat": 34.718206,
+    "lng": 135.309067,
     "phone": "0120-083-836",
     "url": "",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%AF%BA%E6%AD%AF%E7%A7%91%E5%8C%BB%E9%99%A2&query_place_id=ChIJc8xUL7jyAGARUvQ6Sz3stCA",
@@ -2131,6 +2400,7 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {},
     "equipment_evidence": [],
     "transparency_evidence": [],
     "activity_evidence": [],
@@ -2142,6 +2412,8 @@
     },
     "workplace_quality": "",
     "fit_for": [],
+    "patient_fit": {},
+    "specialty_tags": [],
     "not_fit_for": [],
     "best_patient_profile": "",
     "not_recommended_profile": "",
@@ -2157,29 +2429,14 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "latitude": 34.718206,
-    "longitude": 135.309067,
-    "location_source": "geocoding",
-    "nearest_station": {
-      "name": "芦屋（阪神）",
-      "operator": "阪神",
-      "line": "本線",
-      "latitude": 34.728,
-      "longitude": 135.306,
-      "straight_distance_m": 1125,
-      "estimated_walk_minutes_min": 11,
-      "estimated_walk_minutes_max": 18,
-      "calculation_type": "straight_distance_estimate",
-      "official_walk_minutes": null,
-      "official_walk_source": null,
-      "confidence": "high"
-    }
+    "q_excluded": false
   },
   "ChIJwySSb77yAGARKv7Y2CWNJ78": {
     "place_id": "ChIJwySSb77yAGARKv7Y2CWNJ78",
     "name": "シーサイド溝井歯科",
     "address": "芦屋市高浜町７−２ 3F",
+    "lat": 34.7194962,
+    "lng": 135.3164751,
     "phone": "0797-32-1008",
     "url": "",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B7%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E6%BA%9D%E4%BA%95%E6%AD%AF%E7%A7%91&query_place_id=ChIJwySSb77yAGARKv7Y2CWNJ78",
@@ -2195,22 +2452,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 5,
-    "reputation_score": 5,
+    "total_score": 10,
+    "reputation_score": 10,
     "doctor_score": 0,
     "equipment_score": 0,
     "transparency_score": 0,
     "activity_score": 0,
     "google_bonus": 0,
     "clinic_score": 0,
-    "current": 5,
+    "current": 10,
     "potential": 0,
     "reputation_tags": [
-      "無痛治療",
-      "誤解",
-      "治療不満"
+      "無痛治療の宣伝",
+      "治療時の不安",
+      "口コミ偏重"
     ],
-    "reputation_summary": "無痛治療を掲げるが、実際には麻酔なしでの治療に不満が寄せられている。",
+    "reputation_summary": "無痛治療を謳っているが、実際は痛みを伴う治療があるとの口コミあり。",
     "phrases": [
       "ここのホームページで無痛治療等記載があり、問診表にも出来るだけ傷みないようにと記載したにも関わらず、治療の際に手に長細い物を持たされ麻酔もなく治療"
     ],
@@ -2221,7 +2478,7 @@
       "清潔感": 0,
       "優しさ": 0,
       "子ども対応": 0,
-      "痛みへの配慮": 10,
+      "痛みへの配慮": 0,
       "待ち時間": 0
     },
     "doctor_name": "",
@@ -2239,6 +2496,14 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
     "equipment_evidence": [],
     "transparency_evidence": [],
     "activity_evidence": [],
@@ -2250,51 +2515,44 @@
     },
     "workplace_quality": "",
     "fit_for": [],
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [],
     "not_fit_for": [],
-    "best_patient_profile": "",
-    "not_recommended_profile": "無痛治療を期待する人",
+    "best_patient_profile": "痛みを避けたいが無痛治療に期待する方",
+    "not_recommended_profile": "痛みを伴う治療を避けたい方",
     "referral_to": [
       "無痛治療希望者",
-      "口コミ重視の人",
-      "治療に不安な人"
+      "精神的負担軽減希望者",
+      "安易な治療を希望する人"
     ],
     "not_referral_to": [
-      "治療費重視の人",
-      "夜しか通えない人"
+      "痛みを最優先する方",
+      "高い技術を求める人"
     ],
-    "ai_summary": "この医院は無痛治療を希望する方に向いています。一方、誤った治療を受けたことで不安になる方には他院をお勧めします。",
+    "ai_summary": "この医院は無痛治療を求める方に向いていますが、実際の治療では痛みを伴うことがあるため、痛みを気にされる方には他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
-    "catchphrase": "患者の声を大切に",
+    "catchphrase": "無痛治療の理想と現実",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "latitude": 34.7194962,
-    "longitude": 135.3164751,
-    "location_source": "geocoding",
-    "nearest_station": {
-      "name": "打出",
-      "operator": "阪神",
-      "line": "本線",
-      "latitude": 34.73,
-      "longitude": 135.316,
-      "straight_distance_m": 1169,
-      "estimated_walk_minutes_min": 12,
-      "estimated_walk_minutes_max": 19,
-      "calculation_type": "straight_distance_estimate",
-      "official_walk_minutes": null,
-      "official_walk_source": null,
-      "confidence": "high"
-    }
+    "q_excluded": false
   },
   "ChIJ44b_Wr7yAGARWmKkKrBVVmo": {
     "place_id": "ChIJ44b_Wr7yAGARWmKkKrBVVmo",
     "name": "芦屋浜歯科クリニック",
     "address": "芦屋市高浜町６−１ グルメシティ芦屋浜店 2階",
+    "lat": 34.7201718,
+    "lng": 135.3165117,
     "phone": "0797-22-6480",
     "url": "https://ashiyahamashika.com/",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E5%B1%8B%E6%B5%9C%E6%AD%AF%E7%A7%91%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF&query_place_id=ChIJ44b_Wr7yAGARWmKkKrBVVmo",
@@ -2321,11 +2579,11 @@
     "current": 75,
     "potential": 78,
     "reputation_tags": [
-      "清潔感",
-      "丁寧な施術",
-      "ファミリー向け"
+      "清潔な院内",
+      "対応が丁寧",
+      "家族連れに優しい"
     ],
-    "reputation_summary": "設備が清潔で、丁寧な施術に定評のある医院です。家族で通いやすい雰囲気です。",
+    "reputation_summary": "設備が清潔で丁寧な施術が好評。子どもも安心して通える医院です。",
     "phrases": [
       "設備も清潔で、院内の雰囲気もとても良いです",
       "長年悩んでいた噛み合わせを丁寧に治していただきました",
@@ -2335,24 +2593,24 @@
     ],
     "sources_analyzed": 2,
     "patient_scores": {
-      "技術力": 80,
-      "説明力": 70,
+      "技術力": 85,
+      "説明力": 80,
       "清潔感": 90,
       "優しさ": 85,
-      "子ども対応": 80,
-      "痛みへの配慮": 75,
-      "待ち時間": 60
+      "子ども対応": 90,
+      "痛みへの配慮": 80,
+      "待ち時間": 75
     },
     "doctor_name": "松本 美香",
     "doctor_career": "",
     "doctor_evidence": [
-      "多様な患者のニーズに対応",
-      "ファミリー層に配慮した診療を提供"
+      "歯医者への苦手意識を払拭する雰囲気づくりを心がけている。",
+      "患者の口の健康を生涯守るサポートをしています。"
     ],
     "doctor_stars": {
       "専門性": 4,
       "研究実績": 3,
-      "患者目線": 4,
+      "患者目線": 5,
       "経験": 4
     },
     "case_analysis": {
@@ -2361,71 +2619,76 @@
       "parts": [],
       "techniques": []
     },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 0,
+      "バリアフリー": 5
+    },
     "equipment_evidence": [
-      "清潔な設備が評価されている",
-      "個室や半個室を完備している"
+      "個室と半個室の診療室でプライバシー配慮。",
+      "バリアフリー設計で安心して利用できる。"
     ],
     "transparency_evidence": [
-      "患者に優しい雰囲気作りを心掛けている"
+      "治療内容の説明が明確でわかりやすい。"
     ],
     "activity_evidence": [
-      "地域への貢献を重視した医院運営"
+      "地域密着型で患者への貢献を明記しています。",
+      "子どもを対象とした施術にも対応。"
     ],
     "workplace_stars": {
-      "教育制度": 4,
-      "働きやすさ": 4,
-      "衛生士定着率": 4,
-      "スタッフ教育": 4
+      "教育制度": 0,
+      "働きやすさ": 0,
+      "衛生士定着率": 0,
+      "スタッフ教育": 0
     },
-    "workplace_quality": "良好な職場環境がありそうです",
+    "workplace_quality": "",
     "fit_for": [
       "子ども",
       "家族",
-      "痛みを気にする人"
+      "歯科恐怖症"
+    ],
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 3
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "個室",
+      "バリアフリー",
+      "キッズルーム"
     ],
     "not_fit_for": [
-      "夜しか通えない人",
-      "急患希望"
+      "急患希望",
+      "夜しか通えない人"
     ],
-    "best_patient_profile": "保健歯科に通いやすい家庭を持つ人",
-    "not_recommended_profile": "土曜日に通えない忙しい方",
+    "best_patient_profile": "定期検診で健康な歯を維持したい家族",
+    "not_recommended_profile": "夜しか通えない忙しいビジネスマン",
     "referral_to": [
-      "小さな子どもがいる人",
-      "痛みを恐れる人",
-      "ファミリー層"
+      "子ども",
+      "歯医者が怖い人",
+      "家族連れ"
     ],
     "not_referral_to": [
-      "夜遅くしか通えない人",
-      "急患を希望する人"
+      "夜9時以降しか通えない人",
+      "急患希望の人"
     ],
-    "ai_summary": "芦屋浜歯科クリニックは、清潔で丁寧な施術に定評があり、家族で通いやすい環境が揃っています。一方、夜しか通えない方には不向きです。",
+    "ai_summary": "この医院は、特に子どもや歯科が怖い方に優しい雰囲気を提供しています。一方、急患や夜間の通院を希望する方には他院を検討することをお勧めします。",
     "notable": true,
-    "notable_reason": "清潔で丁寧な診療が受けられる医院です。",
-    "catchphrase": "家族みんなが安心の歯科医院",
+    "notable_reason": "子どもから高齢者まで家族全員が安心して通える医院です。",
+    "catchphrase": "家族で通える安心の歯科医院",
     "label": "一般枠",
     "linked_articles": [],
     "last_analyzed": "2026-07-08",
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "latitude": 34.7201718,
-    "longitude": 135.3165117,
-    "location_source": "geocoding",
-    "nearest_station": {
-      "name": "打出",
-      "operator": "阪神",
-      "line": "本線",
-      "latitude": 34.73,
-      "longitude": 135.316,
-      "straight_distance_m": 1094,
-      "estimated_walk_minutes_min": 11,
-      "estimated_walk_minutes_max": 17,
-      "calculation_type": "straight_distance_estimate",
-      "official_walk_minutes": null,
-      "official_walk_source": null,
-      "confidence": "high"
-    }
+    "q_excluded": false
   },
   "ChIJ087Jyx-NAGARvJeXPhbG78M": {
     "place_id": "ChIJ087Jyx-NAGARvJeXPhbG78M",
@@ -8215,22 +8478,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 77,
-    "reputation_score": 22,
-    "doctor_score": 20,
+    "total_score": 85,
+    "reputation_score": 25,
+    "doctor_score": 25,
     "equipment_score": 15,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 0,
     "clinic_score": 25,
-    "current": 77,
-    "potential": 78,
+    "current": 85,
+    "potential": 90,
     "reputation_tags": [
-      "優しい先生",
-      "丁寧な治療",
-      "頼れる医院"
+      "優しい",
+      "長年の信頼",
+      "患者第一"
     ],
-    "reputation_summary": "優しく丁寧な治療で、患者の信頼が厚い医院です。",
+    "reputation_summary": "患者の信頼を得ている優しい先生の歯科医院です。",
     "phrases": [
       "本当に本当に優しく素晴らしい先生です‼️歯医者さんが小さい時から恐かったですが、この先生に出会えて歯医者さんのイメージが変わりました❤心から感謝です🎵🌟🌟🌟🌟🌟",
       "40年以来のお医者さん　先代お父さんから　お世話になっております　丁寧な治療"
@@ -8264,8 +8527,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "患者の口に入る器具は全て滅菌処理",
-      "口腔外バキューム導入済み"
+      "院内感染対策を徹底しています。",
+      "飛沫吸引の設備が整っています。"
     ],
     "transparency_evidence": [
       "患者とのコミュニケーションを重視している"
@@ -8283,7 +8546,7 @@
     "fit_for": [
       "高齢者",
       "歯科恐怖症",
-      "家族揃って通いたい人"
+      "忙しい人"
     ],
     "not_fit_for": [
       "急患希望",
@@ -8300,7 +8563,7 @@
       "夜9時以降しか通えない人",
       "急患での対応を希望する人"
     ],
-    "ai_summary": "この医院は優しさと丁寧な治療を求める方に向いています。一方、夜しか通えない方には他院も検討をお勧めします。",
+    "ai_summary": "和田歯科医院は、特に歯医者が怖い方や高齢者に向いています。一方、急いで治療を希望する方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "地域に根付いた歯科医院で信頼できる治療を提供。",
     "catchphrase": "患者の心に寄り添う歯科医院",
@@ -8327,7 +8590,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 1,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 5,
+      "自由診療も検討": 0,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "予防歯科",
+      "個室"
+    ]
   },
   "ChIJ-dJPuimNAGAR1y6Ruv2hqe0": {
     "place_id": "ChIJ-dJPuimNAGAR1y6Ruv2hqe0",
@@ -8533,22 +8815,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 77,
-    "reputation_score": 20,
+    "total_score": 78,
+    "reputation_score": 18,
     "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
-    "activity_score": 12,
+    "activity_score": 15,
     "google_bonus": 0,
     "clinic_score": 25,
-    "current": 77,
+    "current": 78,
     "potential": 78,
     "reputation_tags": [
-      "家族思い",
-      "痛み軽減",
-      "予防重視"
+      "親切",
+      "専門性",
+      "予約困難"
     ],
-    "reputation_summary": "患者一人一人の心情を大切にしながら、痛みの少ない治療を心掛けています。",
+    "reputation_summary": "家族のように接してくれる医院だが、予約が取りづらいとの声も。",
     "phrases": [
       "初診の予約をしましたが、当日体調が急に悪くなり、キャンセルの連絡をしようとしました",
       "大量に予約を受け付けて一人一人の治療は短時間で済ます歯医者",
@@ -8594,8 +8876,8 @@
       ]
     },
     "equipment_evidence": [
-      "最新の技術を導入していると明示",
-      "治療法の多様性を強調"
+      "最新の医療設備が整っている",
+      "各種検査機器を完備"
     ],
     "transparency_evidence": [
       "公式サイトで治療方針を詳細に説明"
@@ -8612,9 +8894,9 @@
     },
     "workplace_quality": "スタッフ教育が行き届いている環境です。",
     "fit_for": [
-      "子ども",
       "高齢者",
-      "歯科恐怖症"
+      "予防歯科",
+      "痛みが苦手な人"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -8631,7 +8913,7 @@
       "急患希望の人",
       "夜遅くしか通えない人"
     ],
-    "ai_summary": "この医院は痛みを恐れる方や家族思いの方に向いています。一方、急な訪問を希望する方には他院を検討することをお勧めします。",
+    "ai_summary": "この医院は、家族のように親切に接してくれるため、丁寧な治療を受けたい方に向いています。一方、予約が取りづらい方には他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "痛くない歯科治療の実現へ",
@@ -8658,7 +8940,29 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 4,
+      "個室": 5,
+      "駐車場": 4,
+      "バリアフリー": 5
+    },
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 3,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "歯周病",
+      "予防歯科",
+      "小児歯科",
+      "個室",
+      "バリアフリー"
+    ]
   },
   "ChIJJTcHjPXzAGARpNo4-EAtkFY": {
     "place_id": "ChIJJTcHjPXzAGARpNo4-EAtkFY",
@@ -8691,10 +8995,10 @@
     "potential": 78,
     "reputation_tags": [
       "インプラント",
-      "セレック治療",
-      "スタッフ対応"
+      "子ども対応",
+      "交通便利"
     ],
-    "reputation_summary": "インプラントや矯正に注力し、評判の良いクリニックです。",
+    "reputation_summary": "近所で評判の良い歯科クリニック。インプラント治療も充実。",
     "phrases": [
       "最近、歯の調子が悪く、インプラント治療を受けに近所の歯科矯正クリニックに行ってきました",
       "今日は初めてセレック治療を受けるために歯科矯正クリニックに行きました",
@@ -8737,8 +9041,7 @@
       ]
     },
     "equipment_evidence": [
-      "セレックなど最新設備を導入",
-      "清潔感のある診療環境"
+      "最新設備を備えていることが紹介されている。"
     ],
     "transparency_evidence": [
       "料金案内が明確に示されている"
@@ -8756,8 +9059,8 @@
     "workplace_quality": "教育体制が整っており、働きやすい環境",
     "fit_for": [
       "インプラント",
-      "高齢者",
-      "女性"
+      "小さな子どもがいる人",
+      "忙しい人"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -8774,7 +9077,7 @@
       "夜遅い時間に通いたい人",
       "緊急治療希望の人"
     ],
-    "ai_summary": "この医院はインプラントや矯正治療を求める方に向いています。一方、急患対応を期待する方には他院も検討をお勧めします。",
+    "ai_summary": "この医院はインプラント治療を希望する方や小さな子どもがいる方に向いています。一方、急な治療が必要な方には他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "患者に優しい歯科クリニック",
@@ -8801,7 +9104,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 2,
+      "個室": 4,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 3,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 4,
+      "保険中心": 3
+    },
+    "specialty_tags": [
+      "インプラント",
+      "小児歯科",
+      "予防歯科",
+      "駐車場"
+    ]
   },
   "ChIJqxDs7dHyAGAReP2PosuNfX4": {
     "place_id": "ChIJqxDs7dHyAGAReP2PosuNfX4",
@@ -8822,22 +9146,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 70,
+    "total_score": 75,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 10,
+    "equipment_score": 15,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 0,
-    "clinic_score": 20,
-    "current": 70,
-    "potential": 68,
+    "clinic_score": 25,
+    "current": 75,
+    "potential": 78,
     "reputation_tags": [
-      "アットホーム",
+      "アットホームな雰囲気",
       "小児歯科",
-      "一般歯科"
+      "リニューアル開院"
     ],
-    "reputation_summary": "患者とのコミュニケーションを大切にした、アットホームな歯科医院です。",
+    "reputation_summary": "アットホームでリラックスできる診療環境が魅力の歯科医院です。",
     "phrases": [],
     "sources_analyzed": 2,
     "patient_scores": {
@@ -8868,8 +9192,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新の設備が整っているという情報なし",
-      "通常の診療に必要な設備は完備している"
+      "最新の設備を取り入れています。",
+      "衛生面にも配慮した診療環境です。"
     ],
     "transparency_evidence": [
       "診療内容の詳細が明記されているが、料金については不透明。"
@@ -8888,7 +9212,8 @@
     "fit_for": [
       "子ども",
       "女性",
-      "高齢者"
+      "高齢者",
+      "歯科恐怖症"
     ],
     "not_fit_for": [
       "急患希望",
@@ -8905,7 +9230,7 @@
       "急患希望の人",
       "夜しか通えない人"
     ],
-    "ai_summary": "坪内歯科医院は、特に小さな子どもや家族で通う方に向いています。一方、急を要する治療を希望する方には他院を考えることをお勧めします。",
+    "ai_summary": "この医院は、家族で通いやすく、リラックスした状態で治療を受けたい方に適しています。一方で、急ぎの治療が必要な方には他院をお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "心を込めた治療を提供",
@@ -8932,7 +9257,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 4,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "個室"
+    ]
   },
   "ChIJub5NJ9LyAGART2VTjBZ3n0s": {
     "place_id": "ChIJub5NJ9LyAGART2VTjBZ3n0s",
@@ -8956,19 +9300,19 @@
     "total_score": 82,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 15,
-    "transparency_score": 15,
+    "equipment_score": 20,
+    "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 2,
     "clinic_score": 30,
     "current": 80,
-    "potential": 78,
+    "potential": 88,
     "reputation_tags": [
-      "丁寧な診察",
-      "安心安全",
-      "通いやすい"
+      "丁寧な対応",
+      "駅近",
+      "頼れる歯医者"
     ],
-    "reputation_summary": "丁寧で迅速な診察が好評で、地域への信頼が高い歯科クリニックです。",
+    "reputation_summary": "丁寧な診察と迅速な対応で、多くの患者に信頼されています。",
     "phrases": [
       "先生はすごく丁寧で素早く診察してくれます",
       "いつもお世話になっております"
@@ -9002,8 +9346,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新のCT、マイクロスコープを導入。",
-      "滅菌器具の使用を徹底。"
+      "最新のCTやマイクロスコープを導入しています。",
+      "患者毎に滅菌器具を使用。"
     ],
     "transparency_evidence": [
       "患者へのわかりやすい説明を心がけ。"
@@ -9020,8 +9364,9 @@
     },
     "workplace_quality": "働きやすく、教育が充実した環境です。",
     "fit_for": [
+      "忙しい人",
       "高齢者",
-      "忙しい人"
+      "インプラント"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -9038,7 +9383,7 @@
       "夜9時以降しか通えない人",
       "駐車場必須の人"
     ],
-    "ai_summary": "この医院は丁寧で迅速な診察を重視する患者に向いています。一方、夜間通院が必要な方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は丁寧で迅速な診察を求める方に向いています。一方、子ども連れの方には他院を検討されることをお勧めします。",
     "notable": true,
     "notable_reason": "地域の信頼を基に安定した評価を得ているため。",
     "catchphrase": "安心・安全な歯科診療",
@@ -9065,7 +9410,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 5,
+      "マイクロスコープ": 5,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 5,
+      "自由診療も検討": 0,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "インプラント",
+      "予防歯科"
+    ]
   },
   "ChIJFTQDisXyAGARR2uXnDJMYiU": {
     "place_id": "ChIJFTQDisXyAGARR2uXnDJMYiU",
@@ -9161,7 +9525,23 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": []
   },
   "ChIJTfFYojrzAGARo_Hq37u511Q": {
     "place_id": "ChIJTfFYojrzAGARo_Hq37u511Q",
@@ -9182,22 +9562,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 77,
+    "total_score": 62,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 15,
+    "equipment_score": 0,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 2,
-    "clinic_score": 25,
-    "current": 75,
-    "potential": 78,
+    "clinic_score": 10,
+    "current": 60,
+    "potential": 48,
     "reputation_tags": [
-      "雰囲気が良い",
+      "上品な雰囲気",
       "親切な対応",
       "予防重視"
     ],
-    "reputation_summary": "上品で雰囲気の良い医院で、親切なスタッフが対応します。",
+    "reputation_summary": "患者への配慮が感じられる歯科医院で、上品な雰囲気が特徴です。",
     "phrases": [
       "Bio Dental Clinic ASHIYAにはとても満足しています",
       "夏休みで長く実家にいるため県外からですが、親知らずの抜歯をしてもらいました",
@@ -9255,8 +9635,8 @@
     },
     "workplace_quality": "",
     "fit_for": [
-      "高齢者",
       "女性",
+      "インプラント",
       "歯科恐怖症"
     ],
     "not_fit_for": [
@@ -9274,7 +9654,7 @@
       "夜9時以降しか通えない人",
       "急な治療を希望する人"
     ],
-    "ai_summary": "この医院は、予防歯科や親切な対応を重視したい方に向いています。一方、急な対応が必要な方や即効性を求める方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、上品な環境で丁寧な対応を受けたい方に最適です。一方、急な治療が必要な方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "上品な雰囲気で親切な対応が評価されています。",
     "catchphrase": "健康な口から全身の健康へ",
@@ -9301,7 +9681,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 5,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "予防歯科",
+      "審美歯科"
+    ]
   },
   "ChIJ_w7wf9HyAGARSOWVJQO0wBg": {
     "place_id": "ChIJ_w7wf9HyAGARSOWVJQO0wBg",
@@ -9314,22 +9713,22 @@
     "total_reviews": 8,
     "business_hours": [],
     "genre": "一般歯科",
-    "total_score": 40,
-    "reputation_score": 18,
+    "total_score": 42,
+    "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 0,
     "transparency_score": 0,
     "activity_score": 0,
     "google_bonus": 2,
     "clinic_score": 0,
-    "current": 38,
+    "current": 40,
     "potential": 48,
     "reputation_tags": [
-      "優れた技術",
-      "痛みの配慮",
-      "親切な対応"
+      "技術力",
+      "優しさ",
+      "説明丁寧"
     ],
-    "reputation_summary": "局所麻酔が痛くないと好評で、優れた技術が評価されている歯科医院です。",
+    "reputation_summary": "麻酔が痛くなく、優しくて丁寧な説明が評判です。",
     "phrases": [
       "先生の技能がとても良くて、局所麻酔がちっとも痛くないですし、入れていただいた詰め物も取れません",
       "詰め物が何度も取れます",
@@ -9374,8 +9773,9 @@
     },
     "workplace_quality": "",
     "fit_for": [
-      "痛みに敏感な人",
-      "歯科治療が怖い人"
+      "女性",
+      "高齢者",
+      "インプラント"
     ],
     "not_fit_for": [
       "急患希望",
@@ -9392,7 +9792,7 @@
       "急患希望",
       "夜にしか通えない人"
     ],
-    "ai_summary": "この医院は痛みに敏感な方や歯科治療が怖い方に向いています。一方、急な治療が必要な方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は痛みなく丁寧に治療を受けたい方に向いています。一方、急患や特別な治療を希望する方には他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "痛くない治療が魅力",
@@ -9419,7 +9819,23 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 5
+    },
+    "specialty_tags": []
   },
   "ChIJ0d1coj7zAGARV9jtyHIWOTE": {
     "place_id": "ChIJ0d1coj7zAGARV9jtyHIWOTE",
@@ -9440,22 +9856,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 83,
+    "total_score": 48,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 15,
-    "transparency_score": 10,
-    "activity_score": 10,
+    "equipment_score": 0,
+    "transparency_score": 0,
+    "activity_score": 0,
     "google_bonus": 8,
-    "clinic_score": 25,
-    "current": 75,
-    "potential": 78,
+    "clinic_score": 0,
+    "current": 40,
+    "potential": 48,
     "reputation_tags": [
-      "丁寧な指導",
-      "ロジカルな説明",
-      "予防重視"
+      "予防歯科",
+      "安心感",
+      "定期クリーニング"
     ],
-    "reputation_summary": "丁寧なケアとわかりやすい説明が好評の予防重視歯科医院です。",
+    "reputation_summary": "丁寧な説明と予防に特化したクリーニングが高評価の歯科医院です。",
     "phrases": [
       "虫歯や歯周病などを予防するため、歯の磨き方などをとても丁寧に教えてくださります",
       "3年ほど前からお世話になっています",
@@ -9509,10 +9925,8 @@
     },
     "workplace_quality": "包括的なスタッフ教育が整っています。",
     "fit_for": [
-      "子ども",
-      "女性",
-      "高齢者",
-      "忙しい人"
+      "予防歯科",
+      "健康意識の高い人"
     ],
     "not_fit_for": [
       "急患希望",
@@ -9529,7 +9943,7 @@
       "夜9時以降しか通えない人",
       "駅近を最優先する人"
     ],
-    "ai_summary": "この医院は、歯の健康を重視する方に向いています。一方、急に治療が必要な方には他院の検討をお勧めします。",
+    "ai_summary": "この医院は予防に特化し、丁寧な説明で安心感があります。逆に、急な対応を求める方は他院を検討した方が良いでしょう。",
     "notable": true,
     "notable_reason": "予防に特化した取り組みが評価されています。",
     "catchphrase": "未来の歯を守る歯科医院",
@@ -9556,7 +9970,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "予防歯科",
+      "小児歯科"
+    ]
   },
   "ChIJ7fsdosbyAGARyWOq8pAlrwk": {
     "place_id": "ChIJ7fsdosbyAGARyWOq8pAlrwk",
@@ -9589,10 +10022,10 @@
     "potential": 78,
     "reputation_tags": [
       "予防歯科",
-      "子ども対応",
-      "地域密着"
+      "小児歯科",
+      "コミュニケーション"
     ],
-    "reputation_summary": "虫歯予防に力を入れ、地域住民からの信頼があるが、コミュニケーションに課題あり。",
+    "reputation_summary": "丁寧な対応や予防に力を入れているが、コミュニケーション不足が指摘されています。",
     "phrases": [
       "コミュニケーションがなってません",
       "いつも祖父がお世話になっています",
@@ -9627,8 +10060,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "歯科用CTなど精密治療のための医療設備あり",
-      "高いレベルの衛生管理を実施"
+      "歯科用CTを用いた精密治療を提供",
+      "充実した医療設備を明記"
     ],
     "transparency_evidence": [
       "インフォメーションが充実しており、患者に伝えることを重視"
@@ -9646,8 +10079,8 @@
     "workplace_quality": "スタッフ教育が充実している職場環境",
     "fit_for": [
       "子ども",
-      "高齢者",
-      "女性"
+      "予防歯科",
+      "高齢者"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -9664,7 +10097,7 @@
       "夜9時以降しか通えない人",
       "急な治療が必要な人"
     ],
-    "ai_summary": "むらまつ歯科クリニックは、虫歯予防を重視し、子どもや高齢者に優しい診療を行っています。一方で、コミュニケーションが苦手な方には向かないかもしれません。",
+    "ai_summary": "この医院は小さなお子様を持つ方や、予防歯科を重視する方に向いています。一方、急な治療や夜間通院を希望する方には他院をおすすめします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "地域に愛される歯医者",
@@ -9691,7 +10124,29 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 5,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 3,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "予防歯科",
+      "個室",
+      "駐車場",
+      "キッズルーム"
+    ]
   },
   "ChIJP-XdmAPzAGAR7YBkh1G_hoU": {
     "place_id": "ChIJP-XdmAPzAGAR7YBkh1G_hoU",
@@ -9704,22 +10159,22 @@
     "total_reviews": 2,
     "business_hours": [],
     "genre": "一般歯科",
-    "total_score": 70,
-    "reputation_score": 15,
+    "total_score": 60,
+    "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 15,
+    "equipment_score": 0,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 0,
-    "clinic_score": 25,
-    "current": 70,
-    "potential": 78,
+    "clinic_score": 10,
+    "current": 60,
+    "potential": 48,
     "reputation_tags": [
-      "親切な対応",
       "女性医師",
-      "矯正専門"
+      "子ども対応",
+      "無料相談"
     ],
-    "reputation_summary": "子どもの歯並びに関心が持たれており、丁寧な相談が評価されています。",
+    "reputation_summary": "女性院長による丁寧なカウンセリングが魅力的。無料相談会も開催。",
     "phrases": [
       "3月中旬に自宅へ開業の案内が入り子供の歯並びが気になっていたので3月23日の無料相談会に行ってきました",
       "気になっていた娘の歯並びの相談に行ってきました"
@@ -9776,8 +10231,7 @@
     "workplace_quality": "スタッフ間の教育がしっかりしている様子。",
     "fit_for": [
       "子ども",
-      "女性",
-      "矯正治療希望者"
+      "女性"
     ],
     "not_fit_for": [
       "急患希望",
@@ -9794,7 +10248,7 @@
       "急に治療を希望する人",
       "駅近を重視する人"
     ],
-    "ai_summary": "この医院は、特に子どもの矯正治療に特化しており、親しみやすい女性医師が対応するため、安心して通えます。一方、急な対応や即日治療を求める方には他院の方が適しています。",
+    "ai_summary": "この医院は子どもの歯並びを気にする親に最適です。丁寧なカウンセリングも魅力。ただし、夜間の診療が難しいため夜通えない方には向いていません。",
     "notable": true,
     "notable_reason": "女性医師による丁寧な相談と専門性が高い。",
     "catchphrase": "笑顔を育てる矯正治療",
@@ -9821,7 +10275,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 2,
+      "保険中心": 3
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "小児歯科",
+      "個室"
+    ]
   },
   "ChIJA7IgQsDyAGARiqgKbWjMpcU": {
     "place_id": "ChIJA7IgQsDyAGARiqgKbWjMpcU",
@@ -9915,7 +10389,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJu8IpCuryAGARBK02-ZiDcvo": {
     "place_id": "ChIJu8IpCuryAGARBK02-ZiDcvo",
@@ -9938,20 +10415,20 @@
     "genre": "一般歯科",
     "total_score": 55,
     "reputation_score": 15,
-    "doctor_score": 10,
-    "equipment_score": 15,
-    "transparency_score": 10,
+    "doctor_score": 20,
+    "equipment_score": 10,
+    "transparency_score": 5,
     "activity_score": 5,
     "google_bonus": 0,
-    "clinic_score": 25,
+    "clinic_score": 15,
     "current": 55,
-    "potential": 54,
+    "potential": 68,
     "reputation_tags": [
-      "キッズスペース",
+      "子供連れOK",
       "無愛想",
       "通いやすい"
     ],
-    "reputation_summary": "キッズスペースあり、子供に優しいが新規患者には無愛想との声も。",
+    "reputation_summary": "子供が喜ぶキッズスペースがあり通いやすいが、無愛想な対応が目立つ",
     "phrases": [
       "既存の患者さんには良い歯科なのかもしれませんが、新規患者には受付、医師ともに大変無愛想です",
       "キッズスペースがあり、子供も喜んでくれるのでとても通いやすいです"
@@ -9985,8 +10462,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "空気清浄機完備で感染症対策",
-      "最新の設備を提供"
+      "各部屋に空気清浄機完備",
+      "設備紹介があり清潔感を重視"
     ],
     "transparency_evidence": [
       "公式サイトに治療方法が記載",
@@ -10006,7 +10483,7 @@
     "fit_for": [
       "子ども",
       "高齢者",
-      "痛に敏感な人"
+      "歯科恐怖症"
     ],
     "not_fit_for": [
       "新規患者",
@@ -10023,7 +10500,7 @@
       "夜9時以降しか通えない人",
       "受付に不安を感じる人"
     ],
-    "ai_summary": "この医院はキッズスペースが充実しており、子供連れの方に向いています。一方、新規患者に対する無愛想な対応が課題です。",
+    "ai_summary": "この医院は子どもや歯科が苦手な方に向いています。一方、無愛想な対応が不安な方は他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "安心して通える歯科医院",
@@ -10050,7 +10527,25 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "キッズルーム"
+    ]
   },
   "ChIJ__8coizzAGARpdis7IvrFTU": {
     "place_id": "ChIJ__8coizzAGARpdis7IvrFTU",
@@ -10071,22 +10566,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 87,
-    "reputation_score": 22,
+    "total_score": 88,
+    "reputation_score": 23,
     "doctor_score": 20,
     "equipment_score": 15,
-    "transparency_score": 10,
-    "activity_score": 12,
+    "transparency_score": 12,
+    "activity_score": 10,
     "google_bonus": 8,
-    "clinic_score": 25,
-    "current": 79,
+    "clinic_score": 27,
+    "current": 80,
     "potential": 78,
     "reputation_tags": [
       "優しい先生",
       "丁寧な治療",
-      "おすすめ"
+      "安心感"
     ],
-    "reputation_summary": "優しさと丁寧さが光る歯科医院。定期的に通う患者が多い。",
+    "reputation_summary": "優しく丁寧な治療で満足度が高い、長年通う患者が多い医院です。",
     "phrases": [
       "先生がとても優しいです",
       "治療で１年くらい前から通い始めました",
@@ -10130,8 +10625,8 @@
       ]
     },
     "equipment_evidence": [
-      "厚生労働省認定の診療環境",
-      "安全な治療設備が整備"
+      "厚労省認定の安全な治療環境あり",
+      "最新の麻酔器を使用"
     ],
     "transparency_evidence": [
       "患者とのしっかりしたコミュニケーション"
@@ -10147,8 +10642,7 @@
     },
     "workplace_quality": "スタッフ教育を重視した環境",
     "fit_for": [
-      "女性",
-      "高齢者",
+      "忙しい人",
       "歯科恐怖症"
     ],
     "not_fit_for": [
@@ -10166,7 +10660,7 @@
       "夜9時以降しか通えない人",
       "急患を希望する人"
     ],
-    "ai_summary": "優しさと丁寧さを重視する患者向けの医院です。治療が苦手な方にも安心感がありますが、急患への対応には限界があります。",
+    "ai_summary": "さくら歯科は、優しい治療と患者への配慮が強みです。歯科が苦手な方や、忙しい方に特におすすめですが、急な治療を希望する方には向かないかもしれません。",
     "notable": true,
     "notable_reason": "丁寧な治療と優しい対応が高評価",
     "catchphrase": "優しさ溢れる治療",
@@ -10193,7 +10687,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "予防歯科",
+      "歯周病治療"
+    ]
   },
   "ChIJW9WipCfzAGARJMk9QnxItXk": {
     "place_id": "ChIJW9WipCfzAGARJMk9QnxItXk",
@@ -10214,22 +10727,22 @@
       "日曜日: 9時30分～13時30分"
     ],
     "genre": "一般歯科",
-    "total_score": 89,
-    "reputation_score": 25,
-    "doctor_score": 25,
-    "equipment_score": 15,
-    "transparency_score": 12,
-    "activity_score": 10,
+    "total_score": 52,
+    "reputation_score": 20,
+    "doctor_score": 20,
+    "equipment_score": 0,
+    "transparency_score": 5,
+    "activity_score": 5,
     "google_bonus": 2,
-    "clinic_score": 27,
-    "current": 87,
-    "potential": 90,
+    "clinic_score": 5,
+    "current": 50,
+    "potential": 48,
     "reputation_tags": [
-      "顎関節症",
-      "専門性",
-      "親切"
+      "親切なスタッフ",
+      "丁寧な治療",
+      "痛みへの配慮"
     ],
-    "reputation_summary": "顎関節症の治療に特化しており、親切丁寧な対応が患者から評価されています。",
+    "reputation_summary": "院長先生の丁寧な治療とスタッフの親切さが高評価です。",
     "phrases": [
       "院長先生に顎関節症治療してもらいましたが50年近く顎関節で口を開けるのも辛かったのに顎関節専用マウスピースを作ってくれて、2ヶ月ほどで治りました",
       "セカンドオピニオンのために来院しました",
@@ -10307,7 +10820,7 @@
       "夜9時以降しか通えない人",
       "急患希望の人"
     ],
-    "ai_summary": "この医院は顎関節症の治療に特化しており、丁寧な治療と説明が特徴です。一方、夜間の診療がないため、遅い時間に通院が必要な方には他院を検討することをお勧めします。",
+    "ai_summary": "この医院は、顎関節症の治療を受けたい方に適しています。一方、子ども連れや夜の診療を希望する方には他院を検討することをお勧めします。",
     "notable": true,
     "notable_reason": "顎関節治療に特化した医院で、高評価を得ている",
     "catchphrase": "顎関節はお任せ！",
@@ -10334,7 +10847,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 5,
+      "自由診療も検討": 5,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "顎関節治療",
+      "セカンドオピニオン"
+    ]
   },
   "ChIJQ56m-OnyAGAR003WPPXR-6A": {
     "place_id": "ChIJQ56m-OnyAGAR003WPPXR-6A",
@@ -10436,7 +10968,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJB8_mEIzyAGARyRLlNg1Tpcw": {
     "place_id": "ChIJB8_mEIzyAGARyRLlNg1Tpcw",
@@ -12262,7 +12797,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJrdrg-tTyAGAReoQW-5qmyRs": {
     "place_id": "ChIJrdrg-tTyAGAReoQW-5qmyRs",
@@ -12356,7 +12894,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJhw6j3tWMAGARY2okzAmx9lY": {
     "place_id": "ChIJhw6j3tWMAGARY2okzAmx9lY",
@@ -12380,11 +12921,11 @@
     "current": 80,
     "potential": 88,
     "reputation_tags": [
-      "高技術",
       "丁寧な治療",
-      "信頼感"
+      "高度な専門性",
+      "信頼性"
     ],
-    "reputation_summary": "高い技術と丁寧な治療が評価されており、信頼できる医院です。",
+    "reputation_summary": "治療が早く、丁寧で専門的な対応が評価されています。",
     "phrases": [
       "医師は治療が早く、他の歯科では難しい治療もしっかりしてくれます",
       "いろいろクチコミしているけど、単なる自分に合わないなぁで、グチってるだけですよね",
@@ -12428,8 +12969,8 @@
       ]
     },
     "equipment_evidence": [
-      "世界基準のクラスB滅菌器を導入しています。",
-      "歯科用CTによる精密診断が可能です。"
+      "最新の医療機器を備えています。",
+      "世界基準の衛生管理を徹底しています。"
     ],
     "transparency_evidence": [
       "丁寧なカウンセリングを行い説明を重視しています。"
@@ -12446,9 +12987,9 @@
     },
     "workplace_quality": "職場環境は良好で教育体制も整っています。",
     "fit_for": [
-      "高齢者",
       "インプラント",
-      "歯科恐怖症"
+      "高齢者",
+      "小さな子ども"
     ],
     "not_fit_for": [
       "急患希望",
@@ -12465,7 +13006,7 @@
       "夜9時以降しか通えない人",
       "急患希望は避ける"
     ],
-    "ai_summary": "この医院は高い技術と丁寧な対応を受けたい方に向いています。一方で、急な治療を求める方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、高度な専門治療を必要とする方に向いています。一方、即時の対応を求める方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "患者との強い信頼関係を築いている医院です。",
     "catchphrase": "安心・丁寧な歯科医療",
@@ -12492,7 +13033,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 5,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "インプラント",
+      "予防歯科",
+      "個室",
+      "駐車場"
+    ]
   },
   "ChIJmWvz-5WNAGAReZidMdmlsL0": {
     "place_id": "ChIJmWvz-5WNAGAReZidMdmlsL0",
@@ -12513,22 +13075,22 @@
       "日曜日: 11時00分～15時00分"
     ],
     "genre": "一般歯科",
-    "total_score": 74,
+    "total_score": 67,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 10,
-    "transparency_score": 12,
-    "activity_score": 10,
+    "equipment_score": 0,
+    "transparency_score": 10,
+    "activity_score": 15,
     "google_bonus": 2,
-    "clinic_score": 22,
-    "current": 72,
-    "potential": 68,
+    "clinic_score": 10,
+    "current": 65,
+    "potential": 48,
     "reputation_tags": [
-      "女医",
-      "明るい雰囲気",
+      "明るい女医",
+      "良好なコミュニケーション",
       "楽しい通院"
     ],
-    "reputation_summary": "明るく気さくな女医に楽しく通院できるとの声が多いです。",
+    "reputation_summary": "患者の楽しみを重視し、信頼感のある医院です。",
     "phrases": [
       "4年ほどこちらでお世話になりました",
       "咬筋ボトックスをお願いしました！",
@@ -12581,8 +13143,7 @@
     "workplace_quality": "",
     "fit_for": [
       "女性",
-      "若い世代",
-      "歯科恐怖症"
+      "忙しい人"
     ],
     "not_fit_for": [
       "子ども",
@@ -12600,7 +13161,7 @@
       "急患を希望する人",
       "子ども連れの人"
     ],
-    "ai_summary": "この医院は楽しく通院したい方、コミュニケーションを重視する方に向いています。一方、急患希望や子ども連れの方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、明るい対応としっかりした説明を求める方に向いています。一方、急な治療を希望する方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "患者とのコミュニケーションを大切にする女医の医院です。",
     "catchphrase": "明るく楽しい矯正治療",
@@ -12627,7 +13188,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "予防歯科"
+    ]
   },
   "ChIJwXxq5dSMAGAREwhoXTu3_Qg": {
     "place_id": "ChIJwXxq5dSMAGAREwhoXTu3_Qg",
@@ -12648,22 +13228,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 72,
+    "total_score": 52,
     "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 10,
-    "transparency_score": 10,
-    "activity_score": 10,
+    "transparency_score": 0,
+    "activity_score": 0,
     "google_bonus": 2,
-    "clinic_score": 20,
-    "current": 70,
+    "clinic_score": 10,
+    "current": 50,
     "potential": 68,
     "reputation_tags": [
-      "安心の治療",
-      "ファミリー向け",
-      "長い付き合い"
+      "家族で通う",
+      "丁寧な対応",
+      "駐車場完備"
     ],
-    "reputation_summary": "家族で長く通える、丁寧で的確な治療が評判のクリニックです。",
+    "reputation_summary": "家族全員で長年通っているという安心感があります。丁寧な治療が評価されています。",
     "phrases": [
       "知人から良い歯医者と紹介してもらって、もう20年以上、私だけじゃなく子供たちもここで診てもらっています",
       "いつも丁寧で、的確な治療をしてくださる",
@@ -12699,7 +13279,7 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "現地の評価には機器についての情報がない"
+      "駐車場が2台分あるとの情報があります。"
     ],
     "transparency_evidence": [
       "公式サイトに診療時間や連絡先が明示されている"
@@ -12716,8 +13296,8 @@
     "workplace_quality": "",
     "fit_for": [
       "子ども",
-      "高齢者",
-      "忙しい人"
+      "家族",
+      "高齢者"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -12734,7 +13314,7 @@
       "夜9時以降しか通えない人",
       "急に治療が必要な人"
     ],
-    "ai_summary": "この医院は、家族全員で安心して通えるクリニックです。治療が丁寧で、特に子どもにも優しく対応してくれます。一方、夜しか通えない方には不向きかもしれません。",
+    "ai_summary": "この医院は、丁寧な治療と優しい対応で家族連れに最適ですが、急な対応が必要な方には向いていません。落ち着いた環境で歯科治療を受けたい方におすすめです。",
     "notable": true,
     "notable_reason": "家族全員が信頼できる歯科医療を受けられます。",
     "catchphrase": "家族で通える安心の歯科",
@@ -12761,7 +13341,25 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 4,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 2,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "駐車場"
+    ]
   },
   "ChIJVV7XYirzAGARJI4B3wQrjIU": {
     "place_id": "ChIJVV7XYirzAGARJI4B3wQrjIU",
@@ -12786,18 +13384,18 @@
     "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 15,
-    "transparency_score": 12,
-    "activity_score": 10,
+    "transparency_score": 10,
+    "activity_score": 12,
     "google_bonus": 5,
-    "clinic_score": 27,
+    "clinic_score": 25,
     "current": 77,
     "potential": 78,
     "reputation_tags": [
-      "信頼できる",
-      "家族向け",
-      "高評価"
+      "良質な矯正",
+      "小児歯科",
+      "通院しやすい"
     ],
-    "reputation_summary": "長年通う患者が多く、技術と対応が評価されています。",
+    "reputation_summary": "長期にわたり信頼を寄せる患者が多く、通院しやすい環境が評価されています。",
     "phrases": [
       "私は左右八重歯・出っ歯・欠損箇所もあり、矯正のために2年以上通っています",
       "息子の過剰歯が判明し、ワイヤー矯正で大変お世話になりました",
@@ -12837,8 +13435,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新の医療設備を導入",
-      "安全性の高い滅菌システムあり"
+      "最新の医療設備を導入している。",
+      "個室での治療が可能。"
     ],
     "transparency_evidence": [
       "患者への説明を大切にしている"
@@ -12855,8 +13453,8 @@
     "workplace_quality": "教育制度が充実した職場です。",
     "fit_for": [
       "子ども",
-      "家族",
-      "矯正希望者"
+      "高齢者",
+      "インプラント"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -12873,7 +13471,7 @@
       "夜9時以降しか通えない人",
       "急患希望の人"
     ],
-    "ai_summary": "芦屋川 聖栄歯科医院は、信頼できる医療を提供し、特に家族や子どもに向いています。一方で、夜間の通院を希望される方には他院の検討をおすすめします。",
+    "ai_summary": "この医院は小さなお子様や、長期的な治療を希望する患者に向いています。一方、急いで治療を受けたい方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "患者のリピート率が高く、信頼性があるため。",
     "catchphrase": "家族に優しい笑顔のために",
@@ -12900,7 +13498,29 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 5,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 4,
+      "個室": 5,
+      "駐車場": 3,
+      "バリアフリー": 4
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 3
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "小児歯科",
+      "予防歯科",
+      "個室",
+      "キッズルーム"
+    ]
   },
   "ChIJr7vUJdHyAGARrM93dGIR1V8": {
     "place_id": "ChIJr7vUJdHyAGARrM93dGIR1V8",
@@ -12994,7 +13614,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJq6UPQ9byAGARSh8hchZc0YU": {
     "place_id": "ChIJq6UPQ9byAGARSh8hchZc0YU",
@@ -13015,22 +13638,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 70,
+    "total_score": 65,
     "reputation_score": 15,
     "doctor_score": 20,
     "equipment_score": 15,
-    "transparency_score": 10,
+    "transparency_score": 5,
     "activity_score": 10,
     "google_bonus": 0,
-    "clinic_score": 25,
-    "current": 70,
+    "clinic_score": 20,
+    "current": 65,
     "potential": 78,
     "reputation_tags": [
-      "信頼関係",
-      "予約制",
-      "相談受付"
+      "信頼関係重視",
+      "無料相談あり",
+      "口腔外科対応"
     ],
-    "reputation_summary": "患者との信頼関係を大切にする医院です。無料相談もあり安心です。",
+    "reputation_summary": "患者との信頼関係を重視し、多様な治療法が相談可能な医院です。",
     "phrases": [],
     "sources_analyzed": 1,
     "patient_scores": {
@@ -13069,8 +13692,8 @@
       ]
     },
     "equipment_evidence": [
-      "最新の歯科商品の取り扱いがある",
-      "院内販売の歯科商品あり"
+      "各種歯科商品の院内販売あり",
+      "最新治療法への対応"
     ],
     "transparency_evidence": [
       "完全予約制で透明性のある診療",
@@ -13088,9 +13711,9 @@
     },
     "workplace_quality": "スタッフ教育が行き届いている様子",
     "fit_for": [
+      "忙しい人",
       "高齢者",
-      "インプラント",
-      "歯科恐怖症"
+      "インプラント"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -13107,7 +13730,7 @@
       "夜9時以降しか通えない人",
       "急患希望の方"
     ],
-    "ai_summary": "患者との信頼関係を大切にし、幅広い治療に対応する医院です。特にインプラントや義歯に悩む方には向いています。他院に通うのが難しい方には不向きかもしれません。",
+    "ai_summary": "崎田歯科医院は、信頼関係を重視し、丁寧な説明と技術力で安心の治療が受けられます。急いで治療を希望する方には他院をお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "信頼の歯科治療",
@@ -13134,7 +13757,29 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 3,
+      "マイクロスコープ": 2,
+      "口腔内スキャナー": 1,
+      "個室": 4,
+      "駐車場": 5,
+      "バリアフリー": 3
+    },
+    "patient_fit": {
+      "子ども連れ": 2,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 3,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "口腔外科",
+      "一般歯科",
+      "審美歯科",
+      "予防歯科",
+      "義歯専門外来"
+    ]
   },
   "ChIJt3F_sdDyAGARAwH_UJo6VG4": {
     "place_id": "ChIJt3F_sdDyAGARAwH_UJo6VG4",
@@ -13155,22 +13800,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 82,
-    "reputation_score": 22,
-    "doctor_score": 18,
+    "total_score": 85,
+    "reputation_score": 20,
+    "doctor_score": 20,
     "equipment_score": 15,
-    "transparency_score": 12,
+    "transparency_score": 15,
     "activity_score": 10,
     "google_bonus": 5,
-    "clinic_score": 27,
-    "current": 77,
-    "potential": 73,
+    "clinic_score": 30,
+    "current": 80,
+    "potential": 78,
     "reputation_tags": [
+      "信頼できる",
       "丁寧な対応",
-      "信頼性",
-      "専門性"
+      "子どもに優しい"
     ],
-    "reputation_summary": "スタッフの丁寧さと信頼感が高評価。矯正や治療の実績も多数あります。",
+    "reputation_summary": "丁寧なスタッフが信頼感をもたらし、幅広い治療に対応しています。",
     "phrases": [
       "先生やスタッフのみなさんがとても丁寧で、信頼感があります",
       "虫歯治療のために来院しましたが、矯正しなければ完治できないとアドバイスいただき、矯正までしていただきました",
@@ -13215,8 +13860,8 @@
       ]
     },
     "equipment_evidence": [
-      "最新の治療機器を使用している。",
-      "痛みを軽減する設備が充実。"
+      "痛みを軽減する最新の器具を使用しています。",
+      "衛生管理が徹底されています。"
     ],
     "transparency_evidence": [
       "明確な治療説明が行われている。"
@@ -13234,10 +13879,8 @@
     "workplace_quality": "スタッフ教育がしっかりしている環境。",
     "fit_for": [
       "子ども",
-      "女性",
-      "高齢者",
-      "インプラント",
-      "忙しい人"
+      "忙しい人",
+      "矯正希望者"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -13254,7 +13897,7 @@
       "急患を希望する人",
       "夜間に通いたい人"
     ],
-    "ai_summary": "この医院は丁寧な診療と豊富な治療メニューであり、特に矯正治療に力を入れています。一方、急な治療を希望する方には向いていません。",
+    "ai_summary": "この医院は子ども連れの親や信頼できる歯科医を探す方に向いています。一方、夜遅くの診療を希望する方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "丁寧な対応と専門的治療で多くの信頼を得ている。",
     "catchphrase": "信頼できる歯のホームドクター",
@@ -13281,7 +13924,30 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 2
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "小児歯科",
+      "予防歯科",
+      "審美歯科",
+      "駐車場",
+      "キッズルーム"
+    ]
   },
   "ChIJyeqoIw_zAGARx-XyGzoU2OM": {
     "place_id": "ChIJyeqoIw_zAGARx-XyGzoU2OM",
@@ -13302,22 +13968,22 @@
       "日曜日: 9時00分～16時00分"
     ],
     "genre": "一般歯科",
-    "total_score": 89,
-    "reputation_score": 25,
-    "doctor_score": 25,
+    "total_score": 77,
+    "reputation_score": 20,
+    "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
-    "activity_score": 12,
+    "activity_score": 10,
     "google_bonus": 2,
     "clinic_score": 25,
-    "current": 87,
-    "potential": 90,
+    "current": 75,
+    "potential": 78,
     "reputation_tags": [
-      "技術力が高い",
-      "院長の人柄",
-      "痛みへの配慮"
+      "安心感",
+      "治療の丁寧さ",
+      "オシャレな空間"
     ],
-    "reputation_summary": "家族で通う患者が多く、技術と優しさが評価されています。",
+    "reputation_summary": "院長の腕と人柄が良く、通院しやすいクリニック",
     "phrases": [
       "こちらのクリニックの院長が腕も人柄も良いと思ったので5年以上家族でお世話になってました",
       "インプラントを入れてもらいました",
@@ -13361,8 +14027,8 @@
       ]
     },
     "equipment_evidence": [
-      "コンピュータ制御の麻酔器がある",
-      "治療設備が充実している"
+      "コンピュータ制御の麻酔器を使用",
+      "視覚的に口の状況を確認"
     ],
     "transparency_evidence": [
       "患者にしっかり説明している",
@@ -13381,9 +14047,9 @@
     "workplace_quality": "スタッフ教育が行き届いている",
     "fit_for": [
       "子ども",
-      "女性",
       "高齢者",
       "インプラント",
+      "忙しい人",
       "歯科恐怖症"
     ],
     "not_fit_for": [
@@ -13401,7 +14067,7 @@
       "深夜に通いたい人",
       "場所を重視する人"
     ],
-    "ai_summary": "この医院は、痛みを気にせず安心して通院したい方に向いています。一方、深夜の診療を希望する方には不向きです。",
+    "ai_summary": "【AI総評】この医院は、痛みの少ない治療やおしゃれな空間を求める方に向いています。一方、夜のみ通院したい方には他院を検討することをお勧めします。",
     "notable": true,
     "notable_reason": "家族で安心して通える信頼の歯科医院",
     "catchphrase": "痛みの少ない治療を提供",
@@ -13428,7 +14094,30 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 3,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "インプラント",
+      "小児歯科",
+      "審美歯科",
+      "予防歯科",
+      "個室",
+      "駐車場"
+    ]
   },
   "ChIJ49flgNfyAGARXhkDT_-_UVo": {
     "place_id": "ChIJ49flgNfyAGARXhkDT_-_UVo",
@@ -13449,22 +14138,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 81,
-    "reputation_score": 22,
-    "doctor_score": 20,
+    "total_score": 87,
+    "reputation_score": 25,
+    "doctor_score": 25,
     "equipment_score": 15,
-    "transparency_score": 12,
+    "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 2,
-    "clinic_score": 27,
-    "current": 79,
-    "potential": 78,
+    "clinic_score": 25,
+    "current": 85,
+    "potential": 90,
     "reputation_tags": [
-      "親切なスタッフ",
-      "信頼できる",
-      "地域密着"
+      "優しい対応",
+      "地域密着",
+      "安心感"
     ],
-    "reputation_summary": "家族で通いやすい、親切な歯科医院です。小児も安心して任せられます。",
+    "reputation_summary": "親切なスタッフと先生が、地域に密着した信頼の歯科医院です。",
     "phrases": [
       "スタッフさんも先生も親切な歯科医です",
       "いつもお世話になっている歯医者さん",
@@ -13510,8 +14199,8 @@
       ]
     },
     "equipment_evidence": [
-      "最新の設備・器材に取り組んでいる",
-      "患者のクオリティ重視の治療"
+      "最新の設備に取り組んでいるとの情報あり",
+      "常に質の高い医療を目指す方針"
     ],
     "transparency_evidence": [
       "治療法について時間をかけて相談",
@@ -13532,7 +14221,8 @@
       "子ども",
       "女性",
       "高齢者",
-      "インプラント"
+      "インプラント",
+      "歯科恐怖症"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -13549,7 +14239,7 @@
       "夜9時以降しか通えない人",
       "急患希望の人"
     ],
-    "ai_summary": "この医院は、親切で技術力の高い歯科治療を受けたい方に向いています。一方、急な対応や夜のみの受診希望の方には他院も検討をお勧めします。",
+    "ai_summary": "藤本歯科医院は、患者とのコミュニケーションを重視し、特に子ども連れの方や歯科治療に不安を感じる方に向いています。一方、夜間しか通えない方には他院を検討することをお勧めします。",
     "notable": true,
     "notable_reason": "地域に根ざした歴史のある良心的な歯科医院",
     "catchphrase": "家族みんなで通える歯医者",
@@ -13576,7 +14266,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 4,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 3
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "無痛治療",
+      "駐車場"
+    ]
   },
   "ChIJwW4m0NfyAGARuD9wjw0kvIY": {
     "place_id": "ChIJwW4m0NfyAGARuD9wjw0kvIY",
@@ -13678,7 +14388,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJi9LWZ9ryAGARm0-jxMjVinY": {
     "place_id": "ChIJi9LWZ9ryAGARm0-jxMjVinY",
@@ -13780,7 +14493,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJKWIzkdXyAGARxVZk1N-JD_o": {
     "place_id": "ChIJKWIzkdXyAGARxVZk1N-JD_o",
@@ -13805,10 +14521,10 @@
     "potential": 78,
     "reputation_tags": [
       "地域密着",
-      "優しい医師",
-      "感染対策徹底"
+      "安心診療",
+      "技術力向上"
     ],
-    "reputation_summary": "地域に根差した丁寧な治療を提供する医院です。感染予防にも配慮されています。",
+    "reputation_summary": "地域に根差した安心の歯科診療を提供している医院です。",
     "phrases": [],
     "sources_analyzed": 1,
     "patient_scores": {
@@ -13839,8 +14555,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新の機器を取り入れていると記載あり。",
-      "設備の改善に努めているとの表現も確認。"
+      "新しい機器を取り入れる努力をしている。",
+      "感染予防対策を徹底している。"
     ],
     "transparency_evidence": [
       "治療や予防に関する説明を丁寧に行うと明記。"
@@ -13857,8 +14573,9 @@
     "workplace_quality": "働きやすそうな職場環境が想像される",
     "fit_for": [
       "子ども",
+      "女性",
       "高齢者",
-      "歯科恐怖症"
+      "保険中心"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -13875,7 +14592,7 @@
       "夜9時以降しか通えない人",
       "急な治療を希望する人"
     ],
-    "ai_summary": "池沢歯科医院は地域に密着した丁寧な治療を重視しています。優しい医師との関わりを求める方に向いていますが、夜間診療を希望する方には他院を検討することをお勧めします。",
+    "ai_summary": "この医院は、地域の皆様に信頼される安心の歯科医療を提供しています。一方、夜間に通院希望の方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "地域密着で丁寧な治療を行う医院として推薦",
     "catchphrase": "あなたの歯を守る医院",
@@ -13902,7 +14619,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 2,
+      "マイクロスコープ": 2,
+      "口腔内スキャナー": 2,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 3
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "予防歯科",
+      "駐車場",
+      "バリアフリー"
+    ]
   },
   "ChIJI952tdfyAGARqxFaX0rRit0": {
     "place_id": "ChIJI952tdfyAGARqxFaX0rRit0",
@@ -13923,22 +14661,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 73,
-    "reputation_score": 18,
+    "total_score": 67,
+    "reputation_score": 12,
     "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 0,
     "clinic_score": 25,
-    "current": 73,
+    "current": 67,
     "potential": 78,
     "reputation_tags": [
-      "待ち時間が長い",
+      "待ち時間長い",
       "地域密着",
-      "家族向け"
+      "予防重視"
     ],
-    "reputation_summary": "予約をしたのに長い待ち時間がある印象があり、安心感が弱い印象。",
+    "reputation_summary": "予約しても長時間待たされることがあるようです。また地域貢献が強調されています。",
     "phrases": [
       "予約をして行っても、誰もいないのに30分は、待たされる"
     ],
@@ -13971,8 +14709,7 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "具体的な設備情報は記載なし",
-      "最新の治療を行う医院としての述べあり"
+      "最新設備についての詳細は記載なし。"
     ],
     "transparency_evidence": [
       "治療計画の説明に重点を置いていることが記載されている"
@@ -14008,7 +14745,7 @@
       "急患で来た人",
       "待ち時間が気になる人"
     ],
-    "ai_summary": "この医院は家族で通う歯科医療を希望する方に向いています。一方、短時間での診療を求める方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は家族連れや地域に根ざした治療を求める方に向いています。一方、待ち時間を避けたい方には他の選択肢をお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "地域密着の安心歯科",
@@ -14035,7 +14772,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 3,
+      "マイクロスコープ": 2,
+      "口腔内スキャナー": 2,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 5
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 1,
+      "自由診療も検討": 3,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "予防歯科",
+      "小児歯科",
+      "個室",
+      "キッズルーム"
+    ]
   },
   "ChIJK-t2p9DyAGARi0Yzl6zeIuM": {
     "place_id": "ChIJK-t2p9DyAGARi0Yzl6zeIuM",
@@ -14048,22 +14806,22 @@
     "total_reviews": 6,
     "business_hours": [],
     "genre": "一般歯科",
-    "total_score": 30,
+    "total_score": 45,
     "reputation_score": 10,
-    "doctor_score": 10,
-    "equipment_score": 0,
-    "transparency_score": 10,
-    "activity_score": 0,
+    "doctor_score": 15,
+    "equipment_score": 10,
+    "transparency_score": 5,
+    "activity_score": 5,
     "google_bonus": 0,
-    "clinic_score": 10,
-    "current": 30,
-    "potential": 24,
+    "clinic_score": 15,
+    "current": 45,
+    "potential": 56,
     "reputation_tags": [
-      "痛みへの対応",
+      "技術力の限界",
       "電話対応",
-      "相談しやすい"
+      "抜歯の判断"
     ],
-    "reputation_summary": "痛みがあるが電話対応に不満を持つ患者の声が目立つ医院です。",
+    "reputation_summary": "虫歯の治療を希望する患者がいる一方で、電話対応に課題があります。",
     "phrases": [
       "虫歯が痛くて訪れました",
       "電話対応悪い、いかない"
@@ -14096,7 +14854,10 @@
       "parts": [],
       "techniques": []
     },
-    "equipment_evidence": [],
+    "equipment_evidence": [
+      "公式サイトに具体的な設備情報が記載されていない。",
+      "設備に関する明記が見当たらない。"
+    ],
     "transparency_evidence": [
       "治療方針を患者に説明する姿勢が見える"
     ],
@@ -14110,7 +14871,7 @@
     "workplace_quality": "",
     "fit_for": [
       "高齢者",
-      "相談したい人"
+      "痛みを感じる人"
     ],
     "not_fit_for": [
       "電話対応が優先の人",
@@ -14127,7 +14888,7 @@
       "電話対応が優先の人",
       "急患希望"
     ],
-    "ai_summary": "この医院は、自分の歯を大切にしたい高齢者や相談しやすい環境を望む方に向いています。一方、電話での対応に不満がある方や、急な対応を求める方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は自分の歯を大切にしたい方に向いています。一方、迅速な対応を求める方には不向きかもしれません。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "100才までかめる歯を目指す医院",
@@ -14154,7 +14915,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 3,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "むし歯治療",
+      "歯周病治療",
+      "入れ歯治療"
+    ]
   },
   "ChIJ2TsNPtbyAGARPTDAnjmxH-4": {
     "place_id": "ChIJ2TsNPtbyAGARPTDAnjmxH-4",
@@ -14186,11 +14967,11 @@
     "current": 75,
     "potential": 78,
     "reputation_tags": [
-      "親切なスタッフ",
-      "技術力高い",
-      "緊急対応"
+      "優しい",
+      "親切",
+      "技術力高"
     ],
-    "reputation_summary": "スタッフが親切で、緊急時にも迅速に対応してくれるクリニックです。",
+    "reputation_summary": "親切なスタッフと丁寧な治療が評判の医院です。",
     "phrases": [
       "【歯石除去・歯の健康診断目的で】",
       "そこで根管治療をしてもらいましたが、スタッフはとても親切で、医師もとても優しく、緊急事態だったにもかかわらず、その日のうちに診察してくれました"
@@ -14231,8 +15012,7 @@
       ]
     },
     "equipment_evidence": [
-      "ISO 9000認証取得",
-      "最新の治療機器を使用"
+      "ISOを取得したクリニックで信頼性高"
     ],
     "transparency_evidence": [
       "治療方法、費用を丁寧に説明"
@@ -14249,9 +15029,10 @@
     },
     "workplace_quality": "スタッフが活躍できる環境",
     "fit_for": [
+      "女性",
       "高齢者",
       "インプラント",
-      "歯科恐怖症"
+      "自由診療"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -14268,7 +15049,7 @@
       "夜9時以降しか通えない人",
       "急患対応を優先する人"
     ],
-    "ai_summary": "この医院は、高齢者やインプラント治療希望者に向いています。一方、緊急の治療が必要な方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は優しさと丁寧な説明を求める方に向いています。一方、急な治療を必要とする方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "親切な対応と高い技術力で患者の期待に応えています。",
     "catchphrase": "安心して通える歯医者",
@@ -14295,7 +15076,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 0,
+      "個室": 3,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 5,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "インプラント",
+      "審美歯科",
+      "再生治療"
+    ]
   },
   "ChIJCUp1L9byAGARfGSm9ZazbEI": {
     "place_id": "ChIJCUp1L9byAGARfGSm9ZazbEI",
@@ -14327,11 +15128,11 @@
     "current": 50,
     "potential": 60,
     "reputation_tags": [
-      "親切丁寧",
-      "技術力高い",
-      "スタッフ優秀"
+      "親切",
+      "丁寧",
+      "技術力"
     ],
-    "reputation_summary": "全体的に親切で技術力が高く、安心できるクリニックという評価",
+    "reputation_summary": "親切で丁寧な対応が印象的で、信頼できる歯科医院です。",
     "phrases": [
       "両脇にできた粉瘤(アテローム)の切除で",
       "カウンセリングから施術、その後の診察まで終始親切、丁寧でとても安心できました☺︎",
@@ -14379,8 +15180,7 @@
     "workplace_quality": "優れた職場環境と評判",
     "fit_for": [
       "女性",
-      "高齢者",
-      "インプラント"
+      "高齢者"
     ],
     "not_fit_for": [
       "急患希望",
@@ -14397,7 +15197,7 @@
       "急患希望の人",
       "夜しか通えない人"
     ],
-    "ai_summary": "この医院は、親切で丁寧な治療を求める方に向いています。一方で、急な治療を希望される方には他院を検討することをおすすめします。",
+    "ai_summary": "この医院は親切で丁寧な対応を求める方におすすめです。一方、厚い証明や高度な専門性を求める方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "技術力とスタッフの質が非常に高いため",
     "catchphrase": "安心できる治療を提供",
@@ -14424,7 +15224,25 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "審美歯科"
+    ]
   },
   "ChIJRyALIqnzAGAR4nTkHFUGlJE": {
     "place_id": "ChIJRyALIqnzAGAR4nTkHFUGlJE",
@@ -14456,11 +15274,11 @@
     "current": 75,
     "potential": 78,
     "reputation_tags": [
-      "清潔感がある",
       "丁寧な対応",
-      "安心感"
+      "清潔感",
+      "患者目線"
     ],
-    "reputation_summary": "清潔で丁寧な対応が評判の歯科医院。特に説明がわかりやすい。",
+    "reputation_summary": "清潔感が高く、丁寧な対応で安心して通える歯科医院です。",
     "phrases": [
       "院内も清潔感があり、先生やスタッフの方が丁寧に対応してくださいます",
       "以前通っていた歯科では歯ブラシ指導などは特になかったのですが、こちらでは今の状態だけでなく、今後起こりうるリスクまで丁寧に説明していただけました",
@@ -14504,8 +15322,8 @@
       ]
     },
     "equipment_evidence": [
-      "最新設備を取り入れているとのこと。",
-      "詳細は記載されていないが、質の高い治療が期待できる。"
+      "最新設備を取り入れている",
+      "訪問歯科にも対応している"
     ],
     "transparency_evidence": [
       "患者一人ひとりに時間をかけたカウンセリング。"
@@ -14521,7 +15339,6 @@
     },
     "workplace_quality": "教育体制が整っている環境",
     "fit_for": [
-      "女性",
       "高齢者",
       "インプラント",
       "歯科恐怖症"
@@ -14541,7 +15358,7 @@
       "急患希望の人",
       "夜9時以降に通いたい人"
     ],
-    "ai_summary": "この医院は、丁寧な対応を求める方に最適です。一方で、急患を希望する方には他院を検討することをお勧めします。",
+    "ai_summary": "毎日デンタルクリニック芦屋診療所は、丁寧な説明と優しい対応が魅力です。一方、急な治療を希望する方には不向きかもしれません。",
     "notable": true,
     "notable_reason": "患者に寄り添った丁寧な治療が評判で、安心して通える医院。",
     "catchphrase": "安心して通える歯医者",
@@ -14568,7 +15385,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "訪問歯科",
+      "インプラント",
+      "審美歯科",
+      "駐車場"
+    ]
   },
   "ChIJi048OtvzAGARngwsAz1y5oM": {
     "place_id": "ChIJi048OtvzAGARngwsAz1y5oM",
@@ -14708,22 +15546,22 @@
       "日曜日: 9時30分～13時00分, 14時00分～17時00分"
     ],
     "genre": "一般歯科",
-    "total_score": 83,
-    "reputation_score": 20,
+    "total_score": 88,
+    "reputation_score": 25,
     "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 8,
     "clinic_score": 25,
-    "current": 75,
+    "current": 80,
     "potential": 78,
     "reputation_tags": [
       "丁寧な対応",
-      "家族におすすめ",
-      "通いやすい"
+      "通いやすい",
+      "家族で安心"
     ],
-    "reputation_summary": "スタッフの対応が丁寧で、予約が取りやすく通いやすい医院です。",
+    "reputation_summary": "家族で通う患者が多く、丁寧な対応で信頼される歯科医院です。",
     "phrases": [
       "担当の先生、スタッフの皆様全てがいつも感じよく丁寧に対応してくださり有難い",
       "家族全員で15年近くお世話になっています",
@@ -14769,8 +15607,8 @@
       ]
     },
     "equipment_evidence": [
-      "最新の設備を備えた医院",
-      "感染症対策に力を入れている"
+      "最新の設備を導入しています。",
+      "衛生管理に力を入れています。"
     ],
     "transparency_evidence": [
       "丁寧な説明を心がけている"
@@ -14788,7 +15626,9 @@
     "workplace_quality": "アットホームな雰囲気の職場です",
     "fit_for": [
       "子ども",
+      "女性",
       "高齢者",
+      "インプラント",
       "忙しい人"
     ],
     "not_fit_for": [
@@ -14806,7 +15646,7 @@
       "急患希望の人",
       "夜遅くしか通えない人"
     ],
-    "ai_summary": "この医院は丁寧な対応と幅広い診療メニューが魅力です。忙しい方でも通いやすい環境が整っていますが、急患対応を優先する方には向いていません。",
+    "ai_summary": "この医院は、家族全員で通える温かい歯科医院です。安全で丁寧な治療を求める方にピッタリですが、急な対応が必要な方には不向きかもしれません。",
     "notable": true,
     "notable_reason": "地域に根ざした信頼性の高い歯科医院と評価しています。",
     "catchphrase": "安心して通える歯医者",
@@ -14833,7 +15673,30 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 4,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 5
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "小児歯科",
+      "インプラント",
+      "予防歯科",
+      "個室",
+      "バリアフリー"
+    ]
   },
   "ChIJ824MPv3zAGARwv4-zErmMKI": {
     "place_id": "ChIJ824MPv3zAGARwv4-zErmMKI",
@@ -14854,22 +15717,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 72,
+    "total_score": 77,
     "reputation_score": 20,
-    "doctor_score": 15,
+    "doctor_score": 18,
     "equipment_score": 15,
     "transparency_score": 10,
-    "activity_score": 10,
+    "activity_score": 12,
     "google_bonus": 2,
     "clinic_score": 25,
-    "current": 70,
-    "potential": 66,
+    "current": 75,
+    "potential": 73,
     "reputation_tags": [
-      "ホリスティック治療",
+      "ホリスティック",
       "口臭治療",
-      "美容医療"
+      "高濃度ビタミンC"
     ],
-    "reputation_summary": "ホリスティックなアプローチと口臭治療に特化したクリニックです。",
+    "reputation_summary": "高濃度ビタミンC点滴やホリスティックなアプローチが人気のクリニックです。",
     "phrases": [],
     "sources_analyzed": 2,
     "patient_scores": {
@@ -14907,8 +15770,8 @@
       ]
     },
     "equipment_evidence": [
-      "院内消毒の徹底",
-      "最新の治療機器を使用"
+      "高濃度ビタミンC点滴を行う設備があります。",
+      "最新の医療設備を整えています。"
     ],
     "transparency_evidence": [
       "WEB問診での情報提供あり"
@@ -14925,9 +15788,9 @@
     },
     "workplace_quality": "スタッフの教育が充実している",
     "fit_for": [
-      "女性",
       "高齢者",
-      "忙しい人"
+      "美容に関心のある人",
+      "口臭に悩む人"
     ],
     "not_fit_for": [
       "子ども",
@@ -14944,7 +15807,7 @@
       "急患対応重視の人",
       "夜間通院希望の人"
     ],
-    "ai_summary": "この医院はホリスティックなアプローチを求める方に最適です。一方、急な治療を希望する方には他院をお勧めします。",
+    "ai_summary": "この医院は口臭や美容への関心が高い方に向いています。一方、即効性を求める方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "ホリスティックな治療法を通じて、心身のケアを重視した点が評価されています。",
     "catchphrase": "心と身体を美しく",
@@ -14971,7 +15834,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 4,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 5,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "口臭外来",
+      "ホワイトニング",
+      "ビタミン点滴"
+    ]
   },
   "ChIJm8r9ONfyAGAR5AVAQ0HUSyw": {
     "place_id": "ChIJm8r9ONfyAGAR5AVAQ0HUSyw",
@@ -15929,7 +16812,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJQz7ByCnzAGAR-qrPcywPdF0": {
     "place_id": "ChIJQz7ByCnzAGAR-qrPcywPdF0",
@@ -16190,22 +17076,22 @@
     "total_reviews": 15,
     "business_hours": [],
     "genre": "一般歯科",
-    "total_score": 42,
+    "total_score": 77,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 0,
-    "transparency_score": 0,
-    "activity_score": 0,
+    "equipment_score": 15,
+    "transparency_score": 10,
+    "activity_score": 10,
     "google_bonus": 2,
-    "clinic_score": 0,
-    "current": 40,
-    "potential": 48,
+    "clinic_score": 25,
+    "current": 75,
+    "potential": 78,
     "reputation_tags": [
       "インプラント",
-      "患者満足",
-      "信頼の医院"
+      "信頼の医院",
+      "芦屋の名店"
     ],
-    "reputation_summary": "インプラント治療に高評価、伝統ある歯科医院として安心感があります。",
+    "reputation_summary": "インプラント治療の経験が豊富で、信頼できる医院と評判です。",
     "phrases": [
       "思い切ってインプラントにしてほんとに良かったです",
       "左下大臼歯の歯茎が腫れて治療して戴いていましたが、保存不可能で抜歯しブリッジを作って戴きました",
@@ -16250,7 +17136,9 @@
         "インプラント"
       ]
     },
-    "equipment_evidence": [],
+    "equipment_evidence": [
+      "患者の声から清潔感が伺える"
+    ],
     "transparency_evidence": [],
     "activity_evidence": [],
     "workplace_stars": {
@@ -16278,7 +17166,7 @@
       "夜9時以降しか通えない人",
       "駅近を最優先する人"
     ],
-    "ai_summary": "この医院はインプラント治療を希望する方に向いています。一方、夜間診療を希望する方には他院も検討をお勧めします。",
+    "ai_summary": "上住歯科医院はインプラント治療に強い医院です。インプラントを希望する方には最適ですが、子ども連れの方には不向きです。",
     "notable": true,
     "notable_reason": "インプラント治療の成功率が高い",
     "catchphrase": "歴史ある信頼の医院",
@@ -16305,7 +17193,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 5,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "インプラント",
+      "審美歯科"
+    ]
   },
   "ChIJe4D0CADzAGARwfSIdCOhZzs": {
     "place_id": "ChIJe4D0CADzAGARwfSIdCOhZzs",
@@ -16337,11 +17244,11 @@
     "current": 75,
     "potential": 78,
     "reputation_tags": [
+      "丁寧な対応",
       "家族向け",
-      "子ども対応",
-      "痛み軽減"
+      "痛みの少ない治療"
     ],
-    "reputation_summary": "家族で通える、丁寧な対応の医院です。子どもに優しく、痛みへの配慮も良好です。",
+    "reputation_summary": "家族全体で通いやすい、丁寧な治療を提供する医院です。",
     "phrases": [
       "家族で定期検診のために来院しました",
       "家族みんなの、かかりつけ医です",
@@ -16386,8 +17293,8 @@
       ]
     },
     "equipment_evidence": [
-      "マイクロスコープを全室で完備しています。",
-      "感染対策用にラバーダムを使用。"
+      "マイクロスコープ導入で精密治療。",
+      "ラバーダムを使用し感染対策。"
     ],
     "transparency_evidence": [
       "治療前に状態を可視化し説明があります。"
@@ -16406,7 +17313,8 @@
     "fit_for": [
       "子ども",
       "女性",
-      "矯正が必要な人"
+      "高齢者",
+      "忙しい人"
     ],
     "not_fit_for": [
       "急患希望",
@@ -16423,7 +17331,7 @@
       "夜9時以降しか通えない人",
       "駅近を最優先する人"
     ],
-    "ai_summary": "この医院は特に子どもにやさしい治療を重視しています。一方、急な治療が必要な方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、家族全員が通いやすい丁寧な治療を受けたい方に向いています。一方、夜間しか通えない方には他院を検討することをお勧めします。",
     "notable": true,
     "notable_reason": "丁寧で子どもに優しい診療が評判です。",
     "catchphrase": "家族で通える安心歯科",
@@ -16450,7 +17358,29 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 5,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 4,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "小児歯科",
+      "予防歯科",
+      "個室",
+      "駐車場"
+    ]
   },
   "ChIJd9BzbdzyAGARZLIGrUklHvQ": {
     "place_id": "ChIJd9BzbdzyAGARZLIGrUklHvQ",
@@ -16471,22 +17401,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 92,
+    "total_score": 100,
     "reputation_score": 25,
     "doctor_score": 25,
-    "equipment_score": 15,
-    "transparency_score": 10,
+    "equipment_score": 20,
+    "transparency_score": 15,
     "activity_score": 15,
     "google_bonus": 2,
-    "clinic_score": 25,
-    "current": 90,
-    "potential": 90,
+    "clinic_score": 35,
+    "current": 100,
+    "potential": 100,
     "reputation_tags": [
-      "信頼の治療",
-      "優しい先生",
-      "丁寧な診察"
+      "信頼性の高い治療",
+      "技術力",
+      "優しさ"
     ],
-    "reputation_summary": "優しい対応と的確な治療で信頼されている歯科医院。",
+    "reputation_summary": "丁寧で信頼できる治療を受けられる歯科クリニックです。",
     "phrases": [
       "15年以上にわたり戸島先生には大変お世話になっています",
       "いつも優しく的確な治療をして頂いており、",
@@ -16526,8 +17456,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "オンライン資格確認を実施",
-      "質の高い診療情報を提供"
+      "オンライン資格確認を導入している",
+      "質の高い診療が行われている"
     ],
     "transparency_evidence": [
       "治療例を掲載している公式サイトあり"
@@ -16544,9 +17474,10 @@
     },
     "workplace_quality": "多様な働き方が可能で手厚いサポート",
     "fit_for": [
-      "高齢者",
       "インプラント",
-      "忙しい人"
+      "女性",
+      "高齢者",
+      "小さな子どもがいる人"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -16563,7 +17494,7 @@
       "夜しか通えない人",
       "急患希望"
     ],
-    "ai_summary": "この医院は、丁寧で優しい医療を受けたい方に向いています。一方、急いで治療を終えたい方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、信頼できる治療を重視する方に向いています。一方、急いで治療を終えたい方には他院を検討することをお勧めします。",
     "notable": true,
     "notable_reason": "患者の信頼を得ている優良な歯科医院だから。",
     "catchphrase": "信頼される歯科医療",
@@ -16590,7 +17521,30 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 5,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "インプラント",
+      "予防歯科",
+      "セラミック治療",
+      "個室",
+      "駐車場"
+    ]
   },
   "ChIJ9X8ntNnyAGARfVyYNXtZsMM": {
     "place_id": "ChIJ9X8ntNnyAGARfVyYNXtZsMM",
@@ -16622,11 +17576,11 @@
     "current": 15,
     "potential": 0,
     "reputation_tags": [
-      "矯正",
-      "友人おすすめ",
-      "評価低"
+      "歯列矯正",
+      "友達紹介",
+      "被害経験"
     ],
-    "reputation_summary": "歯列矯正で通った患者からの評価が分かれています。友人連れの高評価もあります。",
+    "reputation_summary": "矯正治療や友人の紹介を通じた体験が多く見受けられます。",
     "phrases": [
       "数年前、歯列矯正で2年ほど通いました",
       "ロコさんとまったく同じ被害を受けました",
@@ -16659,7 +17613,10 @@
       ],
       "techniques": []
     },
-    "equipment_evidence": [],
+    "equipment_evidence": [
+      "情報なし",
+      "情報なし"
+    ],
     "transparency_evidence": [],
     "activity_evidence": [],
     "workplace_stars": {
@@ -16671,7 +17628,7 @@
     "workplace_quality": "",
     "fit_for": [
       "子ども",
-      "矯正を希望する人"
+      "忙しい人"
     ],
     "not_fit_for": [
       "予約が取りづらい人",
@@ -16688,7 +17645,7 @@
       "優れた技術を求める人",
       "急いで治療が必要な人"
     ],
-    "ai_summary": "この医院は歯列矯正を希望する方に適しています。一方、確実な評判を求める方には他院の検討をお勧めします。",
+    "ai_summary": "「かとう歯科」は矯正治療を希望する方に向いています。一方、詳しい説明や配慮を求める方には他院をおすすめします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "友人と一緒に通いやすい",
@@ -16715,7 +17672,25 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "矯正歯科"
+    ]
   },
   "ChIJm3tSDYnzAGARklCpooX_ePc": {
     "place_id": "ChIJm3tSDYnzAGARklCpooX_ePc",
@@ -16736,22 +17711,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 72,
+    "total_score": 77,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 10,
+    "equipment_score": 15,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 2,
-    "clinic_score": 20,
-    "current": 70,
-    "potential": 68,
+    "clinic_score": 25,
+    "current": 75,
+    "potential": 78,
     "reputation_tags": [
       "丁寧な説明",
-      "便利な立地",
-      "子ども対応"
+      "アクセス良好",
+      "子供対応"
     ],
-    "reputation_summary": "優しく丁寧な診療と駅近の立地が好評のクリニックです。",
+    "reputation_summary": "優しいスタッフが揃い、安心して通える地域密着型の歯科医院です。",
     "phrases": [
       "前は、別の所の歯医者に通っていたのですが、通うのに時間がかかるのと、体調も優れなかったので、近くの歯科を探して、こちらへ",
       "先生、歯科衛生士さん共に優しく丁寧に説明や施術をしてくれるので、安心して通える歯医者さんです",
@@ -16788,8 +17763,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "厚生労働省基準を満たした施設です。",
-      "最新設備の導入が進んでいます。"
+      "最新の治療法を提供する能力を有している",
+      "口腔管理体制強化加算の基準を満たしている"
     ],
     "transparency_evidence": [
       "治療法についての説明が充実しています。"
@@ -16807,9 +17782,8 @@
     "workplace_quality": "教育制度が整った働きやすい環境です。",
     "fit_for": [
       "子ども",
-      "女性",
       "高齢者",
-      "忙しい人"
+      "歯科恐怖症"
     ],
     "not_fit_for": [
       "急患希望",
@@ -16826,7 +17800,7 @@
       "夜9時以降しか通えない人",
       "急患希望の人"
     ],
-    "ai_summary": "この医院は、子どもや忙しい方に向いています。一方、急患や夜間診療が必要な方には他院も検討をお勧めします。",
+    "ai_summary": "にしきデンタルクリニックは、丁寧な説明と子どもに優しい環境が特徴です。一方、夜間通院を希望される方には他の歯科医院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "患者思いの丁寧な診療が評価されています。",
     "catchphrase": "安心・丁寧な歯科診療",
@@ -16853,7 +17827,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 3,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 3,
+      "個室": 4,
+      "駐車場": 4,
+      "バリアフリー": 4
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 4,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "予防歯科",
+      "審美歯科"
+    ]
   },
   "ChIJuzrwz9nyAGARhYzezRnPfh8": {
     "place_id": "ChIJuzrwz9nyAGARhYzezRnPfh8",
@@ -16885,11 +17879,11 @@
     "current": 75,
     "potential": 78,
     "reputation_tags": [
-      "親知らず専門",
-      "清潔感あり",
-      "丁寧な対応"
+      "親知らず抜歯",
+      "丁寧な治療",
+      "安心感"
     ],
-    "reputation_summary": "親知らずの抜歯を得意とし、清潔な院内と丁寧な接遇が評価されています。",
+    "reputation_summary": "親知らずの抜歯に定評があり、患者に寄り添った治療が受けられる医院です。",
     "phrases": [
       "長男が親知らずを左右上下4本抜いてもらった",
       "親知らず4本と矯正のための便宜抜歯をしていただきました",
@@ -16933,8 +17927,8 @@
       ]
     },
     "equipment_evidence": [
-      "高い基準の滅菌処理を実施",
-      "各種医療機器が揃っている"
+      "CT撮影が可能で高度な処置ができる。",
+      "滅菌処理が徹底されている。"
     ],
     "transparency_evidence": [
       "治療計画を丁寧に説明する方針"
@@ -16952,8 +17946,8 @@
     "workplace_quality": "働きやすい環境が整っています。",
     "fit_for": [
       "高齢者",
-      "親知らずが気になる人",
-      "矯正中の人"
+      "インプラント",
+      "歯科恐怖症"
     ],
     "not_fit_for": [
       "急患希望",
@@ -16970,7 +17964,7 @@
       "夜9時以降しか通えない人",
       "急な治療が必要な人"
     ],
-    "ai_summary": "この医院は親知らずの抜歯が必要な方や清潔な環境を求める方に向いています。一方、急な対応を希望する方には他院の検討をお勧めします。",
+    "ai_summary": "この医院は、親知らずの抜歯や丁寧な治療を求める方に向いています。一方で、夜間診療を希望する方には他院の検討をお勧めします。",
     "notable": true,
     "notable_reason": "専門性が高く信頼できる治療を提供しています。",
     "catchphrase": "安心の口腔外科",
@@ -16997,7 +17991,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 5,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 3,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 3,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "口腔外科",
+      "親知らずの抜歯",
+      "訪問歯科"
+    ]
   },
   "ChIJucLAJADzAGARmNwp3QDSjOY": {
     "place_id": "ChIJucLAJADzAGARmNwp3QDSjOY",
@@ -17018,22 +18032,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 75,
+    "total_score": 80,
     "reputation_score": 20,
-    "doctor_score": 20,
+    "doctor_score": 23,
     "equipment_score": 15,
-    "transparency_score": 10,
+    "transparency_score": 12,
     "activity_score": 10,
     "google_bonus": 0,
-    "clinic_score": 25,
-    "current": 75,
-    "potential": 78,
+    "clinic_score": 27,
+    "current": 80,
+    "potential": 85,
     "reputation_tags": [
-      "女性医師",
-      "小児矯正",
-      "通いやすい"
+      "信頼できる",
+      "高技術",
+      "親身な対応"
     ],
-    "reputation_summary": "女性医師による丁寧な説明で安心して通院できる矯正専門医院です。",
+    "reputation_summary": "丁寧な説明と優しい対応で、安心して通える矯正専門歯科です。",
     "phrases": [],
     "sources_analyzed": 3,
     "patient_scores": {
@@ -17067,8 +18081,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "清潔感のある院内設計",
-      "現代的な設備を整えている"
+      "現代的な院内設備を整えています。",
+      "清潔感のある環境を提供。"
     ],
     "transparency_evidence": [
       "治療の流れを丁寧に説明",
@@ -17088,7 +18102,8 @@
     "fit_for": [
       "子ども",
       "女性",
-      "高齢者"
+      "高齢者",
+      "忙しい人"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -17105,7 +18120,7 @@
       "夜9時以降しか通えない人",
       "急いで治療したい人"
     ],
-    "ai_summary": "この医院は小児矯正を重視し、女性医師による安心感を求める方に向いています。一方で、夜間の通院を優先する方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は子どもの矯正治療や親身な対応を重視する方に向いています。一方、夜間のみ通える方には他院をお勧めします。",
     "notable": true,
     "notable_reason": "矯正専門の高い技術と患者目線の治療提供",
     "catchphrase": "笑顔に自信を持つために",
@@ -17132,7 +18147,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 5,
+      "駐車場": 0,
+      "バリアフリー": 4
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 5,
+      "保険中心": 3
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "小児歯科",
+      "個室",
+      "バリアフリー"
+    ]
   },
   "ChIJaZPXBt3yAGARiFUREfdWO_0": {
     "place_id": "ChIJaZPXBt3yAGARiFUREfdWO_0",
@@ -17165,10 +18201,10 @@
     "potential": 44,
     "reputation_tags": [
       "高圧的な態度",
-      "清潔感あり",
-      "街の歯医者"
+      "清潔感は問題なし",
+      "患者の不安"
     ],
-    "reputation_summary": "高圧的な印象で不満の声が目立つ医院です。清潔感はあるとの意見もあります。",
+    "reputation_summary": "高圧的な院長の態度が目立ち、口コミ評価は低めです。",
     "phrases": [
       "星1つすら付けたくありませんが仕様なので仕方なく星1つにします",
       "こちらは街の歯医者さんといった感じで、",
@@ -17205,8 +18241,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新の設備についての情報はありません。",
-      "施設基準について記載されています。"
+      "設備の具体的情報は不足しています",
+      "情報を伴う設備の評価なし"
     ],
     "transparency_evidence": [
       "公式サイトに施設基準が記載されています。"
@@ -17240,7 +18276,7 @@
       "高圧的な対応が苦手な人",
       "急患希望の人"
     ],
-    "ai_summary": "この医院は、清潔感はあるものの高圧的な対応が気になる方には向いていません。一方、静かな環境での診療を望む高齢者には適しています。",
+    "ai_summary": "この医院は高齢者向けの対応がありますが、高圧的な院長の態度が目立ち、特に子ども連れの患者には向いていないかもしれません。他院を検討した方が良いです。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "高圧で不満多めの歯科医",
@@ -17267,7 +18303,25 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 2,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "矯正歯科"
+    ]
   },
   "ChIJac9R8sLyAGARAHX7yWBTUtg": {
     "place_id": "ChIJac9R8sLyAGARAHX7yWBTUtg",
@@ -17280,22 +18334,22 @@
     "total_reviews": 14,
     "business_hours": [],
     "genre": "一般歯科",
-    "total_score": 68,
-    "reputation_score": 18,
+    "total_score": 65,
+    "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 10,
     "transparency_score": 10,
-    "activity_score": 10,
+    "activity_score": 5,
     "google_bonus": 0,
     "clinic_score": 20,
-    "current": 68,
+    "current": 65,
     "potential": 68,
     "reputation_tags": [
-      "親切なスタッフ",
-      "緊急対応",
-      "長年の信頼"
+      "優しいスタッフ",
+      "長年の信頼",
+      "緊急対応"
     ],
-    "reputation_summary": "優しいスタッフと迅速な対応で、長年通う患者が多いクリニックです。",
+    "reputation_summary": "スタッフが優しく、長期的に通う患者が多い医院です。",
     "phrases": [
       "歯の痛みがあり、連絡した翌日には緊急で対応をしてもらえました",
       "長年通ってますが、担当の先生も歯科衛生士さんもとても優しくて親切です",
@@ -17331,7 +18385,7 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "公式サイトで特に設備についての詳細は言及されていない"
+      "急診対応を行っていますが、設備詳細は不明です。"
     ],
     "transparency_evidence": [
       "診療内容や予約方法が明記されている"
@@ -17348,8 +18402,9 @@
     },
     "workplace_quality": "衛生士の教育に力を入れている様子が伺えます。",
     "fit_for": [
+      "忙しい人",
       "高齢者",
-      "忙しい人"
+      "歯科恐怖症"
     ],
     "not_fit_for": [
       "夜しか通えない人"
@@ -17365,7 +18420,7 @@
       "深夜に通いたい人",
       "予約なしで行きたい人"
     ],
-    "ai_summary": "この医院は、優れたスタッフによる親切な対応を求める方に向いています。一方、夜間の通院が必要な方には他院を勧めます。",
+    "ai_summary": "この医院は、スタッフが優しく長く通える信頼できる歯科医院です。一方、急な治療を希望する方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "患者への配慮とスタッフの教育に力を入れ、多くの信頼を受けているため",
     "catchphrase": "信頼のある予防型歯科医院",
@@ -17392,7 +18447,26 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 2,
+      "マイクロスコープ": 2,
+      "口腔内スキャナー": 2,
+      "個室": 3,
+      "駐車場": 3,
+      "バリアフリー": 2
+    },
+    "patient_fit": {
+      "子ども連れ": 3,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 3,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "予防歯科",
+      "審美歯科"
+    ]
   },
   "ChIJybad7uvyAGARSvcgEFF8pFA": {
     "place_id": "ChIJybad7uvyAGARSvcgEFF8pFA",
@@ -17486,7 +18560,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJuYo20OfyAGARauA9gE7s5Yc": {
     "place_id": "ChIJuYo20OfyAGARauA9gE7s5Yc",
@@ -17588,7 +18665,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJh_Wl7c_zAGARruT1mIuaxI4": {
     "place_id": "ChIJh_Wl7c_zAGARruT1mIuaxI4",
@@ -17609,22 +18689,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 77,
-    "reputation_score": 20,
+    "total_score": 72,
+    "reputation_score": 22,
     "doctor_score": 20,
-    "equipment_score": 15,
-    "transparency_score": 10,
+    "equipment_score": 10,
+    "transparency_score": 8,
     "activity_score": 10,
     "google_bonus": 2,
-    "clinic_score": 25,
-    "current": 75,
-    "potential": 78,
+    "clinic_score": 18,
+    "current": 70,
+    "potential": 68,
     "reputation_tags": [
-      "優しい対応",
-      "清潔感",
-      "予防中心"
+      "信頼できる",
+      "丁寧な対応",
+      "予防歯科重視"
     ],
-    "reputation_summary": "丁寧な対応と予防歯科に力を入れているクリニックです。",
+    "reputation_summary": "優しく丁寧な対応に定評があり、予防歯科に特化しています。",
     "phrases": [
       "今まで別の歯医者さんで虫歯治療とクリーニングをしていました",
       "かかりつけの歯医者が遠く、近くにできたので歯が痛くなった際にお邪魔しました",
@@ -17661,8 +18741,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新の器具を使用し、衛生管理が行き届いています。",
-      "予防歯科に応じた設備が整っています。"
+      "最新の治療機器を積極的に導入しています。",
+      "特に予防歯科のための設備が整っています。"
     ],
     "transparency_evidence": [
       "治療内容や費用についてしっかりと説明しています。"
@@ -17682,8 +18762,7 @@
       "子ども",
       "女性",
       "高齢者",
-      "インプラント",
-      "歯科恐怖症"
+      "忙しい人"
     ],
     "not_fit_for": [
       "急患希望",
@@ -17700,7 +18779,7 @@
       "急な治療を希望する人",
       "夜間通院が必要な人"
     ],
-    "ai_summary": "この医院は予防歯科を重視し、丁寧な対応が魅力のクリニックです。一方で、急ぎの治療が必要な方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、特に優しさと丁寧さを求める方に向いています。一方、夜間診療を希望する方には他院を検討した方が良いでしょう。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "地域に寄り添う歯科医院",
@@ -17727,7 +18806,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 2,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 0,
+      "個室": 2,
+      "駐車場": 2,
+      "バリアフリー": 2
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 3,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "予防歯科",
+      "小児歯科",
+      "個室",
+      "バリアフリー"
+    ]
   },
   "ChIJNcTlrefyAGARCLX9mshymf0": {
     "place_id": "ChIJNcTlrefyAGARCLX9mshymf0",
@@ -17750,20 +18850,20 @@
     "genre": "一般歯科",
     "total_score": 80,
     "reputation_score": 20,
-    "doctor_score": 20,
+    "doctor_score": 22,
     "equipment_score": 15,
     "transparency_score": 10,
-    "activity_score": 10,
+    "activity_score": 8,
     "google_bonus": 5,
     "clinic_score": 25,
     "current": 75,
-    "potential": 78,
+    "potential": 83,
     "reputation_tags": [
       "優しい先生",
-      "安心な治療",
-      "定期クリーニング"
+      "定期クリーニング",
+      "安心治療"
     ],
-    "reputation_summary": "優しく丁寧な治療が評判で、定期的なクリーニングにも通う患者が多いです。",
+    "reputation_summary": "患者からは優しさと丁寧な治療が高く評価されています。",
     "phrases": [
       "虫歯治療の後、定期的にクリーニングに通ってます",
       "先生がとても優しくて丁寧に見ていただきました",
@@ -17799,8 +18899,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新の感染予防対策を実施しています。",
-      "高精度な器具を使用しています。"
+      "徹底した滅菌・消毒を行っている。",
+      "拡大鏡や外科用双眼鏡を使用している。"
     ],
     "transparency_evidence": [
       "わかりやすい治療説明を心がけています。"
@@ -17817,9 +18917,10 @@
     },
     "workplace_quality": "",
     "fit_for": [
-      "老後の歯科ケア",
-      "歯科恐怖症",
-      "定期的なクリーニング希望者"
+      "子ども",
+      "女性",
+      "高齢者",
+      "忙しい人"
     ],
     "not_fit_for": [
       "急患希望",
@@ -17836,7 +18937,7 @@
       "急患希望の人",
       "夜通えない人"
     ],
-    "ai_summary": "この医院は、優しい治療や定期クリーニングを希望される方に向いています。一方、急な治療が必要な方には他院を検討することをおすすめします。",
+    "ai_summary": "この医院は、優しい治療を求める方に向いています。一方、急な治療が必要な方には他院を検討することをお勧めします。",
     "notable": true,
     "notable_reason": "丁寧で優しい治療が特に評価されています。",
     "catchphrase": "安心して通える歯医者",
@@ -17863,7 +18964,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "予防歯科",
+      "審美歯科",
+      "駐車場"
+    ]
   },
   "ChIJx6LIQ-byAGAR8XEt4A5P3bU": {
     "place_id": "ChIJx6LIQ-byAGAR8XEt4A5P3bU",
@@ -18889,7 +20010,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJjaUk7GnzAGARXs83ELpBT6s": {
     "place_id": "ChIJjaUk7GnzAGARXs83ELpBT6s",
@@ -18910,22 +20034,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 80,
-    "reputation_score": 20,
+    "total_score": 82,
+    "reputation_score": 22,
     "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 5,
     "clinic_score": 25,
-    "current": 75,
+    "current": 77,
     "potential": 78,
     "reputation_tags": [
       "清潔感",
-      "痛みへの配慮",
-      "子ども連れ対応"
+      "子ども対応",
+      "痛みへの配慮"
     ],
-    "reputation_summary": "清潔で子ども連れにも優しい歯科医院。説明力があり通いやすいとの声が多い。",
+    "reputation_summary": "清潔で配慮が行き届いた医院。子ども連れや歯科苦手な方にも良い印象。",
     "phrases": [
       "怪我で前歯を失い他院でインプラントしかないと言われ、失意のままいわもと歯科へ",
       "きれいな歯科医院で、トイレも清潔でした",
@@ -18969,8 +20093,8 @@
       ]
     },
     "equipment_evidence": [
-      "デジタル機器を用いた歯型採取を実施。",
-      "最新の治療機器を備えている。"
+      "デジタル機器を用いた歯型採取",
+      "キッズスペースなどの配慮"
     ],
     "transparency_evidence": [
       "患者の要望に応じた治療法を丁寧に説明。"
@@ -18988,8 +20112,8 @@
     "workplace_quality": "チーム医療を重視した職場環境。",
     "fit_for": [
       "子ども",
-      "高齢者",
-      "歯科恐怖症"
+      "歯科恐怖症",
+      "インプラント"
     ],
     "not_fit_for": [
       "忙しい人",
@@ -19006,7 +20130,7 @@
       "夜9時以降しか通えない人",
       "急患対応を求める人"
     ],
-    "ai_summary": "この医院は、清潔で子どもや歯科恐怖症の方にも優しい環境が整っています。一方、急患や夜の通院が必要な方には他院を検討したほうが良いでしょう。",
+    "ai_summary": "この医院は子どもや歯医者が苦手な方に向いています。一方、短時間で済ませたい方には他院も検討をお勧めします。",
     "notable": true,
     "notable_reason": "家族全員が通いやすく、安心して治療が受けられる歯科医院。",
     "catchphrase": "家族みんなのお口のパートナー",
@@ -19033,7 +20157,30 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 5,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 5
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "矯正歯科",
+      "インプラント",
+      "キッズルーム",
+      "バリアフリー",
+      "駐車場"
+    ]
   },
   "ChIJz9_s6K7zAGAR0cA_zY_ulA8": {
     "place_id": "ChIJz9_s6K7zAGAR0cA_zY_ulA8",
@@ -19127,7 +20274,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJRx5FcSnzAGARBjT1EeidnaU": {
     "place_id": "ChIJRx5FcSnzAGARBjT1EeidnaU",
@@ -19140,22 +20290,22 @@
     "total_reviews": 5,
     "business_hours": [],
     "genre": "一般歯科",
-    "total_score": 52,
-    "reputation_score": 25,
-    "doctor_score": 25,
+    "total_score": 22,
+    "reputation_score": 20,
+    "doctor_score": 0,
     "equipment_score": 0,
     "transparency_score": 0,
     "activity_score": 0,
     "google_bonus": 2,
     "clinic_score": 0,
-    "current": 50,
-    "potential": 60,
+    "current": 20,
+    "potential": 0,
     "reputation_tags": [
       "安心感",
-      "技術力",
-      "スピード"
+      "丁寧",
+      "迅速"
     ],
-    "reputation_summary": "技術力が高く、安心して受診できる歯科医院です。迅速で丁寧な診療が特徴です。",
+    "reputation_summary": "安心できる医院で、丁寧かつ迅速な治療が評判です。",
     "phrases": [
       "安心感もさる事ながら、仕事が早い！",
       "丁寧で早くて完璧です"
@@ -19210,7 +20360,7 @@
       "急いで治療したい人"
     ],
     "not_referral_to": [],
-    "ai_summary": "多田羅歯科医院は、技術力が高くスピーディーな治療を求める方に最適です。一方、丁寧な説明や特別な配慮を重視する方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、迅速かつ丁寧な治療を求める方に向いています。一方、説明を重視する方には物足りなさを感じるかもしれません。",
     "notable": true,
     "notable_reason": "高い技術力と安心感で迅速な治療を提供しているため。",
     "catchphrase": "信頼の診療、迅速な治療",
@@ -19237,7 +20387,23 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 5,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": []
   },
   "ChIJpfyn1SfzAGARGyCx7gW3FY8": {
     "place_id": "ChIJpfyn1SfzAGARGyCx7gW3FY8",
@@ -19258,22 +20424,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 73,
+    "total_score": 82,
     "reputation_score": 18,
-    "doctor_score": 20,
-    "equipment_score": 15,
+    "doctor_score": 22,
+    "equipment_score": 20,
     "transparency_score": 10,
-    "activity_score": 10,
+    "activity_score": 12,
     "google_bonus": 0,
-    "clinic_score": 25,
-    "current": 73,
-    "potential": 78,
+    "clinic_score": 30,
+    "current": 82,
+    "potential": 93,
     "reputation_tags": [
-      "丁寧な治療",
-      "信頼できる医師",
-      "おしゃれな医院"
+      "良い治療",
+      "おしゃれな医院",
+      "信頼できる医師"
     ],
-    "reputation_summary": "おしゃれで信頼できる先生がいる医院。治療の中身に不安あり。",
+    "reputation_summary": "清潔感のあるおしゃれな医院で、信頼できる先生による治療が受けられます。",
     "phrases": [
       "チュートリアル徳井くん似の若めの先生",
       "非常に信頼できる先生です",
@@ -19310,8 +20476,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新の設備を導入している。",
-      "精度の高い治療が可能。"
+      "最新の設備を導入している",
+      "精密な治療が可能なシステム"
     ],
     "transparency_evidence": [
       "治療方針について患者に寄り添った説明を提供。"
@@ -19329,8 +20495,8 @@
     "workplace_quality": "",
     "fit_for": [
       "女性",
-      "高齢者",
-      "忙しい人"
+      "インプラント",
+      "審美歯科"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -19347,7 +20513,7 @@
       "夜9時以降しか通えない人",
       "急患希望の人"
     ],
-    "ai_summary": "この医院は信頼できる丁寧な治療を求める方に向いています。一方、治療の深さを重視する方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は清潔感があり丁寧な治療を受けたい方に向いています。一方で、急な治療や夜間通院希望の方には他院を検討されることをお勧めします。",
     "notable": true,
     "notable_reason": "おしゃれで信頼できる医院で安心して通院できる。",
     "catchphrase": "信頼の審美歯科！",
@@ -19374,7 +20540,27 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 5,
+      "マイクロスコープ": 5,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 5,
+      "保険中心": 0
+    },
+    "specialty_tags": [
+      "審美歯科",
+      "インプラント",
+      "根管治療"
+    ]
   },
   "ChIJ_UjICifzAGARBIgEmS6Vxc0": {
     "place_id": "ChIJ_UjICifzAGARBIgEmS6Vxc0",
@@ -19395,22 +20581,22 @@
       "日曜日: 9時30分～13時00分, 14時00分～17時00分"
     ],
     "genre": "一般歯科",
-    "total_score": 87,
-    "reputation_score": 20,
-    "doctor_score": 20,
-    "equipment_score": 15,
+    "total_score": 92,
+    "reputation_score": 22,
+    "doctor_score": 22,
+    "equipment_score": 18,
     "transparency_score": 12,
-    "activity_score": 12,
+    "activity_score": 10,
     "google_bonus": 8,
-    "clinic_score": 27,
-    "current": 79,
-    "potential": 78,
+    "clinic_score": 30,
+    "current": 84,
+    "potential": 89,
     "reputation_tags": [
-      "評判が良い",
+      "信頼できる",
       "家族向け",
-      "小児に強い"
+      "通いやすい"
     ],
-    "reputation_summary": "長年の通院者が多く、評判の良い歯科医院です。",
+    "reputation_summary": "長年の信頼と温かい対応が魅力の歯科医院です。",
     "phrases": [
       "長年お世話になっております",
       "友人から藤川先生が良いという評判を聞いて、姫路から通っています",
@@ -19454,7 +20640,7 @@
       ]
     },
     "equipment_evidence": [
-      "最新の設備を備えている",
+      "最新の設備を備えた医院",
       "清潔で快適な診療空間"
     ],
     "transparency_evidence": [
@@ -19472,7 +20658,8 @@
     "workplace_quality": "教育体制が整い、働きやすい環境です。",
     "fit_for": [
       "子ども",
-      "家族",
+      "女性",
+      "高齢者",
       "忙しい人"
     ],
     "not_fit_for": [
@@ -19490,7 +20677,7 @@
       "夜9時以降しか通えない人",
       "急患の対応を必要とする人"
     ],
-    "ai_summary": "この医院はファミリー層やお子様を大切にした治療を求める方に向いています。一方、夜遅くの通院を希望する方には他院を検討することをお勧めします。",
+    "ai_summary": "この医院は家族で安心して通える、温かい治療を求める方に向いています。一方、夜遅くしか通えない方には他院を検討されることをお勧めします。",
     "notable": true,
     "notable_reason": "地域に根ざした信頼できる歯科医院。",
     "catchphrase": "皆様の笑顔をサポート",
@@ -19517,7 +20704,31 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 3,
+      "口腔内スキャナー": 4,
+      "個室": 4,
+      "駐車場": 5,
+      "バリアフリー": 5
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 4,
+      "短時間で済ませたい": 4,
+      "自由診療も検討": 3,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "矯正歯科",
+      "小児歯科",
+      "予防歯科",
+      "インプラント",
+      "審美歯科",
+      "個室",
+      "駐車場"
+    ]
   },
   "ChIJCzPWGyfzAGARTMmQLsF7mtE": {
     "place_id": "ChIJCzPWGyfzAGARTMmQLsF7mtE",
@@ -19611,7 +20822,23 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": []
   },
   "ChIJY4mSVibzAGARJsxz9rE44EY": {
     "place_id": "ChIJY4mSVibzAGARJsxz9rE44EY",
@@ -19643,11 +20870,11 @@
     "current": 40,
     "potential": 48,
     "reputation_tags": [
-      "親切",
-      "印象良好",
-      "良心的"
+      "親切な先生",
+      "信頼できる",
+      "穏やかな診療"
     ],
-    "reputation_summary": "穏やかな雰囲気で親切な治療が評価されています。",
+    "reputation_summary": "穏やかで親切な印象の先生から良心的な治療を受けられます。",
     "phrases": [
       "昔、開院したての頃サンスターのG・U・mの歯ブラシの紹介をなさった時、私がメーカーはサンスターですねと言うと違うと言われビックリしました",
       "村岡さんは話し方が穏やかで、とても印象の良い方です",
@@ -19692,9 +20919,8 @@
     },
     "workplace_quality": "",
     "fit_for": [
-      "女性",
       "高齢者",
-      "歯科恐怖症"
+      "優しい医療を求める人"
     ],
     "not_fit_for": [
       "夜しか通えない人"
@@ -19709,7 +20935,7 @@
     "not_referral_to": [
       "夜9時以降しか通えない人"
     ],
-    "ai_summary": "この医院は穏やかな治療を求める方に向いています。一方、夜間診療を希望する方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は、穏やかで親切な治療を望む方に向いています。一方、迅速な対応を求める方には他院を検討することをお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "親切な歯科治療",
@@ -19736,7 +20962,23 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 0,
+      "短時間で済ませたい": 0,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": []
   },
   "ChIJuSdjQgDzAGARLluxPs-iMys": {
     "place_id": "ChIJuSdjQgDzAGARLluxPs-iMys",
@@ -19757,22 +20999,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 85,
-    "reputation_score": 25,
-    "doctor_score": 25,
+    "total_score": 80,
+    "reputation_score": 20,
+    "doctor_score": 20,
     "equipment_score": 15,
     "transparency_score": 10,
-    "activity_score": 10,
+    "activity_score": 15,
     "google_bonus": 0,
     "clinic_score": 25,
-    "current": 85,
-    "potential": 90,
+    "current": 80,
+    "potential": 78,
     "reputation_tags": [
-      "安心",
-      "子供歓迎",
+      "家族に寄り添う",
+      "通いやすい",
       "丁寧な対応"
     ],
-    "reputation_summary": "丁寧な診療と患者への配慮が感じられる医院です。安心して通えるとの声があります。",
+    "reputation_summary": "親子で通える優しい歯科医院です。",
     "phrases": [
       "普段は医師として働いておりますが、私自身のかかりつけとしてお世話になっています",
       "内覧会で訪問しました"
@@ -19806,8 +21048,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新の技術導入に力を入れている",
-      "患者の安心感を大切にしている"
+      "駐車場完備で通いやすい",
+      "清潔感のある院内"
     ],
     "transparency_evidence": [
       "患者に寄り添った治療法を説明している"
@@ -19843,7 +21085,7 @@
       "駅近を最優先する人",
       "急患が必要な人"
     ],
-    "ai_summary": "この医院は子どもから高齢者まで、安心して通えるクリニックです。一方、急病対応を重視する方には他院をお勧めします。",
+    "ai_summary": "子ども連れの方や歯医者が苦手な方におすすめです。一方、夜しか通えない方は他院を検討した方が良いでしょう。",
     "notable": true,
     "notable_reason": "子育て中の医師による患者への寄り添いが高評価のため",
     "catchphrase": "家族のような診療",
@@ -19870,7 +21112,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 3,
+      "自由診療も検討": 4,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "予防歯科",
+      "審美歯科",
+      "駐車場"
+    ]
   },
   "ChIJ2VVGS97yAGARJ3ylTBIjeQ0": {
     "place_id": "ChIJ2VVGS97yAGARJ3ylTBIjeQ0",
@@ -19891,22 +21154,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 40,
+    "total_score": 65,
     "reputation_score": 20,
     "doctor_score": 20,
-    "equipment_score": 0,
-    "transparency_score": 0,
-    "activity_score": 0,
+    "equipment_score": 10,
+    "transparency_score": 10,
+    "activity_score": 5,
     "google_bonus": 0,
-    "clinic_score": 0,
-    "current": 40,
-    "potential": 48,
+    "clinic_score": 20,
+    "current": 65,
+    "potential": 68,
     "reputation_tags": [
-      "優しい説明",
-      "待ち時間短い",
-      "医療への配慮"
+      "優しさ",
+      "説明力",
+      "待ち時間短"
     ],
-    "reputation_summary": "優しく丁寧な治療が受けられ、スムーズな対応が魅力のクリニックです。",
+    "reputation_summary": "明るい先生による丁寧な診療が評価されていますが、合わない人もいるようです。",
     "phrases": [
       "先生はとても優しく丁寧に説明して下さいました！待ち時間もほとんどなくスムーズでした",
       "先生は明るく丁寧な治療をしてもらえました",
@@ -19940,7 +21203,9 @@
       "parts": [],
       "techniques": []
     },
-    "equipment_evidence": [],
+    "equipment_evidence": [
+      "院内の設備に関する情報が不足しています。"
+    ],
     "transparency_evidence": [],
     "activity_evidence": [],
     "workplace_stars": {
@@ -19951,8 +21216,9 @@
     },
     "workplace_quality": "",
     "fit_for": [
-      "忙しい人",
-      "歯科恐怖症"
+      "子ども",
+      "女性",
+      "高齢者"
     ],
     "not_fit_for": [
       "合わないと感じた人"
@@ -19968,7 +21234,7 @@
       "特定の治療を求める人",
       "合わないと感じた人"
     ],
-    "ai_summary": "サリー歯科クリニックは、優しい説明と配慮ある治療が魅力です。痛みや不安を抱える方は、特に安心して受診できるでしょう。しかし、特定の治療法にこだわる方には向かないかもしれません。",
+    "ai_summary": "この医院は丁寧で優しい治療を希望する方に向いています。一方、症例によっては合わない方もいるため、慎重な選択をおすすめします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "優しさで治す歯科クリニック",
@@ -19995,7 +21261,28 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 4,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 5,
+      "自由診療も検討": 3,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "予防歯科",
+      "丁寧な治療",
+      "駐車場"
+    ]
   },
   "ChIJCfkp7N_yAGARad8zDo-_WTg": {
     "place_id": "ChIJCfkp7N_yAGARad8zDo-_WTg",
@@ -21937,7 +23224,10 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {},
+    "patient_fit": {},
+    "specialty_tags": []
   },
   "ChIJz_lYkDDzAGARJEIQQFAV0WA": {
     "place_id": "ChIJz_lYkDDzAGARJEIQQFAV0WA",
@@ -21961,11 +23251,11 @@
     "current": 20,
     "potential": 0,
     "reputation_tags": [
-      "迅速な施術",
       "無痛治療",
-      "患者の声"
+      "迅速な処置",
+      "患者満足度"
     ],
-    "reputation_summary": "迅速で無痛の治療が受けられると好評です。",
+    "reputation_summary": "麻酔以外無痛で迅速な治療が受けられるとの口コミがあります。",
     "phrases": [
       "麻酔以外ほぼ無痛でものすごく迅速に処置して頂きました"
     ],
@@ -22005,7 +23295,7 @@
     },
     "workplace_quality": "",
     "fit_for": [
-      "痛みに敏感な人",
+      "痛みを恐れる人",
       "忙しい人"
     ],
     "not_fit_for": [
@@ -22023,7 +23313,7 @@
       "急患希望",
       "駅近を重視する人"
     ],
-    "ai_summary": "この医院は迅速で無痛治療を求める方に向いています。一方、急な対応が必要な方には他院も検討をお勧めします。",
+    "ai_summary": "この医院は痛みを気にせず短時間で治療を受けたい方に向いています。一方、綿密な説明を重視する方には他院も検討をお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "無痛で迅速な歯科治療",
@@ -22050,7 +23340,23 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "medium"
-    }
+    },
+    "equipment_stars": {
+      "CT": 0,
+      "マイクロスコープ": 0,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 0,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 0,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 5,
+      "自由診療も検討": 0,
+      "保険中心": 0
+    },
+    "specialty_tags": []
   },
   "ChIJNw1dDCXzAGAR_XrAgcM4Q5o": {
     "place_id": "ChIJNw1dDCXzAGAR_XrAgcM4Q5o",
@@ -22071,22 +23377,22 @@
       "日曜日: 定休日"
     ],
     "genre": "一般歯科",
-    "total_score": 76,
-    "reputation_score": 19,
+    "total_score": 75,
+    "reputation_score": 20,
     "doctor_score": 20,
     "equipment_score": 15,
-    "transparency_score": 12,
+    "transparency_score": 10,
     "activity_score": 10,
     "google_bonus": 0,
-    "clinic_score": 27,
-    "current": 76,
+    "clinic_score": 25,
+    "current": 75,
     "potential": 78,
     "reputation_tags": [
-      "清潔感のある院内",
-      "親切な対応",
-      "専門性の高い治療"
+      "清潔",
+      "丁寧",
+      "アクセス良好"
     ],
-    "reputation_summary": "清潔感があり、親切な対応が好評。治療の丁寧さも光る歯科医院。",
+    "reputation_summary": "清潔で丁寧な対応が多く評価されている歯科医院です。",
     "phrases": [
       "三年前に、歯周病と虫歯で通院していました",
       "場所はとてもキレイだし、便利だなと思い、先生も丁寧だったので通おうと思いましたが、電話がしつこくてびっくりしました",
@@ -22129,8 +23435,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "最新医療機器を導入している。",
-      "精密根管治療に対応。"
+      "マイクロスコープやCTを導入しています。",
+      "最新医療機器による治療精度が高いです。"
     ],
     "transparency_evidence": [
       "丁寧な説明に信頼が寄せられる。"
@@ -22147,9 +23453,9 @@
     },
     "workplace_quality": "",
     "fit_for": [
+      "女性",
       "高齢者",
-      "歯科恐怖症",
-      "美容意識が高い人"
+      "インプラント"
     ],
     "not_fit_for": [
       "急患希望",
@@ -22166,7 +23472,7 @@
       "急患希望の人",
       "忙しくて待てない人"
     ],
-    "ai_summary": "この医院は清潔感があり、丁寧な治療を希望する方に向いています。一方、急な対応を必要とする方には他院も検討をお勧めします。",
+    "ai_summary": "朝日ケ丘タカハシデンタルクリニックは、丁寧な説明と高い技術力が魅力です。一方、急な治療を希望する方には他院を検討することをお勧めします。",
     "notable": false,
     "notable_reason": "",
     "catchphrase": "丁寧で快適な治療空間",
@@ -22193,7 +23499,29 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 5,
+      "マイクロスコープ": 5,
+      "口腔内スキャナー": 0,
+      "個室": 0,
+      "駐車場": 5,
+      "バリアフリー": 0
+    },
+    "patient_fit": {
+      "子ども連れ": 3,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 4,
+      "保険中心": 5
+    },
+    "specialty_tags": [
+      "根管治療",
+      "親知らず",
+      "小児歯科",
+      "予防歯科",
+      "駐車場"
+    ]
   },
   "ChIJdRts8yLzAGARO2RKOBRXobU": {
     "place_id": "ChIJdRts8yLzAGARO2RKOBRXobU",
@@ -24559,22 +25887,22 @@
       "日曜日: 定休日"
     ],
     "genre": "障害者歯科",
-    "total_score": 77,
+    "total_score": 65,
     "reputation_score": 20,
-    "doctor_score": 20,
-    "equipment_score": 15,
-    "transparency_score": 10,
+    "doctor_score": 15,
+    "equipment_score": 10,
+    "transparency_score": 8,
     "activity_score": 10,
     "google_bonus": 2,
-    "clinic_score": 25,
-    "current": 75,
-    "potential": 78,
+    "clinic_score": 18,
+    "current": 63,
+    "potential": 56,
     "reputation_tags": [
-      "痛くない治療",
-      "清潔感",
-      "親切なスタッフ"
+      "痛みの少ない治療",
+      "親切なスタッフ",
+      "清潔な施設"
     ],
-    "reputation_summary": "痛くない治療と清潔な施設で、親切な対応が評判の医院です。",
+    "reputation_summary": "痛みの少ない治療を心がけ、清潔感と親切なスタッフの印象が強い歯科医院です。",
     "phrases": [
       "怖くない歯医者さんです！",
       "施設が綺麗で衛生的です",
@@ -24610,8 +25938,7 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "マイクロスコープやCTなどのデジタル機器を使用している",
-      "滅菌・消毒を徹底している"
+      "最新のデジタル機器を使用した治療"
     ],
     "transparency_evidence": [
       "料金表が明確に提示されている"
@@ -24630,8 +25957,7 @@
     "fit_for": [
       "子ども",
       "高齢者",
-      "歯科恐怖症",
-      "忙しい人"
+      "歯科恐怖症"
     ],
     "not_fit_for": [
       "夜しか通えない人",
@@ -24648,7 +25974,7 @@
       "夜9時以降しか通えない人",
       "急に治療が必要な人"
     ],
-    "ai_summary": "この医院は痛みを気にせず通いたい方や、子どもを連れて行く家庭に最適です。一方、急な対応が必要な方は他院を検討してもよいでしょう。",
+    "ai_summary": "この医院は、恐怖心なく通える清潔感と親切な対応が魅力的です。一方、夜の診療がないため、夜間しか通えない方には他院を検討することをお勧めします。",
     "notable": true,
     "notable_reason": "清潔感と患者への配慮が高評価の医院です。",
     "catchphrase": "安心して通える歯科医院",
@@ -24675,6 +26001,30 @@
       "official_walk_minutes": null,
       "official_walk_source": null,
       "confidence": "high"
-    }
+    },
+    "equipment_stars": {
+      "CT": 4,
+      "マイクロスコープ": 4,
+      "口腔内スキャナー": 0,
+      "個室": 4,
+      "駐車場": 5,
+      "バリアフリー": 5
+    },
+    "patient_fit": {
+      "子ども連れ": 5,
+      "歯科が怖い人": 5,
+      "短時間で済ませたい": 2,
+      "自由診療も検討": 3,
+      "保険中心": 4
+    },
+    "specialty_tags": [
+      "小児歯科",
+      "予防歯科",
+      "クリーニング",
+      "個室",
+      "駐車場",
+      "バリアフリー",
+      "キッズルーム"
+    ]
   }
 }

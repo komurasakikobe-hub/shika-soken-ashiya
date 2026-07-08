@@ -10,11 +10,12 @@
   "contact_email": "komurasaki.kobe@gmail.com",
   "ga4_measurement_id": "",
   "stats": {
-    "clinics_analyzed": 0,
-    "reviews_parsed": 0,
-    "sites_crawled": 0,
-    "clinics_published": 0,
-    "reviews_published": 0
+    "clinics_analyzed": 210,
+    "reviews_parsed": 5282,
+    "sites_crawled": 150,
+    "clinics_published": 71,
+    "reviews_published": 2057,
+    "ai_analyzed": 55
   },
-  "_stats_note": "データ収集完了後に実数を入れる"
+  "_stats_note": "2026-07-08 収集完了時点の実数。トップページの手打ち数字と必ず一致させること"
 }
