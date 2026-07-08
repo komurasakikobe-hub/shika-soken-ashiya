@@ -1,0 +1,20 @@
+{
+  "_comment": "都市サイト共通の設定ファイル。都市固有の値は必ずここに集約する。",
+  "city": "芦屋市",
+  "city_short": "芦屋",
+  "site_name": "芦屋歯科総研",
+  "site_name_en": "ASHIYA DENTAL RESEARCH",
+  "domain": "ashiya.shikasoken.com",
+  "_domain_note": "仮ドメイン。公開前にユーザーが決定する",
+  "industry": "歯科",
+  "contact_email": "komurasaki.kobe@gmail.com",
+  "ga4_measurement_id": "",
+  "stats": {
+    "clinics_analyzed": 0,
+    "reviews_parsed": 0,
+    "sites_crawled": 0,
+    "clinics_published": 0,
+    "reviews_published": 0
+  },
+  "_stats_note": "データ収集完了後に実数を入れる"
+}
