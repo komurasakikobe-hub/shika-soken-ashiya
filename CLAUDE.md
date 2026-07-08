@@ -13,15 +13,20 @@
 - 医院リスト収集：Google Maps API（月次無料枠内で運用）／AI分析：gpt-4o-mini／ジオコーディング：Nominatim（無料）
 - 費用が発生しそうな操作は、まず無料の方法を調べ、無料で不可なら見積り提示→承認後に実行
 
-## 立ち上げ進捗（2026-07-08 開始）
+## 立ち上げ進捗（2026-07-08 開始・完了：同日中に一巡目完了）
 - [x] 京都版（修正済みコード）から複製・git init・ashiya_stations.py・グリッド・AREA_KEYWORDS・ブランド置換
-- [ ] データ収集（clinic_collector.py 実行中/完了確認）
-- [ ] 収集後の監査（7点チェック）→ slug生成 → ジオコーディング → 最寄駅計算
-- [ ] サイト生成（build_clinics → build_features → build_index → build_sitemap）
-- [ ] index.html の統計数字を実数に差し替え（site_config.json の stats と一致させる）
+- [x] データ収集（clinic_collector.py 完了：210院収集、Phase1+2）
+- [x] 収集後の監査（品質フラグ：芦屋市外138院・サロン1院除外 → 掲載71院）→ slug生成（衝突0件）→ ジオコーディング（Places APIの座標をそのまま使用・Nominatim不要だった）→ 最寄駅計算（71院すべて付与）
+- [x] サイト生成（build_clinics → build_features → build_index → build_sitemap）
+- [x] index.html の統計数字を実数に差し替え済み（210院分析・71院掲載・5,282件口コミ・55院AI分析済み）
 - [ ] サムネイル画像（ChatGPT無課金ルート）
 - [ ] GitHub Privateリポジトリ・Cloudflare Pages・ドメイン・GA4・Search Console（ユーザー操作）
 - [ ] 毎日投稿 launchd（時刻は他都市とずらして 11:30）
 
 ## 注意（大阪版で踏んだ地雷 — 横展開マニュアル §3 参照）
 - slug衝突／ジオコーディング座標集約／統計数字の不一致／計測タグ入れ忘れ／医療広告ガイドライン
+
+## この都市の立ち上げで新たに発見・修正したバグ（全都市に反映済み）
+1. **Place Details APIの無効フィールド名**（`national_phone_number`）で全院の詳細取得（公式サイト・口コミ）が失敗していた → 除去して修正（5都市とも再収集）
+2. **build_features.pyが必要とするequipment_stars/patient_fit/specialty_tagsが、clinic_collector.py v4.0のAI分析プロンプトから欠落**しており、特徴ページが必ず0件になるバグ → プロンプト・entry構築に追加。既存データは `../大阪歯科総研/backfill_schema_v2.py` で欠落分のみ追加分析して補完（gpt-4o-mini・安価）
+3. **build_clinics.py/build_features.pyに「大阪市内 約2,050院」「shikasoken.com」がハードコード**されており、複製した全都市で誤った院数・ドメインが表示される状態だった → site_config.jsonのCITY_SHORT/N_PUBLISHED/domainを動的に埋め込むよう修正（大阪本体・5都市すべてに反映）
