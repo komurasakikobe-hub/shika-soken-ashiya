@@ -6,7 +6,7 @@
 ## サイト概要
 - 対象：芦屋市の歯科医院ポータル。エリアは駅・地区ベース3分類（区なし・小規模市）
 - 設定の正本：`site_config.json`＋`assets/site-config.js`。都市固有の値は必ずここに集約
-- 記事生成側の設定：`AI評判設計システム/client_config_ashiya.json`（使用時に client_config.json へコピー）
+- 記事生成側の設定：`AI評判設計システム/client_config_ashiya.json`（daily_post.sh の CLIENT_CONFIG 環境変数で直接指定する。旧コピー差し替え運用は廃止・2026-07-10）
 - ドメイン・GA4測定IDは未定（公開前にユーザーが決定）
 
 ## 費用ルール（無料優先の原則）
