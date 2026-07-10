@@ -131,7 +131,9 @@ def main():
             continue
         cards = "".join(card(c) for c in xs[:CAP])
         more = f'<p class="frow-more">ほか、確認できた医院は芦屋市内に全{len(xs)}院あります（口コミ件数の多い順に表示）。</p>' if len(xs) > CAP else f'<p class="frow-more">芦屋市内で確認できた {len(xs)}院（口コミ件数の多い順）。</p>'
-        related = CATEGORY_ARTICLES.get(cid, [])
+        # 存在しない記事ファイルへのリンク切れを防ぐ（コラムは本店集約のため都市サイトにはローカル記事が無い）
+        related = [(fn, t) for fn, t in CATEGORY_ARTICLES.get(cid, [])
+                   if os.path.exists(os.path.join(ROOT, "articles", fn))]
         related_html = ""
         if related:
             links = "".join(f'<a class="fsec-article" href="../{fn}">{nowrap_pipe(esc(t))}</a>' for fn, t in related)
