@@ -2,6 +2,7 @@
   "_comment": "都市サイト共通の設定ファイル。都市固有の値は必ずここに集約する。",
   "city": "芦屋市",
   "city_short": "芦屋",
+  "pref": "兵庫県",
   "site_name": "芦屋歯科総研",
   "site_name_en": "ASHIYA DENTAL RESEARCH",
   "domain": "ashiya.shikasoken.com",
