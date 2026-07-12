@@ -6,6 +6,7 @@
   "site_name": "芦屋歯科総研",
   "site_name_en": "ASHIYA DENTAL RESEARCH",
   "domain": "ashiya.shikasoken.com",
+  "stations_module": "ashiya_stations",
   "_domain_note": "仮ドメイン。公開前にユーザーが決定する",
   "industry": "歯科",
   "contact_email": "komurasaki.kobe@gmail.com",
