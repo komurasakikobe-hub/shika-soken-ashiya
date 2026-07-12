@@ -12,36 +12,31 @@ const odrTrack = (name, params) => {
   if (typeof window.odrTrack === "function") window.odrTrack(name, params);
 };
 
-// ── エリア定義（芦屋市全域。旧ウィザードのAREA_KEYWORDSを再利用） ──────
+// ── エリア定義（芦屋市の駅エリア3件・最寄駅名で一致） ──────
 const AREA_KEYWORDS = {
-  "北区（梅田・芦屋駅）":       ["芦屋市北区", "北区", "梅田"],
-  "中央区（心斎橋・難波）":     ["芦屋市中央区", "中央区", "心斎橋", "難波"],
-  "西区（本町・阿波座）":       ["芦屋市西区", "西区", "本町", "阿波座"],
-  "福島区（福島・野田）":       ["芦屋市福島区", "福島区", "福島", "野田"],
-  "天王寺区（天王寺・上本町）": ["芦屋市天王寺区", "天王寺区", "天王寺", "上本町"],
-  "阿倍野区（阿倍野橋・昭和町）": ["芦屋市阿倍野区", "阿倍野区", "阿倍野", "昭和町"],
-  "浪速区（なんば・新今宮）":   ["芦屋市浪速区", "浪速区", "なんば", "新今宮"],
-  "淀川区（新芦屋・十三）":     ["芦屋市淀川区", "淀川区", "新芦屋", "十三"],
-  "東淀川区（東淀川・上新庄）": ["芦屋市東淀川区", "東淀川区", "東淀川", "上新庄"],
-  "都島区（京橋・桜ノ宮）":     ["芦屋市都島区", "都島区", "京橋", "桜ノ宮"],
-  "此花区（桜島・西九条）":     ["芦屋市此花区", "此花区", "桜島", "西九条"],
-  "港区（弁天町・朝潮橋）":     ["芦屋市港区", "港区", "弁天町", "朝潮橋"],
-  "大正区（大正・鶴町）":       ["芦屋市大正区", "大正区", "大正", "鶴町"],
-  "西淀川区（姫島・出来島）":   ["芦屋市西淀川区", "西淀川区", "姫島", "出来島"],
-  "東成区（今里・玉造）":       ["芦屋市東成区", "東成区", "今里", "玉造"],
-  "生野区（鶴橋・桃谷）":       ["芦屋市生野区", "生野区", "鶴橋", "桃谷"],
-  "旭区（千林・関目）":         ["芦屋市旭区", "旭区", "千林", "関目"],
-  "城東区（蒲生・野江）":       ["芦屋市城東区", "城東区", "蒲生", "野江"],
-  "鶴見区（横堤・放出）":       ["芦屋市鶴見区", "鶴見区", "横堤", "放出"],
-  "住之江区（住之江・南港）":   ["芦屋市住之江区", "住之江区", "住之江", "南港"],
-  "住吉区（我孫子・長居）":     ["芦屋市住吉区", "住吉区", "我孫子", "長居"],
-  "東住吉区（田辺・針中野）":   ["芦屋市東住吉区", "東住吉区", "田辺", "針中野"],
-  "平野区（平野・喜連瓜破）":   ["芦屋市平野区", "平野区", "平野", "喜連瓜破"],
-  "西成区（天下茶屋・花園町）": ["芦屋市西成区", "西成区", "天下茶屋", "花園町"],
+  "芦屋エリア": ["芦屋"],
+  "打出エリア": ["打出"],
+  "芦屋川エリア": ["芦屋川"],
 };
 const WARD_LIST = [{ key: "all", label: "芦屋市全体" }].concat(
   Object.keys(AREA_KEYWORDS).map(k => ({ key: k, label: k.replace(/（.*）/, "") }))
 );
+
+// ── エリア一致判定（住所＋最寄駅名。単一市は最寄駅名の完全一致で判定） ──────
+const AREA_MATCH_BY_STATION = true;
+function matchesArea(clinic, kws) {
+  if (!kws) return false;
+  const stn = (clinic.nearest_station && clinic.nearest_station.name) || "";
+  if (AREA_MATCH_BY_STATION) return kws.some(kw => stn === kw);
+  const addr = clinic.address || "";
+  return kws.some(kw => addr.includes(kw) || (stn && stn === kw));
+}
+function regionLabelOf(clinic) {
+  for (const key in AREA_KEYWORDS) {
+    if (matchesArea(clinic, AREA_KEYWORDS[key])) return key.replace(/（.*）/, "");
+  }
+  return "";
+}
 
 // ── 悩み・治療 ─────────────────────────────────────────────
 const TREATMENT_MAP = {
@@ -222,8 +217,7 @@ function isWardMatch(clinic, wardKey) {
   if (!wardKey || wardKey === "all") return true;
   const kws = AREA_KEYWORDS[wardKey];
   if (!kws) return true;
-  const addr = clinic.address || "";
-  return kws.some(kw => addr.includes(kw));
+  return matchesArea(clinic, kws);
 }
 
 // ── フィルタ適用後のプールを取得（地域・治療は絞り込み、
@@ -668,9 +662,8 @@ function computeWardRanks() {
   wardRankMap = new Map();
   const groups = new Map();
   allClinics.forEach(c => {
-    const m = (c.address || "").match(/芦屋市([一-龥]+区)/);
-    if (!m) return;
-    const w = m[1];
+    const w = regionLabelOf(c);
+    if (!w) return;
     if (!groups.has(w)) groups.set(w, []);
     groups.get(w).push({ pid: c.place_id || "", score: calcRankScore(c).score });
   });
@@ -685,8 +678,7 @@ const PRIZE = { 1: ["金賞", "GOLD"], 2: ["銀賞", "SILVER"], 3: ["銅賞", "B
 
 function cardHTML(clinic, rank, matched) {
   const addr = clinic.address || "";
-  const wardMatch = addr.match(/芦屋市([一-龥]+区)/);
-  const ward = wardMatch ? wardMatch[1] : "";
+  const ward = regionLabelOf(clinic);
   const stationText = formatStationText(clinic.nearest_station, clinic);
   const info = infoLevel(clinic);
   const rating = clinic.rating ? clinic.rating.toFixed(1) : "—";
